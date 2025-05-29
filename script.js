@@ -93,7 +93,7 @@ function showCountryFoods(countryName, layer) {
     // Create popup structure
     const popupContent = `
     <div class="food-popup">
-        <span class="close-popup">×</span>
+        //<span class="close-popup">×</span>
         <h2>${countryName} (${countryFoods.length} foods)</h2>
         
         <div class="food-search">
@@ -210,7 +210,7 @@ function showCountryFoods(countryName, layer) {
 
     // Initial render
     renderFoods();
-    document.querySelector('.close-popup').addEventListener('click', () => {
-        map.closePopup(currentPopup);
-    });
+    //document.querySelector('.close-popup').addEventListener('click', () => {
+      //  map.closePopup(currentPopup);
+   // });
 }
