@@ -1,3 +1,83 @@
+// Initialize the map with a neutral background
+const map = L.map('map', {
+    center: [20, 0],
+    zoom: 2,
+    worldCopyJump: true,
+    minZoom: 2,
+    maxZoom: 8,
+    zoomControl: false
+});
+
+// Add a simple neutral background (optional)
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+    attribution: ''
+}).addTo(map);
+
+let countriesGeoJson;
+let foodsData = {};
+let currentPopup = null;
+
+// Load both data files
+Promise.all([
+    fetch('data/countries.geojson').then(r => r.json()),
+    fetch('data/foods.json').then(r => r.json())
+])
+.then(([geoData, foodData]) => {
+    countriesGeoJson = geoData;
+    foodsData = foodData;
+    renderCountries();
+})
+.catch(error => console.error('Error loading data:', error));
+
+function renderCountries() {
+    // Style for countries
+    const countryStyle = {
+        fillColor: '#f8c291',
+        weight: 1,
+        opacity: 1,
+        color: '#fff',
+        fillOpacity: 0.7,
+        dashArray: '0'
+    };
+
+    // Highlight style when hovered
+    const highlightStyle = {
+        fillColor: '#e55039',
+        weight: 2,
+        color: '#fff',
+        fillOpacity: 0.8,
+        dashArray: '0'
+    };
+
+    // Add countries to map with precise borders
+    const countriesLayer = L.geoJSON(countriesGeoJson, {
+        style: countryStyle,
+        onEachFeature: onEachCountryFeature
+    }).addTo(map);
+
+    // Fit map to show all countries
+    map.fitBounds(countriesLayer.getBounds());
+
+    function onEachCountryFeature(feature, layer) {
+        // Store country name in layer for reference
+        layer.feature = feature;
+
+        // Mouseover events
+        layer.on({
+            mouseover: function(e) {
+                this.setStyle(highlightStyle);
+                this.bringToFront();
+            },
+            mouseout: function(e) {
+                countriesLayer.resetStyle(this);
+            },
+            click: function(e) {
+                showCountryFoods(feature.properties.name, layer);
+            }
+        });
+    }
+}
+
 function showCountryFoods(countryName, layer) {
     if (currentPopup) map.closePopup(currentPopup);
     
