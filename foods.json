@@ -1,28 +1,48 @@
 {
-    "Italy": [
-        {
-            "name": "Spaghetti Carbonara",
-            "image": "italy-carbonara.jpg",
-            "description": "A classic Roman pasta dish with eggs, cheese, pancetta, and pepper.",
-            "ingredients": [
-                "400g spaghetti",
-                "200g pancetta or guanciale",
-                "4 large eggs",
-                "50g pecorino cheese",
-                "50g parmesan",
-                "Freshly ground black pepper",
-                "Salt"
-            ],
-            "instructions": [
-                "Boil pasta in salted water",
-                "Fry pancetta until crispy",
-                "Whisk eggs and cheeses together",
-                "Drain pasta, mix with pancetta",
-                "Quickly stir in egg mixture to create creamy sauce",
-                "Season with black pepper"
-            ]
-        }
+  "Italy": [
+  {
+    "name": "Spaghetti Carbonara",
+    "image": "italy-carbonara.jpg",
+    "description": "A classic Roman pasta dish with eggs, cheese, pancetta, and pepper.",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or guanciale",
+      "4 large eggs",
+      "50g pecorino cheese",
+      "50g parmesan",
+      "Freshly ground black pepper",
+      "Salt"
     ],
+    "instructions": [
+      "Boil pasta in salted water",
+      "Fry pancetta until crispy",
+      "Whisk eggs and cheeses together",
+      "Drain pasta, mix with pancetta",
+      "Quickly stir in egg mixture to create creamy sauce",
+      "Season with black pepper"
+    ]
+  },
+  {
+    "name": "Margherita Pizza",
+    "image": "italy-pizza.jpg",
+    "description": "Classic Neapolitan pizza with tomato, mozzarella, and basil.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Preheat oven to highest temperature",
+      "Spread tomato sauce on dough",
+      "Add mozzarella slices",
+      "Bake until crust is golden",
+      "Top with basil and a drizzle of olive oil"
+    ]
+  }
+],
     "Japan": [
         {
             "name": "Sushi",
