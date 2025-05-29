@@ -235,8 +235,13 @@ function showFullRecipe(food) {
     });
     
     document.querySelector('.back-to-list')?.addEventListener('click', () => {
-        map.closePopup(recipePopup);
+        showRecipeList(); 
+        //map.closePopup(recipePopup);
     });
+    function showRecipeList() {
+    document.querySelector('#recipe-list')?.classList.remove('hidden');
+}
+
 }
 
 // Clean up tooltips when map is destroyed
