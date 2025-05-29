@@ -150,8 +150,9 @@ function showCountryFoods(countryName, layer) {
         
         // Add current page's foods
         const startIdx = currentPage * foodsPerPage;
-        const endIdx = startIdx + foodsPerPage;
-        countryFoods.slice(startIdx, endIdx).forEach(food => {
+       const endIdx = startIdx + foodsPerPage;
+
+    countryFoods.slice(startIdx, endIdx).forEach(food => {
             popupContent += `
                 <div class="food-item">
                     <h3>${food.name}</h3>
