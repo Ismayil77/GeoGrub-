@@ -16,12 +16,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', 
 let countriesGeoJson;
 let foodsData = {};
 let currentPopup = null;
-let countryTooltip;
 
 // Load both data files
 Promise.all([
-    fetch('countries.geojson').then(r => r.json()),
-    fetch('foods.json').then(r => r.json())
+    fetch('data/countries.geojson').then(r => r.json()),
+    fetch('data/foods.json').then(r => r.json())
 ])
 .then(([geoData, foodData]) => {
     countriesGeoJson = geoData;
@@ -58,68 +57,25 @@ function renderCountries() {
 
     // Fit map to show all countries
     map.fitBounds(countriesLayer.getBounds());
-}
 
-function onEachCountryFeature(feature, layer) {
-    // Create a tooltip element
-    const tooltip = document.createElement('div');
-    tooltip.className = 'country-label';
-    tooltip.textContent = feature.properties.name || 'Unknown Country';
-    document.body.appendChild(tooltip);
-    tooltip.style.display = 'none';
+    function onEachCountryFeature(feature, layer) {
+        // Store country name in layer for reference
+        layer.feature = feature;
 
-    // Store country name in layer for reference
-    layer.feature = feature;
-
-    // Mouseover events
-    layer.on({
-        mouseover: function(e) {
-            this.setStyle({
-                fillColor: '#e55039',
-                weight: 2,
-                color: '#fff',
-                fillOpacity: 0.8,
-                dashArray: '0'
-            });
-            this.bringToFront();
-            
-            // Show tooltip
-            if (feature.properties.name) {
-                tooltip.style.display = 'block';
-                countryTooltip = tooltip;
+        // Mouseover events
+        layer.on({
+            mouseover: function(e) {
+                this.setStyle(highlightStyle);
+                this.bringToFront();
+            },
+            mouseout: function(e) {
+                countriesLayer.resetStyle(this);
+            },
+            click: function(e) {
+                showCountryFoods(feature.properties.name, layer);
             }
-        },
-        mouseout: function(e) {
-            this.setStyle({
-                fillColor: '#f8c291',
-                weight: 1,
-                opacity: 1,
-                color: '#fff',
-                fillOpacity: 0.7,
-                dashArray: '0'
-            });
-            
-            // Hide tooltip
-            if (countryTooltip) {
-                countryTooltip.style.display = 'none';
-            }
-        },
-        mousemove: function(e) {
-            // Update tooltip position
-            if (countryTooltip) {
-                const point = map.latLngToContainerPoint(e.latlng);
-                countryTooltip.style.left = `${point.x}px`;
-                countryTooltip.style.top = `${point.y}px`;
-            }
-        },
-        click: function(e) {
-            // Hide tooltip on click
-            if (countryTooltip) {
-                countryTooltip.style.display = 'none';
-            }
-            showCountryFoods(feature.properties.name, layer);
-        }
-    });
+        });
+    }
 }
 
 function showCountryFoods(countryName, layer) {
@@ -169,8 +125,3 @@ function showCountryFoods(countryName, layer) {
         map.closePopup(currentPopup);
     });
 }
-
-// Clean up tooltips when map is destroyed
-map.on('unload', function() {
-    document.querySelectorAll('.country-label').forEach(el => el.remove());
-});
