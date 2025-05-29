@@ -1,160 +1,136 @@
-// Initialize the map with a neutral background
-const map = L.map('map', {
-    center: [20, 0],
-    zoom: 2,
-    worldCopyJump: true,
-    minZoom: 2,
-    maxZoom: 8,
-    zoomControl: false
-});
-
-// Add a simple neutral background (optional)
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-    attribution: ''
-}).addTo(map);
-
-let countriesGeoJson;
-let foodsData = {};
-let currentPopup = null;
-
-// Load both data files
-Promise.all([
-    fetch('countries.geojson').then(r => r.json()),
-    fetch('foods.json').then(r => r.json())
-])
-.then(([geoData, foodData]) => {
-    countriesGeoJson = geoData;
-    foodsData = foodData;
-    renderCountries();
-})
-.catch(error => console.error('Error loading data:', error));
-
-function renderCountries() {
-    // Style for countries
-    const countryStyle = {
-        fillColor: '#f8c291',
-        weight: 1,
-        opacity: 1,
-        color: '#fff',
-        fillOpacity: 0.7,
-        dashArray: '0'
-    };
-
-    // Highlight style when hovered
-    const highlightStyle = {
-        fillColor: '#e55039',
-        weight: 2,
-        color: '#fff',
-        fillOpacity: 0.8,
-        dashArray: '0'
-    };
-
-    // Add countries to map with precise borders
-    const countriesLayer = L.geoJSON(countriesGeoJson, {
-        style: countryStyle,
-        onEachFeature: onEachCountryFeature
-    }).addTo(map);
-
-    // Fit map to show all countries
-    map.fitBounds(countriesLayer.getBounds());
-
-    function onEachCountryFeature(feature, layer) {
-        // Store country name in layer for reference
-        layer.feature = feature;
-
-        // Mouseover events
-        layer.on({
-            mouseover: function(e) {
-                this.setStyle(highlightStyle);
-                this.bringToFront();
-            },
-            mouseout: function(e) {
-                countriesLayer.resetStyle(this);
-            },
-            click: function(e) {
-                showCountryFoods(feature.properties.name, layer);
-            }
-        });
-    }
-}
-
 function showCountryFoods(countryName, layer) {
-    // Close any existing popup
-    if (currentPopup) {
-        map.closePopup(currentPopup);
-    }
+    if (currentPopup) map.closePopup(currentPopup);
     
-    // Find foods for this country
     const countryFoods = foodsData[countryName];
-    
     if (!countryFoods || countryFoods.length === 0) {
-        currentPopup = L.popup({ className: 'custom-popup' })
+        currentPopup = L.popup()
             .setLatLng(layer.getBounds().getCenter())
-            .setContent(`<div class="food-popup"><p>No food data available for ${countryName}</p></div>`)
+            .setContent(`<div class="food-popup"><p>No food data for ${countryName}</p></div>`)
             .openOn(map);
         return;
     }
-    
-    // Create popup content with tabs
-    let popupContent = `<div class="food-popup">`;
-    popupContent += `<span class="close-popup">×</span>`;
-    popupContent += `<h2>${countryName}</h2>`;
-    
-    // Create tabs
-    popupContent += `<div class="food-tabs">`;
-    countryFoods.forEach((food, index) => {
-        const activeClass = index === 0 ? ' active' : '';
-        popupContent += `<button class="food-tab${activeClass}" data-index="${index}">${food.name}</button>`;
-    });
-    popupContent += `</div>`;
-    
-    // Create tab content
-    popupContent += `<div class="food-tab-content">`;
-    countryFoods.forEach((food, index) => {
-        const activeClass = index === 0 ? ' active' : '';
-        popupContent += `
-            <div class="food-content${activeClass}" data-index="${index}">
-                ${food.image ? `<img src="images/${food.image}" alt="${food.name}">` : ''}
-                ${food.description ? `<p class="food-description">${food.description}</p>` : ''}
-                <div class="food-details">
-                    <div class="ingredients">
-                        <h4>Ingredients:</h4>
-                        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
-                    </div>
-                    <div class="instructions">
-                        <h4>Instructions:</h4>
-                        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
-                    </div>
-                </div>
+
+    // Create popup structure
+    const popupContent = `
+    <div class="food-popup">
+        <span class="close-popup">×</span>
+        <h2>${countryName} (${countryFoods.length} foods)</h2>
+        
+        <div class="food-search">
+            <input type="text" placeholder="Search foods..." class="search-input">
+            <div class="results-count">Showing ${countryFoods.length} items</div>
+        </div>
+        
+        <div class="food-list-container">
+            <div class="food-list"></div>
+            <div class="pagination">
+                <button class="prev-btn" disabled>◀</button>
+                <span class="page-info">Page 1 of ${Math.ceil(countryFoods.length/5)}</span>
+                <button class="next-btn">▶</button>
             </div>
-        `;
-    });
-    popupContent += `</div></div>`;
-    
-    // Create and open popup at the clicked location
-    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 400 })
+        </div>
+    </div>`;
+
+    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 450, maxHeight: 500 })
         .setLatLng(layer.getBounds().getCenter())
         .setContent(popupContent)
         .openOn(map);
-    
-    // Add close event
-    document.querySelector('.close-popup').addEventListener('click', function() {
-        map.closePopup(currentPopup);
-    });
-    
-    // Add tab switching functionality
-    const tabs = document.querySelectorAll('.food-tab');
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            // Update active tab
-            tabs.forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
-            
-            // Update active content
-            const index = this.getAttribute('data-index');
-            const contents = document.querySelectorAll('.food-content');
-            contents.forEach(c => c.classList.remove('active'));
-            contents[index].classList.add('active');
+
+    // DOM elements
+    const foodList = document.querySelector('.food-list');
+    const searchInput = document.querySelector('.search-input');
+    const resultsCount = document.querySelector('.results-count');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const pageInfo = document.querySelector('.page-info');
+
+    // State
+    let currentPage = 1;
+    const itemsPerPage = 5;
+    let filteredFoods = [...countryFoods];
+
+    // Render functions
+    function renderFoods() {
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const paginatedItems = filteredFoods.slice(start, end);
+
+        foodList.innerHTML = paginatedItems.map(food => `
+            <div class="food-item">
+                <div class="food-header">
+                    <h3>${food.name}</h3>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <div class="food-details">
+                    ${food.image ? `<img loading="lazy" data-src="images/${food.image}" alt="${food.name}" class="food-image">` : ''}
+                    ${food.description ? `<p class="description">${food.description}</p>` : ''}
+                    <div class="ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul>${food.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+                    </div>
+                    <div class="instructions">
+                        <h4>Instructions:</h4>
+                        <ol>${food.instructions.map(s => `<li>${s}</li>`).join('')}</ol>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        // Lazy load images
+        document.querySelectorAll('.food-image').forEach(img => {
+            if (img.dataset.src) {
+                img.src = img.dataset.src;
+            }
         });
+
+        // Update pagination
+        const totalPages = Math.ceil(filteredFoods.length / itemsPerPage);
+        pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+        prevBtn.disabled = currentPage === 1;
+        nextBtn.disabled = currentPage === totalPages || totalPages === 0;
+    }
+
+    // Event handlers
+    searchInput.addEventListener('input', (e) => {
+        const term = e.target.value.toLowerCase();
+        filteredFoods = countryFoods.filter(food => 
+            food.name.toLowerCase().includes(term) ||
+            (food.description && food.description.toLowerCase().includes(term))
+        );
+        currentPage = 1;
+        renderFoods();
+        resultsCount.textContent = `Showing ${filteredFoods.length} of ${countryFoods.length} items`;
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            renderFoods();
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentPage * itemsPerPage < filteredFoods.length) {
+            currentPage++;
+            renderFoods();
+        }
+    });
+
+    // Delegate toggle events
+    foodList.addEventListener('click', (e) => {
+        if (e.target.classList.contains('toggle-btn')) {
+            const item = e.target.closest('.food-item');
+            const details = item.querySelector('.food-details');
+            const isOpen = details.style.display === 'block';
+            
+            details.style.display = isOpen ? 'none' : 'block';
+            e.target.textContent = isOpen ? '+' : '-';
+        }
+    });
+
+    // Initial render
+    renderFoods();
+    document.querySelector('.close-popup').addEventListener('click', () => {
+        map.closePopup(currentPopup);
     });
 }
