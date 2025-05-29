@@ -68,6 +68,12 @@ function onEachCountryFeature(feature, layer) {
     tooltip.textContent = feature.properties.name || 'Unknown Country';
     document.body.appendChild(tooltip);
     tooltip.style.display = 'none';
+      layer.bindTooltip(feature.properties.name || 'Unknown Country', {
+        permanent: true, // Always visible
+        direction: 'center',
+        className: 'country-label',
+        interactive: false
+    });
     // Store country name in layer for reference
     layer.feature = feature;
 
