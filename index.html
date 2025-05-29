@@ -86,21 +86,63 @@
     border-radius: 3px;
     cursor: pointer;
 }
+.food-tabs {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.food-tab {
+    padding: 8px 12px;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.food-tab.active {
+    background: #e55039;
+    color: white;
+}
+
+.food-content {
+    display: none;
+}
+
+.food-content.active {
+    display: block;
+}
+
+.food-popup img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.food-details {
+    display: flex;
+    gap: 20px;
+}
+
+.food-details > div {
+    flex: 1;
+}
+
+.close-popup {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.custom-popup {
+    padding: 20px;
+}
 
 
-        .close-popup {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            cursor: pointer;
-            background: #fff;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            line-height: 20px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.3);
-        }
 		/* Neutral background for the map */
 .leaflet-container {
     background-color: #f5f5f3 !important;
