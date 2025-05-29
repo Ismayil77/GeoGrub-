@@ -235,12 +235,9 @@ function showFullRecipe(food) {
     });
     
     document.querySelector('.back-to-list')?.addEventListener('click', () => {
-        showRecipeList(); 
-        //map.closePopup(recipePopup);
+        map.closePopup(recipePopup);
     });
-    function showRecipeList() {
-    document.querySelector('.recipe-columns').style.display = 'block';
-}
+
 
 }
 
