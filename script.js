@@ -68,14 +68,6 @@ function onEachCountryFeature(feature, layer) {
     tooltip.textContent = feature.properties.name || 'Unknown Country';
     document.body.appendChild(tooltip);
     tooltip.style.display = 'none';
-  const label = L.marker(layer.getBounds().getCenter(), {
-        icon: L.divIcon({
-            className: 'country-label',
-            html: feature.properties.name || 'Unknown Country',
-            iconSize: null // Let the content determine size
-        }),
-        interactive: false // Make label non-clickable
-    }).addTo(map);
     // Store country name in layer for reference
     layer.feature = feature;
 
