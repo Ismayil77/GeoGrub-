@@ -95,27 +95,44 @@ function showCountryFoods(countryName, layer) {
         return;
     }
     
-    // Create popup content
+    // Create popup content with tabs
     let popupContent = `<div class="food-popup">`;
+    popupContent += `<span class="close-popup">×</span>`;
+    popupContent += `<h2>${countryName}</h2>`;
     
-    // Show first food by default
-    const food = countryFoods[0];
-    
-    popupContent += `
-        <span class="close-popup">×</span>
-        <h3>${food.name}</h3>
-        ${food.image ? `<img src="images/${food.image}" alt="${food.name}">` : ''}
-        ${food.description ? `<p>${food.description}</p>` : ''}
-        <h4>Ingredients:</h4>
-        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
-        <h4>Instructions:</h4>
-        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
-    `;
-    
+    // Create tabs
+    popupContent += `<div class="food-tabs">`;
+    countryFoods.forEach((food, index) => {
+        const activeClass = index === 0 ? ' active' : '';
+        popupContent += `<button class="food-tab${activeClass}" data-index="${index}">${food.name}</button>`;
+    });
     popupContent += `</div>`;
     
+    // Create tab content
+    popupContent += `<div class="food-tab-content">`;
+    countryFoods.forEach((food, index) => {
+        const activeClass = index === 0 ? ' active' : '';
+        popupContent += `
+            <div class="food-content${activeClass}" data-index="${index}">
+                ${food.image ? `<img src="images/${food.image}" alt="${food.name}">` : ''}
+                ${food.description ? `<p class="food-description">${food.description}</p>` : ''}
+                <div class="food-details">
+                    <div class="ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
+                    </div>
+                    <div class="instructions">
+                        <h4>Instructions:</h4>
+                        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+    popupContent += `</div></div>`;
+    
     // Create and open popup at the clicked location
-    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 350 })
+    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 400 })
         .setLatLng(layer.getBounds().getCenter())
         .setContent(popupContent)
         .openOn(map);
@@ -123,5 +140,21 @@ function showCountryFoods(countryName, layer) {
     // Add close event
     document.querySelector('.close-popup').addEventListener('click', function() {
         map.closePopup(currentPopup);
+    });
+    
+    // Add tab switching functionality
+    const tabs = document.querySelectorAll('.food-tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            // Update active tab
+            tabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Update active content
+            const index = this.getAttribute('data-index');
+            const contents = document.querySelectorAll('.food-content');
+            contents.forEach(c => c.classList.remove('active'));
+            contents[index].classList.add('active');
+        });
     });
 }
