@@ -62,12 +62,7 @@ function renderCountries() {
 
 function onEachCountryFeature(feature, layer) {
     // Create a tooltip element
-    
-    const tooltip = document.createElement('div');
-    tooltip.className = 'country-label';
-    tooltip.textContent = feature.properties.name || 'Unknown Country';
-    document.body.appendChild(tooltip);
-    tooltip.style.display = 'none';
+
       layer.bindTooltip(feature.properties.name || 'Unknown Country', {
         permanent: true, // Always visible
         direction: 'center',
