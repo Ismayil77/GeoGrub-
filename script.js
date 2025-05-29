@@ -19,8 +19,8 @@ let currentPopup = null;
 
 // Load both data files
 Promise.all([
-    fetch('data/countries.geojson').then(r => r.json()),
-    fetch('data/foods.json').then(r => r.json())
+    fetch('countries.geojson').then(r => r.json()),
+    fetch('foods.json').then(r => r.json())
 ])
 .then(([geoData, foodData]) => {
     countriesGeoJson = geoData;
