@@ -239,7 +239,7 @@ function showFullRecipe(food) {
         //map.closePopup(recipePopup);
     });
     function showRecipeList() {
-    document.querySelector('#recipe-list')?.classList.remove('hidden');
+    document.querySelector('.recipe-columns')?.classList.remove('hidden');
 }
 
 }
