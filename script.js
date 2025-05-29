@@ -62,12 +62,12 @@ function renderCountries() {
 
 function onEachCountryFeature(feature, layer) {
     // Create a tooltip element
-    
     const tooltip = document.createElement('div');
     tooltip.className = 'country-label';
     tooltip.textContent = feature.properties.name || 'Unknown Country';
     document.body.appendChild(tooltip);
     tooltip.style.display = 'none';
+
     // Store country name in layer for reference
     layer.feature = feature;
 
@@ -128,151 +128,46 @@ function showCountryFoods(countryName, layer) {
         map.closePopup(currentPopup);
     }
     
+    // Find foods for this country
     const countryFoods = foodsData[countryName];
     
     if (!countryFoods || countryFoods.length === 0) {
-        currentPopup = L.popup({ className: 'custom-popup', maxWidth: 300 })
+        currentPopup = L.popup({ className: 'custom-popup' })
             .setLatLng(layer.getBounds().getCenter())
             .setContent(`<div class="food-popup"><p>No food data available for ${countryName}</p></div>`)
             .openOn(map);
         return;
     }
     
-    // Create popup with pagination
-    let currentPage = 0;
-    const foodsPerPage = 3;
-    const totalPages = Math.ceil(countryFoods.length / foodsPerPage);
+    // Create popup content
+    let popupContent = `<div class="food-popup">`;
     
-    function updatePopupContent() {
-        let popupContent = `<div class="food-popup">`;
-        popupContent += `<h2>${countryName} Cuisine</h2>`;
-        popupContent += `<div class="food-count">Showing ${currentPage * foodsPerPage + 1}-${Math.min((currentPage + 1) * foodsPerPage, countryFoods.length)} of ${countryFoods.length} foods</div>`;
-        
-        // Add current page's foods
-        const startIdx = currentPage * foodsPerPage;
-       const endIdx = startIdx + foodsPerPage;
-
-    countryFoods.slice(startIdx, endIdx).forEach(food => {
-            popupContent += `
-                <div class="food-item">
-                    <h3>${food.name}</h3>
-                    ${food.image ? `<img src="images/${food.image}" alt="${food.name}" loading="lazy">` : ''}
-                    ${food.description ? `<p class="food-desc">${food.description}</p>` : ''}
-                    <button class="show-recipe" data-food='${JSON.stringify(food).replace(/'/g, "\\'")}'>
-                        View Recipe
-                    </button>
-                </div>
-            `;
-        });
-        
-        // Add pagination controls
-        popupContent += `<div class="pagination">`;
-        if (currentPage > 0) {
-            popupContent += `<button class="page-btn prev-btn">Previous</button>`;
-        }
-        popupContent += `<span class="page-info">Page ${currentPage + 1}/${totalPages}</span>`;
-        if (currentPage < totalPages - 1) {
-            popupContent += `<button class="page-btn next-btn">Next</button>`;
-        }
-        popupContent += `</div>`;
-        
-        popupContent += `</div>`;
-        
-        currentPopup.setContent(popupContent);
-        
-        // Add event listeners
-        document.querySelectorAll('.show-recipe').forEach(btn => {
-            btn.addEventListener('click', function() {
-                showFullRecipe(JSON.parse(this.dataset.food));
-            });
-        });
-        
-        document.querySelector('.prev-btn')?.addEventListener('click', () => {
-            currentPage--;
-            updatePopupContent();
-        });
-        
-        document.querySelector('.next-btn')?.addEventListener('click', () => {
-            currentPage++;
-            updatePopupContent();
-        });
-    }
+    // Show first food by default
+    const food = countryFoods[0];
     
-    // Create initial popup
-    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 400, maxHeight: 600 })
+    popupContent += `
+        <span class="close-popup">×</span>
+        <h3>${food.name}</h3>
+        ${food.image ? `<img src="images/${food.image}" alt="${food.name}">` : ''}
+        ${food.description ? `<p>${food.description}</p>` : ''}
+        <h4>Ingredients:</h4>
+        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
+        <h4>Instructions:</h4>
+        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
+    `;
+    
+    popupContent += `</div>`;
+    
+    // Create and open popup at the clicked location
+    currentPopup = L.popup({ className: 'custom-popup', maxWidth: 350 })
         .setLatLng(layer.getBounds().getCenter())
-        .setContent('<div class="food-popup">Loading...</div>')
+        .setContent(popupContent)
         .openOn(map);
     
-    updatePopupContent();
-}
-
-function showFullRecipe(food) {
-    const recipePopup = L.popup({ className: 'recipe-popup', maxWidth: 500 })
-        .setLatLng(map.getCenter())
-        .setContent(`
-            <div class="recipe-details">
-                <span class="close-popup">×</span>
-                <h2>${food.name}</h2>
-                ${food.image ? `<img src="images/${food.image}" alt="${food.name}" loading="lazy">` : ''}
-                ${food.description ? `<p class="food-desc">${food.description}</p>` : ''}
-                <div class="recipe-columns">
-                    <div class="ingredients">
-                        <h3>Ingredients</h3>
-                        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
-                    </div>
-                    <div class="instructions">
-                        <h3>Instructions</h3>
-                        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
-                    </div>
-                </div>
-                <button class="back-to-list">Back to List</button>
-            </div>
-        `)
-        .openOn(map);
-    
-    document.querySelector('.close-popup').addEventListener('click', () => {
-        map.closePopup(recipePopup);
+    // Add close event
+    document.querySelector('.close-popup').addEventListener('click', function() {
+        map.closePopup(currentPopup);
     });
-    
-    document.querySelector('.back-to-list')?.addEventListener('click', () => {
-        map.closePopup(recipePopup);
-    });
-}
-
-function showFullRecipe(food) {
-    const recipePopup = L.popup({ className: 'recipe-popup', maxWidth: 500 })
-        .setLatLng(map.getCenter())
-        .setContent(`
-            <div class="recipe-details">
-                <span class="close-popup">×</span>
-                <h2>${food.name}</h2>
-                ${food.image ? `<img src="images/${food.image}" alt="${food.name}" loading="lazy">` : ''}
-                ${food.description ? `<p class="food-desc">${food.description}</p>` : ''}
-                <div class="recipe-columns">
-                    <div class="ingredients">
-                        <h3>Ingredients</h3>
-                        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
-                    </div>
-                    <div class="instructions">
-                        <h3>Instructions</h3>
-                        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
-                    </div>
-                </div>
-                <button class="back-to-list">Back to List</button>
-            </div>
-        `)
-        .openOn(map);
-    
-    document.querySelector('.close-popup').addEventListener('click', () => {
-        map.closePopup(recipePopup);
-    });
-    
-    document.querySelector('.back-to-list')?.addEventListener('click', () => {
-        map.closePopup(recipePopup);
-    });
-
-
 }
 
 // Clean up tooltips when map is destroyed
