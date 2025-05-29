@@ -1,25 +1,64 @@
 {
-  "Italy": [
+    "Italy": [
         {
-            "name": "Sushi",
-            "image": "japan-sushi.jpg",
-            "description": "Vinegared rice combined with various ingredients, primarily seafood.",
+            "name": "Pizza Margherita",
+            "image": "italy-pizza.jpg",
+            "description": "Classic Neapolitan pizza with simple, fresh ingredients.",
             "ingredients": [
-                "Sushi rice",
-                "Rice vinegar",
-                "Sugar",
-                "Salt",
-                "Fresh fish (salmon, tuna, etc.)",
-                "Nori (seaweed sheets)",
-                "Wasabi",
-                "Soy sauce"
+                "Pizza dough",
+                "San Marzano tomato sauce",
+                "Fresh mozzarella",
+                "Fresh basil",
+                "Olive oil",
+                "Salt"
             ],
             "instructions": [
-                "Prepare sushi rice with vinegar mixture",
-                "Slice fish into thin pieces",
-                "For nigiri: form rice balls and top with fish",
-                "For maki: spread rice on nori, add fillings, and roll",
-                "Serve with wasabi and soy sauce"
+                "Preheat oven to highest temperature with pizza stone",
+                "Roll out dough thinly",
+                "Spread tomato sauce, add torn mozzarella",
+                "Bake for 60-90 seconds until crust is puffed",
+                "Add fresh basil leaves and drizzle with olive oil"
+            ]
+        },
+        {
+            "name": "Spaghetti Carbonara",
+            "image": "italy-carbonara.jpg",
+            "description": "Creamy Roman pasta dish with eggs, cheese, and pancetta.",
+            "ingredients": [
+                "Spaghetti",
+                "Pancetta or guanciale",
+                "Eggs",
+                "Pecorino Romano cheese",
+                "Black pepper",
+                "Salt"
+            ],
+            "instructions": [
+                "Cook pasta al dente",
+                "Fry pancetta until crispy",
+                "Whisk eggs with grated cheese and pepper",
+                "Combine hot pasta with pancetta, then mix in egg mixture",
+                "Serve immediately with extra cheese and pepper"
+            ]
+        },
+        {
+            "name": "Tiramisu",
+            "image": "italy-tiramisu.jpg",
+            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
+            "ingredients": [
+                "Ladyfinger biscuits",
+                "Espresso coffee",
+                "Mascarpone cheese",
+                "Eggs",
+                "Sugar",
+                "Cocoa powder"
+            ],
+            "instructions": [
+                "Brew strong coffee and let cool",
+                "Make zabaglione with egg yolks and sugar",
+                "Mix with mascarpone",
+                "Dip ladyfingers briefly in coffee",
+                "Layer with cream mixture",
+                "Dust with cocoa and chill 4+ hours"
             ]
         }
     ],
@@ -45,6 +84,28 @@
                 "For maki: spread rice on nori, add fillings, and roll",
                 "Serve with wasabi and soy sauce"
             ]
+        },
+        {
+            "name": "Ramen",
+            "image": "japan-ramen.jpg",
+            "description": "Japanese noodle soup with rich broth and various toppings.",
+            "ingredients": [
+                "Ramen noodles",
+                "Pork or chicken bones (for broth)",
+                "Soy sauce or miso",
+                "Chashu pork",
+                "Soft-boiled eggs",
+                "Green onions",
+                "Nori",
+                "Bamboo shoots"
+            ],
+            "instructions": [
+                "Simmer bones for broth (6+ hours)",
+                "Cook noodles separately",
+                "Season broth with soy sauce or miso",
+                "Assemble bowl with noodles, broth, and toppings",
+                "Add soft-boiled egg and nori last"
+            ]
         }
     ],
     "Mexico": [
@@ -68,6 +129,31 @@
                 "Grill or roast pork on vertical spit if possible",
                 "Slice thinly and serve on tortillas",
                 "Top with onions, cilantro, and pineapple"
+            ]
+        },
+        {
+            "name": "Mole Poblano",
+            "image": "mexico-mole.jpg",
+            "description": "Complex sauce with chocolate and chilies, served with chicken.",
+            "ingredients": [
+                "Chicken",
+                "Dried chilies (ancho, mulato, pasilla)",
+                "Tomatoes",
+                "Onion",
+                "Garlic",
+                "Almonds",
+                "Sesame seeds",
+                "Raisins",
+                "Cinnamon",
+                "Chocolate",
+                "Tortillas"
+            ],
+            "instructions": [
+                "Toast and rehydrate chilies",
+                "Blend with other ingredients to make sauce",
+                "Simmer sauce for 1-2 hours",
+                "Cook chicken separately",
+                "Serve chicken smothered in mole with rice and tortillas"
             ]
         }
     ]
