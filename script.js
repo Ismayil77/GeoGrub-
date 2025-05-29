@@ -1,4 +1,52 @@
-// Initialize the map with a neutral background
+
+// Add this at the top with other variables
+let countryTooltip;
+
+// Update the onEachCountryFeature function:
+function onEachCountryFeature(feature, layer) {
+    // Create a tooltip element
+    const tooltip = document.createElement('div');
+    tooltip.className = 'country-label';
+    tooltip.textContent = feature.properties.name || 'Unknown Country';
+    document.body.appendChild(tooltip);
+    tooltip.style.display = 'none';
+
+    layer.on({
+        mouseover: function(e) {
+            this.setStyle(highlightStyle);
+            this.bringToFront();
+            
+            // Show tooltip
+            if (feature.properties.name) {
+                tooltip.style.display = 'block';
+                countryTooltip = tooltip;
+            }
+        },
+        mouseout: function(e) {
+            countriesLayer.resetStyle(this);
+            
+            // Hide tooltip
+            if (countryTooltip) {
+                countryTooltip.style.display = 'none';
+            }
+        },
+        mousemove: function(e) {
+            // Update tooltip position
+            if (countryTooltip) {
+                const point = map.latLngToContainerPoint(e.latlng);
+                countryTooltip.style.left = `${point.x}px`;
+                countryTooltip.style.top = `${point.y}px`;
+            }
+        },
+        click: function(e) {
+            // Hide tooltip on click
+            if (countryTooltip) {
+                countryTooltip.style.display = 'none';
+            }
+            showCountryFoods(feature.properties, layer);
+        }
+    });
+}// Initialize the map with a neutral background
 const map = L.map('map', {
     center: [20, 0],
     zoom: 2,
@@ -125,3 +173,8 @@ function showCountryFoods(countryName, layer) {
         map.closePopup(currentPopup);
     });
 }
+// Add this at the bottom of your script.js
+map.on('unload', function() {
+    // Remove all tooltips when map is destroyed
+    document.querySelectorAll('.country-label').forEach(el => el.remove());
+});
