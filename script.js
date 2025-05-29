@@ -237,6 +237,39 @@ function showFullRecipe(food) {
     document.querySelector('.back-to-list')?.addEventListener('click', () => {
         map.closePopup(recipePopup);
     });
+}
+
+function showFullRecipe(food) {
+    const recipePopup = L.popup({ className: 'recipe-popup', maxWidth: 500 })
+        .setLatLng(map.getCenter())
+        .setContent(`
+            <div class="recipe-details">
+                <span class="close-popup">×</span>
+                <h2>${food.name}</h2>
+                ${food.image ? `<img src="images/${food.image}" alt="${food.name}" loading="lazy">` : ''}
+                ${food.description ? `<p class="food-desc">${food.description}</p>` : ''}
+                <div class="recipe-columns">
+                    <div class="ingredients">
+                        <h3>Ingredients</h3>
+                        <ul>${food.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
+                    </div>
+                    <div class="instructions">
+                        <h3>Instructions</h3>
+                        <ol>${food.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
+                    </div>
+                </div>
+                <button class="back-to-list">Back to List</button>
+            </div>
+        `)
+        .openOn(map);
+    
+    document.querySelector('.close-popup').addEventListener('click', () => {
+        map.closePopup(recipePopup);
+    });
+    
+    document.querySelector('.back-to-list')?.addEventListener('click', () => {
+        map.closePopup(recipePopup);
+    });
 
 
 }
