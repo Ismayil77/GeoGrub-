@@ -1,54 +1,28 @@
 {
- "Italy": {
-    "count": 125,
-    "popular": ["Spaghetti Carbonara", "Pizza Margherita", "Risotto alla Milanese"],
-    "foods": [
-      {
-        "id": "it001",
-        "name": "Spaghetti Carbonara",
-        "image": "italy-carbonara.jpg",
-        "prepTime": "15 mins",
-        "cookTime": "15 mins",
-        "difficulty": "Medium",
-        "description": "Classic Roman pasta with eggs, cheese, and pancetta.",
-        "ingredients": [
-          "400g spaghetti",
-          "200g pancetta",
-          "4 eggs",
-          "50g pecorino cheese"
-        ],
-        "instructions": [
-          "Boil pasta in salted water",
-          "Fry pancetta until crispy",
-          "Mix eggs and cheese",
-          "Combine all ingredients"
-        ],
-        "tags": ["pasta", "quick", "dinner"]
-      },
-      {
-        "id": "it002",
-        "name": "Pizza Margherita",
-        "image": "italy-pizza.jpg",
-        "prepTime": "2 hours",
-        "cookTime": "10 mins",
-        "difficulty": "Hard",
-        "description": "Classic Neapolitan pizza with tomato, mozzarella, and basil.",
-        "ingredients": [
-          "500g pizza dough",
-          "200g san marzano tomatoes",
-          "250g fresh mozzarella",
-          "Fresh basil"
-        ],
-        "instructions": [
-          "Prepare dough and let rise",
-          "Crush tomatoes for sauce",
-          "Bake at highest oven temperature",
-          "Add fresh basil after baking"
-        ],
-        "tags": ["pizza", "vegetarian", "baked"]
-      }
-    ]
-  },
+  "Italy": [
+        {
+            "name": "Sushi",
+            "image": "japan-sushi.jpg",
+            "description": "Vinegared rice combined with various ingredients, primarily seafood.",
+            "ingredients": [
+                "Sushi rice",
+                "Rice vinegar",
+                "Sugar",
+                "Salt",
+                "Fresh fish (salmon, tuna, etc.)",
+                "Nori (seaweed sheets)",
+                "Wasabi",
+                "Soy sauce"
+            ],
+            "instructions": [
+                "Prepare sushi rice with vinegar mixture",
+                "Slice fish into thin pieces",
+                "For nigiri: form rice balls and top with fish",
+                "For maki: spread rice on nori, add fillings, and roll",
+                "Serve with wasabi and soy sauce"
+            ]
+        }
+    ],
     "Japan": [
         {
             "name": "Sushi",
