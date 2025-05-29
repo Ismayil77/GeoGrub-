@@ -1,0 +1,74 @@
+{
+    "Italy": [
+        {
+            "name": "Spaghetti Carbonara",
+            "image": "italy-carbonara.jpg",
+            "description": "A classic Roman pasta dish with eggs, cheese, pancetta, and pepper.",
+            "ingredients": [
+                "400g spaghetti",
+                "200g pancetta or guanciale",
+                "4 large eggs",
+                "50g pecorino cheese",
+                "50g parmesan",
+                "Freshly ground black pepper",
+                "Salt"
+            ],
+            "instructions": [
+                "Boil pasta in salted water",
+                "Fry pancetta until crispy",
+                "Whisk eggs and cheeses together",
+                "Drain pasta, mix with pancetta",
+                "Quickly stir in egg mixture to create creamy sauce",
+                "Season with black pepper"
+            ]
+        }
+    ],
+    "Japan": [
+        {
+            "name": "Sushi",
+            "image": "japan-sushi.jpg",
+            "description": "Vinegared rice combined with various ingredients, primarily seafood.",
+            "ingredients": [
+                "Sushi rice",
+                "Rice vinegar",
+                "Sugar",
+                "Salt",
+                "Fresh fish (salmon, tuna, etc.)",
+                "Nori (seaweed sheets)",
+                "Wasabi",
+                "Soy sauce"
+            ],
+            "instructions": [
+                "Prepare sushi rice with vinegar mixture",
+                "Slice fish into thin pieces",
+                "For nigiri: form rice balls and top with fish",
+                "For maki: spread rice on nori, add fillings, and roll",
+                "Serve with wasabi and soy sauce"
+            ]
+        }
+    ],
+    "Mexico": [
+        {
+            "name": "Tacos al Pastor",
+            "image": "mexico-tacos.jpg",
+            "description": "Marinated pork tacos with pineapple, a Mexican adaptation of shawarma.",
+            "ingredients": [
+                "1kg pork shoulder",
+                "3-4 dried guajillo chilies",
+                "1/4 cup achiote paste",
+                "1 cup pineapple juice",
+                "1 onion",
+                "Cilantro",
+                "Corn tortillas",
+                "Pineapple slices"
+            ],
+            "instructions": [
+                "Blend chilies, achiote, and pineapple juice for marinade",
+                "Marinate pork for 4+ hours",
+                "Grill or roast pork on vertical spit if possible",
+                "Slice thinly and serve on tortillas",
+                "Top with onions, cilantro, and pineapple"
+            ]
+        }
+    ]
+}
