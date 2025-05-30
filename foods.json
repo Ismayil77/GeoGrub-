@@ -1823,6 +1823,879 @@
             "Adjust spice level"
         ]
     }
-]
+],
+   
+  "India": [
+    // ===== 1. VEGETARIAN MAIN COURSES =====
+    {
+      "name": "Paneer Tikka Masala",
+      "image": "paneer-tikka-masala.jpg",
+      "description": "Grilled paneer cubes in creamy tomato gravy with aromatic spices.",
+      "ingredients": [
+        "250g paneer (cubed)",
+        "1/2 cup yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tbsp tandoori masala",
+        "1 tsp turmeric",
+        "2 cups tomato puree",
+        "1/2 cup fresh cream",
+        "1 tsp garam masala",
+        "2 tbsp butter",
+        "Fresh coriander (garnish)"
+      ],
+      "instructions": [
+        "Mix yogurt, 1 tbsp ginger-garlic paste, tandoori masala, and turmeric. Marinate paneer for 1 hour.",
+        "Grill paneer in oven or pan until lightly charred.",
+        "Heat butter, sauté remaining ginger-garlic paste. Add tomato puree and cook for 10 mins.",
+        "Add cream, grilled paneer, and garam masala. Simmer for 5 mins.",
+        "Garnish with coriander. Serve with naan."
+      ]
+    },
+    {
+      "name": "Dal Makhani",
+      "image": "dal-makhani.jpg",
+      "description": "Slow-cooked black lentils and kidney beans in butter-cream sauce.",
+      "ingredients": [
+        "1 cup whole urad dal (black lentils)",
+        "1/4 cup rajma (kidney beans)",
+        "1 onion (finely chopped)",
+        "2 tomatoes (pureed)",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp cumin seeds",
+        "2 tbsp butter",
+        "1/2 cup cream",
+        "1 tsp kasuri methi (dried fenugreek)"
+      ],
+      "instructions": [
+        "Soak dal and rajma overnight. Pressure cook with salt until soft.",
+        "Heat butter, crackle cumin. Sauté onions until golden.",
+        "Add ginger-garlic paste, tomato puree, and cook until oil separates.",
+        "Add cooked dal, simmer on low heat for 30 mins, stirring occasionally.",
+        "Stir in cream and kasuri methi. Serve with rice."
+      ]
+    },
+    {
+      "name": "Palak Paneer",
+      "image": "palak-paneer.jpg",
+      "description": "Soft paneer cubes in vibrant spinach gravy.",
+      "ingredients": [
+        "200g paneer (cubed)",
+        "3 cups spinach (blanched)",
+        "1 onion (chopped)",
+        "2 green chilies",
+        "1 tsp cumin",
+        "1/2 tsp garam masala",
+        "2 tbsp ghee"
+      ],
+      "instructions": [
+        "Blend blanched spinach, onion, and chilies into smooth paste.",
+        "Heat ghee, crackle cumin. Add spinach paste and cook for 5 mins.",
+        "Add paneer, garam masala, and salt. Simmer for 3 mins."
+      ]
+    },
+    {
+      "name": "Chana Masala",
+      "image": "chana-masala.jpg",
+      "description": "Spicy chickpea curry with tangy tomato base.",
+      "ingredients": [
+        "2 cups chickpeas (boiled)",
+        "1 onion (chopped)",
+        "2 tomatoes (pureed)",
+        "1 tbsp chana masala spice mix",
+        "1 tsp amchur (dry mango powder)",
+        "2 tbsp oil"
+      ],
+      "instructions": [
+        "Heat oil, sauté onions until golden. Add tomato puree and cook for 5 mins.",
+        "Add chana masala, amchur, and chickpeas. Simmer for 10 mins.",
+        "Garnish with coriander. Serve with bhatura."
+      ]
+    },
+    {
+      "name": "Aloo Gobi",
+      "image": "aloo-gobi.jpg",
+      "description": "Dry curry of potatoes and cauliflower with rustic spices.",
+      "ingredients": [
+        "2 potatoes (cubed)",
+        "1 small cauliflower (florets)",
+        "1 tsp turmeric",
+        "1 tsp cumin seeds",
+        "1 tbsp coriander powder",
+        "2 tbsp oil"
+      ],
+      "instructions": [
+        "Heat oil, crackle cumin. Add turmeric and coriander powder.",
+        "Add potatoes, cook for 5 mins. Add cauliflower and salt.",
+        "Cover and cook on low heat until tender (15 mins)."
+      ]
+    },
+
+    // ===== 2. NON-VEGETARIAN =====
+    {
+      "name": "Butter Chicken",
+      "image": "butter-chicken.jpg",
+      "description": "Tandoori chicken in rich tomato-butter sauce.",
+      "ingredients": [
+        "500g chicken (boneless)",
+        "1/2 cup yogurt",
+        "2 tbsp tandoori masala",
+        "1/4 cup cashew paste",
+        "2 tbsp butter",
+        "1 tsp sugar",
+        "1/2 cup cream"
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt and tandoori masala for 2 hours. Grill until charred.",
+        "Blend tomatoes, cashews, and spices into smooth paste.",
+        "Cook paste with butter, add chicken and cream. Simmer for 10 mins."
+      ]
+    },
+    {
+      "name": "Hyderabadi Biryani",
+      "image": "hyderabadi-biryani.jpg",
+      "description": "Fragrant basmati rice layered with spiced meat and saffron.",
+      "ingredients": [
+        "2 cups basmati rice (soaked)",
+        "500g chicken/mutton",
+        "1 cup fried onions",
+        "1 tbsp biryani masala",
+        "1/2 cup yogurt",
+        "4 cloves, 2 cardamom, 1 cinnamon stick",
+        "Saffron strands (soaked in milk)"
+      ],
+      "instructions": [
+        "Marinate meat with yogurt, biryani masala, and fried onions for 1 hour.",
+        "Parboil rice with whole spices. Layer meat and rice in pot.",
+        "Drizzle saffron milk. Seal with dough lid. Cook on low heat for 25 mins."
+      ]
+    },
+    {
+      "name": "Fish Curry (Goan)",
+      "image": "goan-fish-curry.jpg",
+      "description": "Coconut-based curry with tangy tamarind and fresh fish.",
+      "ingredients": [
+        "500g fish (pomfret/kingfish)",
+        "1 cup coconut milk",
+        "2 tbsp tamarind pulp",
+        "1 tbsp red chili powder",
+        "1 tsp turmeric",
+        "10 kokum petals"
+      ],
+      "instructions": [
+        "Marinate fish with turmeric and salt for 10 mins. Shallow fry and set aside.",
+        "Cook coconut milk, tamarind, chili powder, and kokum for 10 mins.",
+        "Add fish, simmer for 5 mins. Serve with rice."
+      ]
+    },
+    {
+      "name": "Chicken Chettinad",
+      "image": "chicken-chettinad.jpg",
+      "description": "Fiery South Indian chicken curry with black pepper and coconut.",
+      "ingredients": [
+        "500g chicken",
+        "2 tbsp coriander seeds",
+        "1 tbsp black peppercorns",
+        "1/2 cup grated coconut",
+        "10 curry leaves",
+        "2 tbsp oil"
+      ],
+      "instructions": [
+        "Dry roast coriander, peppercorns, and coconut. Grind to paste.",
+        "Heat oil, sauté curry leaves. Add paste and cook for 2 mins.",
+        "Add chicken and water. Simmer for 20 mins."
+      ]
+    },
+    {
+      "name": "Keema Pav",
+      "image": "keema-pav.jpg",
+      "description": "Spiced minced meat with buttered bread rolls.",
+      "ingredients": [
+        "500g minced lamb",
+        "1 onion (chopped)",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp garam masala",
+        "1/2 cup peas",
+        "6 pav (bread rolls)",
+        "2 tbsp butter"
+      ],
+      "instructions": [
+        "Sauté onions until brown. Add ginger-garlic paste and minced lamb.",
+        "Cook until meat browns. Add garam masala and peas. Simmer for 15 mins.",
+        "Toast pav with butter. Serve keema hot with pav."
+      ]
+    },
+
+    // ===== 3. STREET FOOD =====
+    {
+      "name": "Pani Puri",
+      "image": "pani-puri.jpg",
+      "description": "Crisp puris filled with spicy mint water and potatoes.",
+      "ingredients": [
+        "20 puri shells",
+        "1/2 cup tamarind chutney",
+        "1 cup mint-coriander water (blend mint, coriander, green chili, cumin)",
+        "1 cup boiled potatoes (mashed)",
+        "1/2 tsp chaat masala"
+      ],
+      "instructions": [
+        "Poke hole in puri, stuff with potato and chickpeas.",
+        "Fill with mint water and tamarind chutney.",
+        "Eat immediately to retain crispness."
+      ]
+    },
+    {
+      "name": "Vada Pav",
+      "image": "vada-pav.jpg",
+      "description": "Spicy potato fritter in a bun with chutneys.",
+      "ingredients": [
+        "4 pav (buns)",
+        "3 potatoes (boiled & mashed)",
+        "1 tbsp mustard seeds",
+        "2 green chilies",
+        "1/2 cup gram flour (for batter)",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Mix potatoes with mustard seeds, chilies, and salt. Shape into balls.",
+        "Dip in gram flour batter, deep-fry until golden.",
+        "Serve in pav with garlic chutney."
+      ]
+    },
+    {
+      "name": "Dahi Puri",
+      "image": "dahi-puri.jpg",
+      "description": "Crisp puris topped with yogurt and sweet-spicy chutneys.",
+      "ingredients": [
+        "20 puri shells",
+        "1 cup whisked yogurt",
+        "1/2 cup tamarind chutney",
+        "1/2 cup green chutney (mint-coriander)",
+        "1/2 cup sev (fried gram noodles)"
+      ],
+      "instructions": [
+        "Poke holes in puris. Stuff with boiled potatoes and chickpeas.",
+        "Top with yogurt, both chutneys, and sev.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "name": "Bhel Puri",
+      "image": "bhel-puri.jpg",
+      "description": "Puffed rice snack with tangy tamarind and crunchy sev.",
+      "ingredients": [
+        "2 cups puffed rice",
+        "1/2 cup chopped onions",
+        "1/2 cup chopped tomatoes",
+        "1/4 cup tamarind chutney",
+        "1/2 cup sev",
+        "1 tsp chaat masala"
+      ],
+      "instructions": [
+        "Mix puffed rice, onions, tomatoes, and chutney.",
+        "Sprinkle chaat masala and sev. Toss lightly.",
+        "Serve in paper cones."
+      ]
+    },
+    {
+      "name": "Aloo Tikki",
+      "image": "aloo-tikki.jpg",
+      "description": "Crispy potato patties served with chutneys.",
+      "ingredients": [
+        "3 potatoes (boiled & mashed)",
+        "1/2 tsp red chili powder",
+        "1 tsp cumin powder",
+        "2 tbsp cornflour",
+        "Oil for shallow frying"
+      ],
+      "instructions": [
+        "Mix potatoes, spices, and cornflour. Shape into patties.",
+        "Shallow fry until golden on both sides.",
+        "Serve with mint chutney."
+      ]
+    },
+
+    // ===== 4. DESSERTS =====
+    {
+      "name": "Gulab Jamun",
+      "image": "gulab-jamun.jpg",
+      "description": "Golden milk dumplings soaked in rose-scented syrup.",
+      "ingredients": [
+        "1 cup khoya (grated)",
+        "2 tbsp maida (flour)",
+        "1/4 tsp baking soda",
+        "2 cups sugar syrup (1:1 sugar:water + cardamom + rose water)"
+      ],
+      "instructions": [
+        "Knead khoya, maida, and baking soda into smooth dough.",
+        "Shape into crack-free balls. Fry on low heat until golden.",
+        "Soak in warm syrup for 2 hours before serving."
+      ]
+    },
+    {
+      "name": "Rasgulla",
+      "image": "rasgulla.jpg",
+      "description": "Spongy cottage cheese balls in light sugar syrup.",
+      "ingredients": [
+        "1 liter milk",
+        "2 tbsp lemon juice",
+        "1 cup sugar",
+        "4 cups water",
+        "1 tsp rose water"
+      ],
+      "instructions": [
+        "Curdle milk with lemon juice. Drain whey to make chenna (cottage cheese).",
+        "Knead chenna for 10 mins. Shape into smooth balls.",
+        "Boil sugar syrup, add balls, and cook for 15 mins covered."
+      ]
+    },
+    {
+      "name": "Jalebi",
+      "image": "jalebi.jpg",
+      "description": "Crispy orange coils soaked in sugar syrup.",
+      "ingredients": [
+        "1 cup maida (flour)",
+        "1/4 cup yogurt",
+        "1/2 tsp baking soda",
+        "1 cup sugar syrup (saffron + cardamom)",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Mix maida, yogurt, and baking soda into thick batter. Ferment for 8 hours.",
+        "Fill piping bag, squeeze spiral shapes into hot oil.",
+        "Fry until crisp, dip in warm syrup for 30 secs."
+      ]
+    },
+    {
+      "name": "Kheer",
+      "image": "kheer.jpg",
+      "description": "Creamy rice pudding with nuts and cardamom.",
+      "ingredients": [
+        "1/2 cup basmati rice",
+        "1 liter milk",
+        "1/2 cup sugar",
+        "10 almonds (chopped)",
+        "1 tsp cardamom powder"
+      ],
+      "instructions": [
+        "Boil milk, add soaked rice. Simmer for 30 mins, stirring often.",
+        "Add sugar, nuts, and cardamom. Cook until thick.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "name": "Gajar Ka Halwa",
+      "image": "gajar-halwa.jpg",
+      "description": "Carrot pudding cooked in ghee with milk and nuts.",
+      "ingredients": [
+        "500g carrots (grated)",
+        "1/2 cup ghee",
+        "1 liter milk",
+        "1/2 cup sugar",
+        "10 cashews (fried)"
+      ],
+      "instructions": [
+        "Sauté carrots in ghee for 10 mins. Add milk, simmer until thick.",
+        "Add sugar, cook until halwa leaves pan sides.",
+        "Garnish with cashews."
+      ]
+    },
+
+    // ===== 5. BREADS =====
+    {
+      "name": "Naan",
+      "image": "naan.jpg",
+      "description": "Leavened tandoor-baked flatbread brushed with butter.",
+      "ingredients": [
+        "2 cups maida (flour)",
+        "1/2 cup yogurt",
+        "1 tsp sugar",
+        "1 tsp baking powder",
+        "2 tbsp butter"
+      ],
+      "instructions": [
+        "Knead dough with flour, yogurt, sugar, and baking powder. Rest for 2 hours.",
+        "Roll into ovals, cook in hot tandoor or skillet until bubbly.",
+        "Brush with butter."
+      ]
+    },
+    {
+      "name": "Paratha",
+      "image": "paratha.jpg",
+      "description": "Flaky layered flatbread cooked on griddle.",
+      "ingredients": [
+        "2 cups whole wheat flour",
+        "1/2 cup water",
+        "2 tbsp ghee",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Knead stiff dough with flour, water, and salt. Rest for 15 mins.",
+        "Roll, layer with ghee, fold, and roll again.",
+        "Cook on tawa until golden spots appear."
+      ]
+    },
+    {
+      "name": "Puri",
+      "image": "puri.jpg",
+      "description": "Deep-fried puffed bread served with curries.",
+      "ingredients": [
+        "2 cups whole wheat flour",
+        "1/2 cup water",
+        "Oil for deep frying"
+      ],
+      "instructions": [
+        "Knead firm dough. Roll small circles.",
+        "Fry in hot oil until they puff up.",
+        "Drain on paper towels."
+      ]
+    },
+    {
+      "name": "Bhatura",
+      "image": "bhatura.jpg",
+      "description": "Soft, fluffy deep-fried bread for chole.",
+      "ingredients": [
+        "2 cups maida (flour)",
+        "1/2 cup yogurt",
+        "1 tsp sugar",
+        "1 tsp baking powder",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Knead soft dough with all ingredients. Rest for 2 hours.",
+        "Roll into thick circles, deep-fry until golden."
+      ]
+    },
+    {
+      "name": "Thepla",
+      "image": "thepla.jpg",
+      "description": "Spiced Gujarati flatbread with fenugreek.",
+      "ingredients": [
+        "2 cups whole wheat flour",
+        "1/2 cup fenugreek leaves (chopped)",
+        "1 tbsp yogurt",
+        "1 tsp turmeric",
+        "1 tsp chili powder"
+      ],
+      "instructions": [
+        "Mix all ingredients into stiff dough. Rest for 15 mins.",
+        "Roll thin, cook on tawa with oil until crisp."
+      ]
+    },
+
+    // ===== 6. REGIONAL SPECIALTIES =====
+    {
+      "name": "Rogan Josh (Kashmir)",
+      "image": "rogan-josh.jpg",
+      "description": "Aromatic lamb curry with Kashmiri chilies and yogurt.",
+      "ingredients": [
+        "500g lamb (bone-in)",
+        "1 tbsp Kashmiri chili powder",
+        "1 cup yogurt",
+        "1 tsp fennel powder",
+        "2 tbsp mustard oil"
+      ],
+      "instructions": [
+        "Brown lamb in mustard oil. Remove and set aside.",
+        "In same oil, cook spices until fragrant. Add yogurt slowly.",
+        "Return lamb, add water, and simmer for 1 hour until tender."
+      ]
+    },
+    {
+      "name": "Dhokla (Gujarat)",
+      "image": "dhokla.jpg",
+      "description": "Steamed savory chickpea cakes.",
+      "ingredients": [
+        "1 cup gram flour",
+        "1/2 cup yogurt",
+        "1 tsp ginger-chili paste",
+        "1 tsp fruit salt (eno)",
+        "1 tbsp sugar"
+      ],
+      "instructions": [
+        "Mix flour, yogurt, ginger-chili paste, and sugar into batter.",
+        "Add fruit salt, pour into greased tray. Steam for 15 mins.",
+        "Temper with mustard seeds and curry leaves."
+      ]
+    },
+    {
+      "name": "Masala Dosa (Karnataka)",
+      "image": "masala-dosa.jpg",
+      "description": "Crispy rice crepe with spiced potato filling.",
+      "ingredients": [
+        "2 cups dosa batter (fermented rice-lentil batter)",
+        "3 potatoes (boiled & mashed)",
+        "1 tsp mustard seeds",
+        "2 dried red chilies",
+        "10 curry leaves"
+      ],
+      "instructions": [
+        "Spread batter thinly on hot griddle. Drizzle oil, cook until crisp.",
+        "For filling: Temper mustard seeds, chilies, and curry leaves. Add potatoes and turmeric.",
+        "Place filling on dosa, fold, and serve with coconut chutney."
+      ]
+    },
+    {
+      "name": "Makki di Roti & Sarson da Saag (Punjab)",
+      "image": "saag-makki.jpg",
+      "description": "Cornmeal flatbread with mustard greens curry.",
+      "ingredients": [
+        "2 cups maize flour",
+        "1 bunch mustard greens",
+        "1/2 cup spinach",
+        "2 tbsp ghee",
+        "1 tsp cumin seeds"
+      ],
+      "instructions": [
+        "Boil greens, blend with spices. Simmer with cornmeal for saag.",
+        "Knead maize flour with water. Cook rotis on tawa.",
+        "Serve hot with ghee."
+      ]
+    },
+    {
+      "name": "Misal Pav (Maharashtra)",
+      "image": "misal-pav.jpg",
+      "description": "Spicy sprouted curry with pav and farsan.",
+      "ingredients": [
+        "1 cup moth beans (sprouted)",
+        "1/2 cup farsan (crispy noodles)",
+        "1 onion (chopped)",
+        "1 tbsp goda masala",
+        "4 pav (bread rolls)"
+      ],
+      "instructions": [
+        "Pressure cook sprouts with goda masala until soft.",
+        "Serve topped with farsan, onions, and lemon. Pair with pav."
+      ]
+    },
+
+    // ===== 7. BREAKFAST DISHES =====
+    {
+      "name": "Poha",
+      "image": "poha.jpg",
+      "description": "Flattened rice cooked with turmeric and peanuts.",
+      "ingredients": [
+        "2 cups poha (flattened rice)",
+        "1 onion (chopped)",
+        "1 tsp turmeric",
+        "1 tbsp peanuts",
+        "1 tsp mustard seeds"
+      ],
+      "instructions": [
+        "Rinse poha, drain. Sauté mustard seeds, onions, and peanuts.",
+        "Add turmeric, poha, and salt. Cook for 3 mins.",
+        "Garnish with coriander."
+      ]
+    },
+    {
+      "name": "Upma",
+      "image": "upma.jpg",
+      "description": "Savory semolina porridge with vegetables.",
+      "ingredients": [
+        "1 cup semolina",
+        "1 carrot (chopped)",
+        "1 green chili",
+        "1 tsp mustard seeds",
+        "2 tbsp ghee"
+      ],
+      "instructions": [
+        "Dry roast semolina until fragrant. Set aside.",
+        "Temper mustard seeds, add veggies. Add water and salt.",
+        "Stir in semolina, cook until thick."
+      ]
+    },
+    {
+      "name": "Idli-Sambar",
+      "image": "idli-sambar.jpg",
+      "description": "Steamed rice cakes with lentil-vegetable stew.",
+      "ingredients": [
+        "2 cups idli batter (fermented rice-urad batter)",
+        "1 cup toor dal (cooked)",
+        "1 drumstick (chopped)",
+        "1 tbsp sambar powder",
+        "1 tsp tamarind pulp"
+      ],
+      "instructions": [
+        "Steam idli batter in molds for 10 mins.",
+        "Cook dal with veggies, sambar powder, and tamarind for 15 mins.",
+        "Serve hot with coconut chutney."
+      ]
+    },
+    {
+      "name": "Aloo Paratha",
+      "image": "aloo-paratha.jpg",
+      "description": "Stuffed potato flatbread cooked with ghee.",
+      "ingredients": [
+        "2 cups whole wheat flour",
+        "3 potatoes (boiled & mashed)",
+        "1 tsp ajwain (carom seeds)",
+        "2 tbsp ghee"
+      ],
+      "instructions": [
+        "Knead dough. Stuff with spiced potato mixture.",
+        "Roll gently, cook on tawa with ghee until golden.",
+        "Serve with yogurt."
+      ]
+    },
+    {
+      "name": "Dosa",
+      "image": "dosa.jpg",
+      "description": "Crispy fermented rice-lentil crepe.",
+      "ingredients": [
+        "2 cups dosa batter",
+        "1/2 tsp salt",
+        "Oil for cooking"
+      ],
+      "instructions": [
+        "Spread batter thinly on hot griddle.",
+        "Drizzle oil, cook until golden and crisp.",
+        "Serve with chutney and sambar."
+      ]
+    },
+
+    // ===== 8. RICE DISHES =====
+    {
+      "name": "Jeera Rice",
+      "image": "jeera-rice.jpg",
+      "description": "Fragrant basmati rice tempered with cumin.",
+      "ingredients": [
+        "1 cup basmati rice",
+        "1 tsp cumin seeds",
+        "2 tbsp ghee",
+        "1 bay leaf"
+      ],
+      "instructions": [
+        "Cook rice until 70% done. Drain.",
+        "Heat ghee, temper cumin and bay leaf. Add rice, cover for 10 mins."
+      ]
+    },
+    {
+      "name": "Vegetable Pulao",
+      "image": "veg-pulao.jpg",
+      "description": "One-pot spiced rice with mixed vegetables.",
+      "ingredients": [
+        "1 cup basmati rice",
+        "1/2 cup mixed veggies (carrots, peas, beans)",
+        "1 tsp garam masala",
+        "2 cloves, 1 cardamom, 1 cinnamon stick"
+      ],
+      "instructions": [
+        "Sauté whole spices in ghee. Add veggies and rice.",
+        "Add water (1:2 ratio), cook covered for 15 mins."
+      ]
+    },
+    {
+      "name": "Lemon Rice",
+      "image": "lemon-rice.jpg",
+      "description": "Tangy South Indian rice with turmeric and peanuts.",
+      "ingredients": [
+        "1 cup cooked rice",
+        "1 lemon (juiced)",
+        "1 tsp turmeric",
+        "1 tbsp peanuts",
+        "1 tsp mustard seeds"
+      ],
+      "instructions": [
+        "Temper mustard seeds and peanuts in oil.",
+        "Add turmeric, rice, and lemon juice. Toss gently."
+      ]
+    },
+    {
+      "name": "Tomato Rice",
+      "image": "tomato-rice.jpg",
+      "description": "Spicy tomato-infused rice with curry leaves.",
+      "ingredients": [
+        "1 cup rice",
+        "2 tomatoes (pureed)",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp red chili powder",
+        "10 curry leaves"
+      ],
+      "instructions": [
+        "Sauté ginger-garlic paste, add tomato puree and spices.",
+        "Add rice and water. Cook until done."
+      ]
+    },
+    {
+      "name": "Coconut Rice",
+      "image": "coconut-rice.jpg",
+      "description": "Aromatic rice with fresh coconut and cashews.",
+      "ingredients": [
+        "1 cup rice",
+        "1/2 cup grated coconut",
+        "1 tbsp cashews",
+        "1 tsp mustard seeds",
+        "2 dried red chilies"
+      ],
+      "instructions": [
+        "Cook rice. Temper mustard seeds, chilies, and cashews.",
+        "Mix with rice and coconut. Serve warm."
+      ]
+    },
+
+    // ===== 9. BEVERAGES =====
+    {
+      "name": "Masala Chai",
+      "image": "masala-chai.jpg",
+      "description": "Spiced milk tea with ginger and cardamom.",
+      "ingredients": [
+        "1 cup water",
+        "1 cup milk",
+        "2 tsp tea leaves",
+        "1 inch ginger (crushed)",
+        "2 cardamom pods"
+      ],
+      "instructions": [
+        "Boil water with ginger and cardamom.",
+        "Add tea leaves, then milk. Simmer for 2 mins.",
+        "Strain and serve."
+      ]
+    },
+    {
+      "name": "Lassi",
+      "image": "lassi.jpg",
+      "description": "Creamy yogurt drink, sweet or salty.",
+      "ingredients": [
+        "1 cup yogurt",
+        "1/2 cup water",
+        "1 tbsp sugar (or salt)",
+        "1/4 tsp cardamom powder"
+      ],
+      "instructions": [
+        "Blend all ingredients until frothy.",
+        "Serve chilled with ice."
+      ]
+    },
+    {
+      "name": "Jaljeera",
+      "image": "jaljeera.jpg",
+      "description": "Tangy cumin-mint digestive drink.",
+      "ingredients": [
+        "1 tbsp cumin powder",
+        "1/2 cup mint leaves",
+        "1 tsp black salt",
+        "1/2 tsp amchur",
+        "4 cups water"
+      ],
+      "instructions": [
+        "Blend mint, cumin, and spices with water.",
+        "Strain and chill. Serve with ice."
+      ]
+    },
+    {
+      "name": "Thandai",
+      "image": "thandai.jpg",
+      "description": "Nutty milk drink with saffron and spices.",
+      "ingredients": [
+        "1 liter milk",
+        "10 almonds",
+        "10 pistachios",
+        "1 tsp poppy seeds",
+        "1/2 tsp saffron"
+      ],
+      "instructions": [
+        "Soak nuts and seeds for 2 hours. Blend with milk.",
+        "Strain, add saffron. Chill before serving."
+      ]
+    },
+    {
+      "name": "Filter Coffee",
+      "image": "filter-coffee.jpg",
+      "description": "Strong South Indian decoction coffee with frothy milk.",
+      "ingredients": [
+        "2 tbsp coffee powder",
+        "1 cup water",
+        "1 cup hot milk",
+        "Sugar to taste"
+      ],
+      "instructions": [
+        "Brew coffee in filter. Mix 1/4 decoction with hot milk and sugar.",
+        "Pour between cups to create froth."
+      ]
+    },
+
+    // ===== 10. SNACKS =====
+    {
+      "name": "Samosa",
+      "image": "samosa.jpg",
+      "description": "Crispy pastry stuffed with spiced potatoes.",
+      "ingredients": [
+        "2 cups maida (flour)",
+        "3 potatoes (boiled & mashed)",
+        "1 tsp cumin seeds",
+        "1 tsp coriander powder",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Knead stiff dough with flour and oil. Rest for 30 mins.",
+        "Stuff with spiced potato mixture. Shape into cones.",
+        "Deep-fry until golden."
+      ]
+    },
+    {
+      "name": "Kachori",
+      "image": "kachori.jpg",
+      "description": "Deep-fried flaky pastry with lentil filling.",
+      "ingredients": [
+        "2 cups maida",
+        "1/2 cup urad dal (soaked)",
+        "1 tsp fennel seeds",
+        "1 tsp red chili powder",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Grind dal with spices into coarse paste.",
+        "Roll dough, stuff with paste, flatten. Deep-fry."
+      ]
+    },
+    {
+      "name": "Pakora",
+      "image": "pakora.jpg",
+      "description": "Vegetable fritters in chickpea batter.",
+      "ingredients": [
+        "1 cup gram flour",
+        "1 onion (sliced)",
+        "1 tsp ajwain",
+        "1/2 tsp turmeric",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Mix flour, spices, and water into thick batter.",
+        "Dip veggies, deep-fry until crisp."
+      ]
+    },
+    {
+      "name": "Mirchi Bajji",
+      "image": "mirchi-bajji.jpg",
+      "description": "Stuffed chili fritters with tangy chutney.",
+      "ingredients": [
+        "6 large green chilies",
+        "1 cup gram flour",
+        "1/2 tsp baking soda",
+        "1 tsp cumin seeds",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Slit chilies, stuff with spice mix.",
+        "Dip in batter, deep-fry until golden."
+      ]
+    },
+    {
+      "name": "Chaat Papdi",
+      "image": "chaat-papdi.jpg",
+      "description": "Crisp wheat crackers topped with chutneys and yogurt.",
+      "ingredients": [
+        "1 cup whole wheat flour",
+        "1/2 cup yogurt",
+        "1/2 cup tamarind chutney",
+        "1/2 cup sev",
+        "1 tsp chaat masala"
+      ],
+      "instructions": [
+        "Roll dough thin, cut circles, deep-fry until crisp.",
+        "Top with yogurt, chutneys, sev, and spices."
+      ]
+    }
+  ]
+    
 }
 
