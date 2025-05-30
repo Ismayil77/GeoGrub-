@@ -1,265 +1,1828 @@
 {
-    "Italy": [
-        {
-            "name": "Pizza Margherita",
-            "image": "italy-pizza.jpg",
-            "description": "Classic Neapolitan pizza with simple, fresh ingredients.",
-            "ingredients": [
-                "Pizza dough",
-                "San Marzano tomato sauce",
-                "Fresh mozzarella",
-                "Fresh basil",
-                "Olive oil",
-                "Salt"
-            ],
-            "instructions": [
-                "Preheat oven to highest temperature with pizza stone",
-                "Roll out dough thinly",
-                "Spread tomato sauce, add torn mozzarella",
-                "Bake for 60-90 seconds until crust is puffed",
-                "Add fresh basil leaves and drizzle with olive oil"
-            ]
-        },
-        {
-            "name": "Spaghetti Carbonara",
-            "image": "italy-carbonara.jpg",
-            "description": "Creamy Roman pasta dish with eggs, cheese, and pancetta.",
-            "ingredients": [
-                "Spaghetti",
-                "Pancetta or guanciale",
-                "Eggs",
-                "Pecorino Romano cheese",
-                "Black pepper",
-                "Salt"
-            ],
-            "instructions": [
-                "Cook pasta al dente",
-                "Fry pancetta until crispy",
-                "Whisk eggs with grated cheese and pepper",
-                "Combine hot pasta with pancetta, then mix in egg mixture",
-                "Serve immediately with extra cheese and pepper"
-            ]
-        },
-        {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        },
-         {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        },
-         {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        },
-         {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        },
-         {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        },
-         {
-            "name": "Tiramisu",
-            "image": "italy-tiramisu.jpg",
-            "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
-            "ingredients": [
-                "Ladyfinger biscuits",
-                "Espresso coffee",
-                "Mascarpone cheese",
-                "Eggs",
-                "Sugar",
-                "Cocoa powder"
-            ],
-            "instructions": [
-                "Brew strong coffee and let cool",
-                "Make zabaglione with egg yolks and sugar",
-                "Mix with mascarpone",
-                "Dip ladyfingers briefly in coffee",
-                "Layer with cream mixture",
-                "Dust with cocoa and chill 4+ hours"
-            ]
-        }
-    ],
-    "Japan": [
-        {
-            "name": "Sushi",
-            "image": "japan-sushi.jpg",
-            "description": "Vinegared rice combined with various ingredients, primarily seafood.",
-            "ingredients": [
-                "Sushi rice",
-                "Rice vinegar",
-                "Sugar",
-                "Salt",
-                "Fresh fish (salmon, tuna, etc.)",
-                "Nori (seaweed sheets)",
-                "Wasabi",
-                "Soy sauce"
-            ],
-            "instructions": [
-                "Prepare sushi rice with vinegar mixture",
-                "Slice fish into thin pieces",
-                "For nigiri: form rice balls and top with fish",
-                "For maki: spread rice on nori, add fillings, and roll",
-                "Serve with wasabi and soy sauce"
-            ]
-        },
-        {
-            "name": "Ramen",
-            "image": "japan-ramen.jpg",
-            "description": "Japanese noodle soup with rich broth and various toppings.",
-            "ingredients": [
-                "Ramen noodles",
-                "Pork or chicken bones (for broth)",
-                "Soy sauce or miso",
-                "Chashu pork",
-                "Soft-boiled eggs",
-                "Green onions",
-                "Nori",
-                "Bamboo shoots"
-            ],
-            "instructions": [
-                "Simmer bones for broth (6+ hours)",
-                "Cook noodles separately",
-                "Season broth with soy sauce or miso",
-                "Assemble bowl with noodles, broth, and toppings",
-                "Add soft-boiled egg and nori last"
-            ]
-        }
-    ],
-    "Mexico": [
-        {
-            "name": "Tacos al Pastor",
-            "image": "mexico-tacos.jpg",
-            "description": "Marinated pork tacos with pineapple, a Mexican adaptation of shawarma.",
-            "ingredients": [
-                "1kg pork shoulder",
-                "3-4 dried guajillo chilies",
-                "1/4 cup achiote paste",
-                "1 cup pineapple juice",
-                "1 onion",
-                "Cilantro",
-                "Corn tortillas",
-                "Pineapple slices"
-            ],
-            "instructions": [
-                "Blend chilies, achiote, and pineapple juice for marinade",
-                "Marinate pork for 4+ hours",
-                "Grill or roast pork on vertical spit if possible",
-                "Slice thinly and serve on tortillas",
-                "Top with onions, cilantro, and pineapple"
-            ]
-        },
-        {
-            "name": "Mole Poblano",
-            "image": "mexico-mole.jpg",
-            "description": "Complex sauce with chocolate and chilies, served with chicken.",
-            "ingredients": [
-                "Chicken",
-                "Dried chilies (ancho, mulato, pasilla)",
-                "Tomatoes",
-                "Onion",
-                "Garlic",
-                "Almonds",
-                "Sesame seeds",
-                "Raisins",
-                "Cinnamon",
-                "Chocolate",
-                "Tortillas"
-            ],
-            "instructions": [
-                "Toast and rehydrate chilies",
-                "Blend with other ingredients to make sauce",
-                "Simmer sauce for 1-2 hours",
-                "Cook chicken separately",
-                "Serve chicken smothered in mole with rice and tortillas"
-            ]
-        }
-    ]
+   "Italy": [
+    {
+        "name": "Pizza Margherita",
+        "image": "italy-pizza.jpg",
+        "description": "Classic Neapolitan pizza with simple, fresh ingredients.",
+        "ingredients": [
+            "Pizza dough",
+            "San Marzano tomato sauce",
+            "Fresh mozzarella",
+            "Fresh basil",
+            "Olive oil",
+            "Salt"
+        ],
+        "instructions": [
+            "Preheat oven to highest temperature with pizza stone",
+            "Roll out dough thinly",
+            "Spread tomato sauce, add torn mozzarella",
+            "Bake for 60-90 seconds until crust is puffed",
+            "Add fresh basil leaves and drizzle with olive oil"
+        ]
+    },
+    {
+        "name": "Spaghetti Carbonara",
+        "image": "italy-carbonara.jpg",
+        "description": "Creamy Roman pasta dish with eggs, cheese, and pancetta.",
+        "ingredients": [
+            "Spaghetti",
+            "Pancetta or guanciale",
+            "Eggs",
+            "Pecorino Romano cheese",
+            "Black pepper",
+            "Salt"
+        ],
+        "instructions": [
+            "Cook pasta al dente",
+            "Fry pancetta until crispy",
+            "Whisk eggs with grated cheese and pepper",
+            "Combine hot pasta with pancetta, then mix in egg mixture",
+            "Serve immediately with extra cheese and pepper"
+        ]
+    },
+    {
+        "name": "Tiramisu",
+        "image": "italy-tiramisu.jpg",
+        "description": "Classic Italian dessert with coffee-soaked ladyfingers.",
+        "ingredients": [
+            "Ladyfinger biscuits",
+            "Espresso coffee",
+            "Mascarpone cheese",
+            "Eggs",
+            "Sugar",
+            "Cocoa powder"
+        ],
+        "instructions": [
+            "Brew strong coffee and let cool",
+            "Make zabaglione with egg yolks and sugar",
+            "Mix with mascarpone",
+            "Dip ladyfingers briefly in coffee",
+            "Layer with cream mixture",
+            "Dust with cocoa and chill 4+ hours"
+        ]
+    },
+    {
+        "name": "Risotto alla Milanese",
+        "image": "italy-risotto.jpg",
+        "description": "Creamy saffron-infused risotto from Milan.",
+        "ingredients": [
+            "Arborio rice",
+            "Beef or chicken stock",
+            "Saffron",
+            "White wine",
+            "Shallots",
+            "Butter",
+            "Parmigiano Reggiano"
+        ],
+        "instructions": [
+            "Toast rice in butter with shallots",
+            "Deglaze with white wine",
+            "Add warm stock gradually while stirring",
+            "Incorporate saffron halfway through",
+            "Finish with butter and cheese"
+        ]
+    },
+    {
+        "name": "Osso Buco",
+        "image": "italy-ossobuco.jpg",
+        "description": "Milanese braised veal shanks with gremolata.",
+        "ingredients": [
+            "Veal shanks",
+            "White wine",
+            "Beef stock",
+            "Carrots",
+            "Celery",
+            "Onions",
+            "Tomato paste",
+            "Gremolata (lemon zest, garlic, parsley)"
+        ],
+        "instructions": [
+            "Brown veal shanks thoroughly",
+            "Sauté vegetables, add tomato paste",
+            "Deglaze with wine, add stock",
+            "Braise covered for 2-3 hours",
+            "Top with gremolata before serving"
+        ]
+    },
+    {
+        "name": "Minestrone",
+        "image": "italy-minestrone.jpg",
+        "description": "Hearty vegetable soup with pasta or rice.",
+        "ingredients": [
+            "Mixed seasonal vegetables",
+            "Cannellini beans",
+            "Pasta or rice",
+            "Tomatoes",
+            "Garlic",
+            "Onion",
+            "Olive oil",
+            "Parmesan rind (optional)"
+        ],
+        "instructions": [
+            "Sauté garlic and onions in olive oil",
+            "Add chopped vegetables by cooking time",
+            "Add tomatoes and beans with their liquid",
+            "Simmer with Parmesan rind if using",
+            "Add pasta/rice 10 minutes before serving"
+        ]
+    },
+    {
+        "name": "Bruschetta",
+        "image": "italy-bruschetta.jpg",
+        "description": "Toasted bread topped with fresh tomatoes and basil.",
+        "ingredients": [
+            "Crusty bread",
+            "Ripe tomatoes",
+            "Fresh basil",
+            "Garlic",
+            "Extra virgin olive oil",
+            "Salt"
+        ],
+        "instructions": [
+            "Toast bread slices until golden",
+            "Rub with garlic clove",
+            "Top with diced tomatoes and torn basil",
+            "Drizzle with olive oil and salt",
+            "Serve immediately"
+        ]
+    },
+    {
+        "name": "Focaccia",
+        "image": "italy-focaccia.jpg",
+        "description": "Fluffy olive oil-rich bread from Liguria.",
+        "ingredients": [
+            "Bread flour",
+            "Olive oil",
+            "Salt",
+            "Yeast",
+            "Water",
+            "Rosemary (optional)"
+        ],
+        "instructions": [
+            "Make dough and let rise",
+            "Press into oiled baking pan",
+            "Dimple surface with fingers",
+            "Drizzle with more olive oil",
+            "Bake until golden"
+        ]
+    },
+    {
+        "name": "Panna Cotta",
+        "image": "italy-pannacotta.jpg",
+        "description": "Silky cooked cream dessert from Piedmont.",
+        "ingredients": [
+            "Heavy cream",
+            "Sugar",
+            "Vanilla",
+            "Gelatin",
+            "Berries for serving"
+        ],
+        "instructions": [
+            "Bloom gelatin in cold water",
+            "Heat cream with sugar and vanilla",
+            "Dissolve gelatin in warm cream",
+            "Pour into molds and chill",
+            "Unmold and serve with berries"
+        ]
+    },
+    {
+        "name": "Lasagna alla Bolognese",
+        "image": "italy-lasagna.jpg",
+        "description": "Layered pasta with rich meat sauce and béchamel.",
+        "ingredients": [
+            "Lasagna noodles",
+            "Bolognese sauce",
+            "Béchamel sauce",
+            "Parmigiano Reggiano",
+            "Mozzarella"
+        ],
+        "instructions": [
+            "Prepare bolognese and béchamel sauces",
+            "Par-cook lasagna noodles",
+            "Layer noodles with sauces and cheeses",
+            "Finish with béchamel and Parmesan",
+            "Bake until bubbly and golden"
+        ]
+    },
+    {
+        "name": "Gnocchi alla Sorrentina",
+        "image": "italy-gnocchi.jpg",
+        "description": "Pillowy potato dumplings baked with tomato and mozzarella.",
+        "ingredients": [
+            "Potatoes",
+            "Flour",
+            "Egg",
+            "Tomato sauce",
+            "Mozzarella",
+            "Basil"
+        ],
+        "instructions": [
+            "Boil and rice potatoes",
+            "Mix with flour and egg to form dough",
+            "Shape into gnocchi",
+            "Boil briefly until they float",
+            "Bake with tomato sauce and mozzarella"
+        ]
+    },
+    {
+        "name": "Ribolitta",
+        "image": "italy-ribolitta.jpg",
+        "description": "Tuscan bread and vegetable soup.",
+        "ingredients": [
+            "Cannellini beans",
+            "Tuscan kale",
+            "Stale bread",
+            "Vegetables (carrots, celery, onion)",
+            "Tomatoes",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Sauté vegetables in olive oil",
+            "Add beans and cooking liquid",
+            "Simmer with greens",
+            "Layer with bread in bowls",
+            "Let rest before serving"
+        ]
+    },
+    {
+        "name": "Saltimbocca alla Romana",
+        "image": "italy-saltimbocca.jpg",
+        "description": "Roman veal cutlets with prosciutto and sage.",
+        "ingredients": [
+            "Veal cutlets",
+            "Prosciutto",
+            "Fresh sage",
+            "White wine",
+            "Butter"
+        ],
+        "instructions": [
+            "Top veal with prosciutto and sage",
+            "Secure with toothpicks",
+            "Sauté in butter until golden",
+            "Deglaze with white wine",
+            "Reduce sauce and serve"
+        ]
+    },
+    {
+        "name": "Arancini",
+        "image": "italy-arancini.jpg",
+        "description": "Sicilian fried rice balls with various fillings.",
+        "ingredients": [
+            "Arborio rice",
+            "Saffron",
+            "Mozzarella",
+            "Eggs",
+            "Breadcrumbs",
+            "Ragù (optional)"
+        ],
+        "instructions": [
+            "Cook risotto with saffron, let cool",
+            "Form balls with mozzarella/ragù centers",
+            "Coat in egg and breadcrumbs",
+            "Deep fry until golden",
+            "Drain on paper towels"
+        ]
+    },
+    {
+        "name": "Cannoli",
+        "image": "italy-cannoli.jpg",
+        "description": "Crisp Sicilian pastry tubes with sweet ricotta filling.",
+        "ingredients": [
+            "Flour",
+            "Marsala wine",
+            "Ricotta",
+            "Powdered sugar",
+            "Chocolate chips",
+            "Candied fruit"
+        ],
+        "instructions": [
+            "Make dough with flour and Marsala",
+            "Roll thin and wrap around tubes",
+            "Fry until golden",
+            "Fill with sweetened ricotta",
+            "Decorate ends with toppings"
+        ]
+    },
+    {
+        "name": "Pesto alla Genovese",
+        "image": "italy-pesto.jpg",
+        "description": "Ligurian basil sauce with pine nuts and cheese.",
+        "ingredients": [
+            "Fresh basil",
+            "Pine nuts",
+            "Parmigiano Reggiano",
+            "Pecorino",
+            "Garlic",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Crush garlic with pine nuts",
+            "Add basil leaves and salt",
+            "Pound to paste in mortar",
+            "Gradually incorporate cheeses",
+            "Stream in olive oil while mixing"
+        ]
+    },
+    {
+        "name": "Bistecca alla Fiorentina",
+        "image": "italy-bistecca.jpg",
+        "description": "Florentine-style T-bone steak.",
+        "ingredients": [
+            "T-bone steak (Chianina beef)",
+            "Olive oil",
+            "Rosemary",
+            "Salt",
+            "Black pepper"
+        ],
+        "instructions": [
+            "Bring steak to room temperature",
+            "Season heavily with salt",
+            "Grill over very high heat",
+            "Rest before serving",
+            "Finish with olive oil and rosemary"
+        ]
+    },
+    {
+        "name": "Polenta",
+        "image": "italy-polenta.jpg",
+        "description": "Northern Italian cornmeal staple.",
+        "ingredients": [
+            "Cornmeal",
+            "Water or stock",
+            "Butter",
+            "Parmesan",
+            "Salt"
+        ],
+        "instructions": [
+            "Bring liquid to boil",
+            "Slowly whisk in cornmeal",
+            "Stir constantly until thickened",
+            "Cook on low for 30+ minutes",
+            "Stir in butter and cheese"
+        ]
+    },
+    {
+        "name": "Caponata",
+        "image": "italy-caponata.jpg",
+        "description": "Sicilian sweet-and-sour eggplant relish.",
+        "ingredients": [
+            "Eggplant",
+            "Celery",
+            "Tomatoes",
+            "Green olives",
+            "Capers",
+            "Vinegar",
+            "Sugar"
+        ],
+        "instructions": [
+            "Fry eggplant until golden",
+            "Blanch celery",
+            "Make sweet-sour tomato sauce",
+            "Combine all ingredients",
+            "Let flavors meld before serving"
+        ]
+    },
+    {
+        "name": "Tortellini in Brodo",
+        "image": "italy-tortellini.jpg",
+        "description": "Emilia-Romagna's stuffed pasta in broth.",
+        "ingredients": [
+            "Fresh tortellini",
+            "Chicken or beef broth",
+            "Parmesan",
+            "Nutmeg",
+            "Prosciutto",
+            "Pork loin"
+        ],
+        "instructions": [
+            "Make filling with meats and cheese",
+            "Form tortellini around filling",
+            "Simmer in rich homemade broth",
+            "Serve with grated Parmesan"
+        ]
+    },
+    {
+        "name": "Cacciucco",
+        "image": "italy-cacciucco.jpg",
+        "description": "Tuscan seafood stew from Livorno.",
+        "ingredients": [
+            "Mixed seafood",
+            "Tomatoes",
+            "Garlic",
+            "Chili pepper",
+            "Red wine",
+            "Bread"
+        ],
+        "instructions": [
+            "Sauté garlic and chili",
+            "Add wine and reduce",
+            "Add tomatoes and fish stock",
+            "Cook seafood in order of density",
+            "Serve over toasted bread"
+        ]
+    },
+    {
+        "name": "Panettone",
+        "image": "italy-panettone.jpg",
+        "description": "Milanese Christmas sweet bread.",
+        "ingredients": [
+            "Flour",
+            "Eggs",
+            "Butter",
+            "Candied fruit",
+            "Raisins",
+            "Yeast"
+        ],
+        "instructions": [
+            "Make rich dough with long rise",
+            "Incorporate fruits",
+            "Proof in special paper molds",
+            "Bake upside down to maintain shape",
+            "Cool hanging upside down"
+        ]
+    },
+    {
+        "name": "Amatriciana",
+        "image": "italy-amatriciana.jpg",
+        "description": "Roman pasta with guanciale and tomato.",
+        "ingredients": [
+            "Bucatini",
+            "Guanciale",
+            "Pecorino",
+            "Tomatoes",
+            "Red pepper flakes"
+        ],
+        "instructions": [
+            "Render guanciale fat",
+            "Add chili flakes",
+            "Cook tomatoes briefly",
+            "Toss with al dente pasta",
+            "Finish with pecorino"
+        ]
+    },
+    {
+        "name": "Cotoletta alla Milanese",
+        "image": "italy-cotoletta.jpg",
+        "description": "Milanese breaded veal cutlet.",
+        "ingredients": [
+            "Veal chop",
+            "Breadcrumbs",
+            "Egg",
+            "Butter",
+            "Lemon"
+        ],
+        "instructions": [
+            "Pound veal thin",
+            "Dredge in egg and breadcrumbs",
+            "Pan-fry in butter",
+            "Serve with lemon wedge"
+        ]
+    },
+    {
+        "name": "Zabaglione",
+        "image": "italy-zabaglione.jpg",
+        "description": "Light foamy dessert from egg yolks and Marsala.",
+        "ingredients": [
+            "Egg yolks",
+            "Sugar",
+            "Marsala wine"
+        ],
+        "instructions": [
+            "Whisk yolks and sugar over bain-marie",
+            "Gradually add Marsala",
+            "Whip until thick and foamy",
+            "Serve warm with berries"
+        ]
+    },
+    {
+        "name": "Pappa al Pomodoro",
+        "image": "italy-pappa.jpg",
+        "description": "Tuscan tomato and bread soup.",
+        "ingredients": [
+            "Stale bread",
+            "Tomatoes",
+            "Garlic",
+            "Basil",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Sauté garlic in olive oil",
+            "Add tomatoes and cook down",
+            "Add bread and water",
+            "Cook until thick porridge",
+            "Finish with fresh basil"
+        ]
+    },
+    {
+        "name": "Fritto Misto",
+        "image": "italy-fritto.jpg",
+        "description": "Mixed fried seafood and vegetables.",
+        "ingredients": [
+            "Mixed seafood",
+            "Artichokes",
+            "Zucchini",
+            "Flour",
+            "Sparkling water",
+            "Lemon"
+        ],
+        "instructions": [
+            "Prepare light batter",
+            "Dredge ingredients",
+            "Fry in hot oil",
+            "Drain on paper",
+            "Serve with lemon"
+        ]
+    },
+    {
+        "name": "Affogato",
+        "image": "italy-affogato.jpg",
+        "description": "Simple dessert of gelato 'drowned' in espresso.",
+        "ingredients": [
+            "Vanilla gelato",
+            "Fresh espresso",
+            "Optional liqueur"
+        ],
+        "instructions": [
+            "Scoop gelato into glass",
+            "Pour hot espresso over",
+            "Add optional splash of liqueur",
+            "Serve immediately"
+        ]
+    },
+    {
+        "name": "Stracciatella",
+        "image": "italy-stracciatella.jpg",
+        "description": "Roman egg drop soup.",
+        "ingredients": [
+            "Chicken broth",
+            "Eggs",
+            "Parmesan",
+            "Nutmeg",
+            "Semolina (optional)"
+        ],
+        "instructions": [
+            "Bring broth to simmer",
+            "Whisk eggs with cheese",
+            "Slowly drizzle into broth while stirring",
+            "Cook until threads form",
+            "Season with nutmeg"
+        ]
+    },
+    {
+        "name": "Panforte",
+        "image": "italy-panforte.jpg",
+        "description": "Sienese dense fruitcake with spices.",
+        "ingredients": [
+            "Dried fruits",
+            "Nuts",
+            "Honey",
+            "Spices",
+            "Flour"
+        ],
+        "instructions": [
+            "Combine fruits and nuts",
+            "Cook honey and sugar syrup",
+            "Mix all ingredients",
+            "Press into lined pan",
+            "Bake at low temperature"
+        ]
+    },
+    {
+        "name": "Bucatini all'Amatriciana",
+        "image": "italy-bucatini.jpg",
+        "description": "Roman pasta with spicy tomato sauce and guanciale.",
+        "ingredients": [
+            "Bucatini",
+            "Guanciale",
+            "Pecorino Romano",
+            "Tomatoes",
+            "Chili flakes"
+        ],
+        "instructions": [
+            "Render guanciale fat",
+            "Add chili flakes",
+            "Cook tomatoes briefly",
+            "Toss with al dente pasta",
+            "Finish with grated pecorino"
+        ]
+    },
+    {
+        "name": "Sfogliatella",
+        "image": "italy-sfogliatella.jpg",
+        "description": "Neapolitan layered pastry with ricotta filling.",
+        "ingredients": [
+            "Flour",
+            "Lard",
+            "Ricotta",
+            "Candied citrus",
+            "Sugar"
+        ],
+        "instructions": [
+            "Make layered dough with lard",
+            "Prepare sweet ricotta filling",
+            "Shape into lobster-tail forms",
+            "Bake until crisp and golden"
+        ]
+    },
+    {
+        "name": "Cicchetti",
+        "image": "italy-cicchetti.jpg",
+        "description": "Venetian small plates similar to tapas.",
+        "ingredients": [
+            "Various seafood",
+            "Polenta",
+            "Crostini",
+            "Vegetables",
+            "Cheeses"
+        ],
+        "instructions": [
+            "Prepare small bites",
+            "Arrange on platters",
+            "Serve with spritz or wine",
+            "Enjoy as appetizers"
+        ]
+    }
+],
+   "Japan": [
+    {
+        "name": "Sushi",
+        "image": "japan-sushi.jpg",
+        "description": "Vinegared rice combined with various ingredients, primarily seafood.",
+        "ingredients": [
+            "Sushi rice",
+            "Rice vinegar",
+            "Sugar",
+            "Salt",
+            "Fresh fish (salmon, tuna, etc.)",
+            "Nori (seaweed sheets)",
+            "Wasabi",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Prepare sushi rice with vinegar mixture",
+            "Slice fish into thin pieces",
+            "For nigiri: form rice balls and top with fish",
+            "For maki: spread rice on nori, add fillings, and roll",
+            "Serve with wasabi and soy sauce"
+        ]
+    },
+    {
+        "name": "Ramen",
+        "image": "japan-ramen.jpg",
+        "description": "Japanese noodle soup with rich broth and various toppings.",
+        "ingredients": [
+            "Ramen noodles",
+            "Pork or chicken bones (for broth)",
+            "Soy sauce or miso",
+            "Chashu pork",
+            "Soft-boiled eggs",
+            "Green onions",
+            "Nori",
+            "Bamboo shoots"
+        ],
+        "instructions": [
+            "Simmer bones for broth (6+ hours)",
+            "Cook noodles separately",
+            "Season broth with soy sauce or miso",
+            "Assemble bowl with noodles, broth, and toppings",
+            "Add soft-boiled egg and nori last"
+        ]
+    },
+    {
+        "name": "Tempura",
+        "image": "japan-tempura.jpg",
+        "description": "Lightly battered and deep-fried seafood/vegetables.",
+        "ingredients": [
+            "Shrimp/vegetables (kabocha, eggplant)",
+            "Cake flour",
+            "Ice water",
+            "Egg yolk",
+            "Dipping sauce (tentsuyu)"
+        ],
+        "instructions": [
+            "Keep batter ice-cold",
+            "Coat ingredients lightly",
+            "Fry at 170-180°C until crisp",
+            "Drain on rack",
+            "Serve with grated daikon"
+        ]
+    },
+    {
+        "name": "Tonkatsu",
+        "image": "japan-tonkatsu.jpg",
+        "description": "Breaded and deep-fried pork cutlet.",
+        "ingredients": [
+            "Pork loin",
+            "Panko breadcrumbs",
+            "Flour",
+            "Egg",
+            "Tonkatsu sauce",
+            "Shredded cabbage"
+        ],
+        "instructions": [
+            "Pound pork to even thickness",
+            "Dredge in flour, egg, then panko",
+            "Deep-fry until golden",
+            "Rest before slicing",
+            "Serve with sauce and cabbage"
+        ]
+    },
+    {
+        "name": "Okonomiyaki",
+        "image": "japan-okonomiyaki.jpg",
+        "description": "Savory Osaka-style cabbage pancake.",
+        "ingredients": [
+            "Flour",
+            "Dashi",
+            "Eggs",
+            "Cabbage",
+            "Pork belly",
+            "Okonomiyaki sauce",
+            "Bonito flakes"
+        ],
+        "instructions": [
+            "Mix batter with shredded cabbage",
+            "Cook on griddle with pork topping",
+            "Flip once",
+            "Brush with sauce",
+            "Add bonito flakes that 'dance' from heat"
+        ]
+    },
+    {
+        "name": "Takoyaki",
+        "image": "japan-takoyaki.jpg",
+        "description": "Osaka's octopus-filled dough balls.",
+        "ingredients": [
+            "Octopus pieces",
+            "Takoyaki flour",
+            "Dashi",
+            "Tenkasu (tempura scraps)",
+            "Takoyaki sauce",
+            "Japanese mayo"
+        ],
+        "instructions": [
+            "Heat special takoyaki pan",
+            "Pour batter with octopus pieces",
+            "Turn constantly with pick to form spheres",
+            "Cook until crispy outside",
+            "Dress with sauce and mayo"
+        ]
+    },
+    {
+        "name": "Soba",
+        "image": "japan-soba.jpg",
+        "description": "Buckwheat noodles served hot or cold.",
+        "ingredients": [
+            "Soba noodles",
+            "Dashi-based dipping sauce",
+            "Wasabi",
+            "Green onions",
+            "Nori strips"
+        ],
+        "instructions": [
+            "Cook noodles (al dente)",
+            "Rinse under cold water",
+            "Serve chilled with tsuyu (for zaru soba)",
+            "Or in hot dashi broth (kake soba)",
+            "Add garnishes"
+        ]
+    },
+    {
+        "name": "Udon",
+        "image": "japan-udon.jpg",
+        "description": "Thick wheat flour noodles in broth.",
+        "ingredients": [
+            "Udon noodles",
+            "Dashi broth",
+            "Mirin",
+            "Soy sauce",
+            "Tempura (for topping)",
+            "Green onions"
+        ],
+        "instructions": [
+            "Cook udon until chewy",
+            "Heat seasoned broth",
+            "Combine noodles and broth",
+            "Top with tempura or meat",
+            "Garnish with scallions"
+        ]
+    },
+    {
+        "name": "Yakitori",
+        "image": "japan-yakitori.jpg",
+        "description": "Grilled chicken skewers with tare sauce.",
+        "ingredients": [
+            "Chicken (thigh, skin, liver)",
+            "Tare sauce (soy, mirin, sake)",
+            "Scallions",
+            "Shichimi pepper"
+        ],
+        "instructions": [
+            "Skewer chicken pieces",
+            "Grill over binchotan charcoal",
+            "Brush with tare repeatedly",
+            "Cook until glazed",
+            "Sprinkle shichimi"
+        ]
+    },
+    {
+        "name": "Sukiyaki",
+        "image": "japan-sukiyaki.jpg",
+        "description": "Hot pot with thinly sliced beef and vegetables.",
+        "ingredients": [
+            "Wagyu beef",
+            "Tofu",
+            "Shirataki noodles",
+            "Warishita sauce (soy, sugar, mirin)",
+            "Raw egg (for dipping)"
+        ],
+        "instructions": [
+            "Melt beef fat in pot",
+            "Cook meat with sugar and soy",
+            "Add vegetables and broth",
+            "Simmer at table",
+            "Dip ingredients in beaten egg"
+        ]
+    },
+    {
+        "name": "Shabu-Shabu",
+        "image": "japan-shabushabu.jpg",
+        "description": "Thinly sliced meat swished in hot broth.",
+        "ingredients": [
+            "Premium beef slices",
+            "Kombu dashi",
+            "Ponzu sauce",
+            "Sesame sauce",
+            "Napa cabbage"
+        ],
+        "instructions": [
+            "Heat kombu broth",
+            "Swish meat briefly in broth",
+            "Dip in ponzu or goma dare",
+            "Cook vegetables after meat",
+            "Finish with zosui (rice porridge)"
+        ]
+    },
+    {
+        "name": "Oden",
+        "image": "japan-oden.jpg",
+        "description": "Winter comfort stew with various ingredients.",
+        "ingredients": [
+            "Daikon",
+            "Konnyaku",
+            "Boiled eggs",
+            "Fish cakes",
+            "Kombu dashi"
+        ],
+        "instructions": [
+            "Simmer dashi for hours",
+            "Add ingredients by cooking time",
+            "Cook until flavors meld",
+            "Serve with karashi mustard",
+            "Replenish broth as needed"
+        ]
+    },
+    {
+        "name": "Chawanmushi",
+        "image": "japan-chawanmushi.jpg",
+        "description": "Savory egg custard with delicate toppings.",
+        "ingredients": [
+            "Eggs",
+            "Dashi",
+            "Chicken",
+            "Shiitake",
+            "Ginkgo nuts"
+        ],
+        "instructions": [
+            "Strain egg-dashi mixture",
+            "Place ingredients in cups",
+            "Steam at low heat",
+            "Check doneness with toothpick",
+            "Serve in lidded cups"
+        ]
+    },
+    {
+        "name": "Miso Soup",
+        "image": "japan-misosoup.jpg",
+        "description": "Traditional fermented soybean soup.",
+        "ingredients": [
+            "Dashi",
+            "Miso paste",
+            "Tofu",
+            "Wakame seaweed",
+            "Green onions"
+        ],
+        "instructions": [
+            "Heat dashi (don't boil)",
+            "Dissolve miso in ladle",
+            "Add tofu and wakame",
+            "Simmer briefly",
+            "Garnish with scallions"
+        ]
+    },
+    {
+        "name": "Kaiseki",
+        "image": "japan-kaiseki.jpg",
+        "description": "Multi-course seasonal haute cuisine.",
+        "ingredients": [
+            "Seasonal fish",
+            "Mountain vegetables",
+            "Edible flowers",
+            "Artisanal tofu",
+            "Local specialties"
+        ],
+        "instructions": [
+            "Follow strict seasonal menu",
+            "Balance colors and textures",
+            "Present in artistic tableware",
+            "Serve in precise sequence",
+            "Highlight umami in each dish"
+        ]
+    },
+    {
+        "name": "Unagi Don",
+        "image": "japan-unagidon.jpg",
+        "description": "Grilled eel over rice with sweet sauce.",
+        "ingredients": [
+            "Freshwater eel",
+            "Kabayaki sauce",
+            "Sansho pepper",
+            "Japanese rice"
+        ],
+        "instructions": [
+            "Fillet and skewer eel",
+            "Steam before grilling",
+            "Baste with sauce repeatedly",
+            "Grill until caramelized",
+            "Serve over rice"
+        ]
+    },
+    {
+        "name": "Katsudon",
+        "image": "japan-katsudon.jpg",
+        "description": "Tonkatsu and egg over rice bowl.",
+        "ingredients": [
+            "Tonkatsu",
+            "Eggs",
+            "Dashi",
+            "Onions",
+            "Mitsuba"
+        ],
+        "instructions": [
+            "Cook tonkatsu",
+            "Simmer onions in dashi",
+            "Add sliced pork cutlet",
+            "Pour beaten eggs over",
+            "Serve before eggs fully set"
+        ]
+    },
+    {
+        "name": "Oyakodon",
+        "image": "japan-oyakodon.jpg",
+        "description": "Chicken and egg 'parent-child' rice bowl.",
+        "ingredients": [
+            "Chicken thigh",
+            "Eggs",
+            "Mitsuba",
+            "Dashi-soy mixture"
+        ],
+        "instructions": [
+            "Cook chicken in seasoned broth",
+            "Add beaten eggs",
+            "Cover until eggs are softly set",
+            "Garnish with mitsuba",
+            "Serve over hot rice"
+        ]
+    },
+    {
+        "name": "Taiyaki",
+        "image": "japan-taiyaki.jpg",
+        "description": "Fish-shaped cakes with sweet fillings.",
+        "ingredients": [
+            "Pancake batter",
+            "Red bean paste",
+            "Custard or chocolate",
+            "Taiyaki mold"
+        ],
+        "instructions": [
+            "Heat taiyaki iron",
+            "Pour batter into mold",
+            "Add filling",
+            "Seal with more batter",
+            "Cook until golden"
+        ]
+    },
+    {
+        "name": "Dorayaki",
+        "image": "japan-dorayaki.jpg",
+        "description": "Red bean sandwich pancakes.",
+        "ingredients": [
+            "Pancakes",
+            "Anko (red bean paste)",
+            "Honey",
+            "Mirin"
+        ],
+        "instructions": [
+            "Make small thick pancakes",
+            "Spread anko between two",
+            "Press edges gently",
+            "Best eaten next day"
+        ]
+    },
+    {
+        "name": "Mochi",
+        "image": "japan-mochi.jpg",
+        "description": "Chewy rice cakes for special occasions.",
+        "ingredients": [
+            "Mochigome rice",
+            "Katakuriko (dusting powder)",
+            "Anko or kinako fillings"
+        ],
+        "instructions": [
+            "Soak rice overnight",
+            "Steam until sticky",
+            "Pound in usu (mortar)",
+            "Shape while warm",
+            "Fill or coat as desired"
+        ]
+    },
+    {
+        "name": "Dango",
+        "image": "japan-dango.jpg",
+        "description": "Sweet rice dumplings on skewers.",
+        "ingredients": [
+            "Joshinko rice flour",
+            "Shiratamako flour",
+            "Anko",
+            "Mitrarashi sauce"
+        ],
+        "instructions": [
+            "Mix flours with water",
+            "Form small balls",
+            "Boil until they float",
+            "Skewer 3-4 pieces",
+            "Coat with sauce or anko"
+        ]
+    },
+    {
+        "name": "Matcha Green Tea",
+        "image": "japan-matcha.jpg",
+        "description": "Ceremonial powdered green tea.",
+        "ingredients": [
+            "Matcha powder",
+            "Hot water (70°C)"
+        ],
+        "instructions": [
+            "Sift matcha into bowl",
+            "Add hot water",
+            "Whisk briskly in 'W' motion",
+            "Create frothy layer",
+            "Serve immediately"
+        ]
+    },
+    {
+        "name": "Sencha",
+        "image": "japan-sencha.jpg",
+        "description": "Steeped green tea for daily drinking.",
+        "ingredients": [
+            "Sencha leaves",
+            "Hot water (80°C)"
+        ],
+        "instructions": [
+            "Warm teapot first",
+            "Use 1 tsp per person",
+            "Steep 1 minute",
+            "Pour completely",
+            "Second infusion hotter"
+        ]
+    },
+    {
+        "name": "Wagashi",
+        "image": "japan-wagashi.jpg",
+        "description": "Traditional Japanese confections.",
+        "ingredients": [
+            "Anko",
+            "Kanten (agar)",
+            "Gyuhi (soft mochi)",
+            "Seasonal flavors"
+        ],
+        "instructions": [
+            "Shape to reflect season",
+            "Balance sweetness",
+            "Pair with bitter matcha",
+            "Visual appeal is key"
+        ]
+    },
+    {
+        "name": "Onigiri",
+        "image": "japan-onigiri.jpg",
+        "description": "Hand-formed rice balls with fillings.",
+        "ingredients": [
+            "Japanese rice",
+            "Nori",
+            "Fillings (ume, salmon, etc.)",
+            "Salt"
+        ],
+        "instructions": [
+            "Shape warm rice with wet hands",
+            "Press filling into center",
+            "Form triangle or ball",
+            "Wrap with nori strip",
+            "Best eaten fresh"
+        ]
+    },
+    {
+        "name": "Natto",
+        "image": "japan-natto.jpg",
+        "description": "Fermented soybeans with strong flavor.",
+        "ingredients": [
+            "Soybeans",
+            "Natto starter",
+            "Mustard",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Steam soybeans",
+            "Inoculate with spores",
+            "Ferment 24 hours",
+            "Stir vigorously",
+            "Serve over rice"
+        ]
+    },
+    {
+        "name": "Tsukemono",
+        "image": "japan-tsukemono.jpg",
+        "description": "Japanese pickles served as accompaniment.",
+        "ingredients": [
+            "Vegetables (daikon, cucumber)",
+            "Salt",
+            "Rice bran (nukazuke)",
+            "Vinegar"
+        ],
+        "instructions": [
+            "Salt vegetables to draw moisture",
+            "Pack in pickling medium",
+            "Weight down",
+            "Ferment days-weeks",
+            "Slice before serving"
+        ]
+    },
+    {
+        "name": "Fugu",
+        "image": "japan-fugu.jpg",
+        "description": "Poisonous pufferfish prepared by licensed chefs.",
+        "ingredients": [
+            "Tiger pufferfish",
+            "Ponzu",
+            "Chives",
+            "Specialized knives"
+        ],
+        "instructions": [
+            "Remove toxic organs with precision",
+            "Slice paper-thin sashimi",
+            "Arrange in chrysanthemum pattern",
+            "Serve with special dipping sauce",
+            "May include fried fugu or nabe"
+        ]
+    },
+    {
+        "name": "Izakaya",
+        "image": "japan-izakaya.jpg",
+        "description": "Drinking food assortment for pub fare.",
+        "ingredients": [
+            "Edamame",
+            "Karaage chicken",
+            "Yakitori",
+            "Tebasaki wings"
+        ],
+        "instructions": [
+            "Small plates for sharing",
+            "Balance salty and umami",
+            "Pair with beer/shochu",
+            "Encourage conversation"
+        ]
+    },
+    {
+        "name": "Omurice",
+        "image": "japan-omurice.jpg",
+        "description": "Western-inspired omelette over ketchup rice.",
+        "ingredients": [
+            "Eggs",
+            "Chicken rice",
+            "Ketchup",
+            "Demi-glace sauce"
+        ],
+        "instructions": [
+            "Make ketchup fried rice",
+            "Cook thin omelette",
+            "Drape over rice",
+            "Cut to reveal flow",
+            "Top with sauce"
+        ]
+    },
+    {
+        "name": "Melon Pan",
+        "image": "japan-melonpan.jpg",
+        "description": "Sweet bread with cookie crust.",
+        "ingredients": [
+            "Bread dough",
+            "Cookie dough",
+            "Sugar",
+            "Vanilla"
+        ],
+        "instructions": [
+            "Proof bread dough",
+            "Wrap with cookie layer",
+            "Score crosshatch pattern",
+            "Bake until golden",
+            "Best warm"
+        ]
+    }
+],
+  "Mexico": [
+    {
+        "name": "Tacos al Pastor",
+        "image": "mexico-tacos.jpg",
+        "description": "Marinated pork tacos with pineapple, a Mexican adaptation of shawarma.",
+        "ingredients": [
+            "1kg pork shoulder",
+            "3-4 dried guajillo chilies",
+            "1/4 cup achiote paste",
+            "1 cup pineapple juice",
+            "1 onion",
+            "Cilantro",
+            "Corn tortillas",
+            "Pineapple slices"
+        ],
+        "instructions": [
+            "Blend chilies, achiote, and pineapple juice for marinade",
+            "Marinate pork for 4+ hours",
+            "Grill or roast pork on vertical spit if possible",
+            "Slice thinly and serve on tortillas",
+            "Top with onions, cilantro, and pineapple"
+        ]
+    },
+    {
+        "name": "Mole Poblano",
+        "image": "mexico-mole.jpg",
+        "description": "Complex sauce with chocolate and chilies, served with chicken.",
+        "ingredients": [
+            "Chicken",
+            "Dried chilies (ancho, mulato, pasilla)",
+            "Tomatoes",
+            "Onion",
+            "Garlic",
+            "Almonds",
+            "Sesame seeds",
+            "Raisins",
+            "Cinnamon",
+            "Chocolate",
+            "Tortillas"
+        ],
+        "instructions": [
+            "Toast and rehydrate chilies",
+            "Blend with other ingredients to make sauce",
+            "Simmer sauce for 1-2 hours",
+            "Cook chicken separately",
+            "Serve chicken smothered in mole with rice and tortillas"
+        ]
+    },
+    {
+        "name": "Chiles en Nogada",
+        "image": "mexico-chilesnogada.jpg",
+        "description": "Poblano chilies stuffed with picadillo, topped with walnut sauce and pomegranate.",
+        "ingredients": [
+            "Poblano peppers",
+            "Ground pork",
+            "Dried fruits",
+            "Nuts",
+            "Walnuts",
+            "Milk",
+            "Pomegranate seeds",
+            "Parsley"
+        ],
+        "instructions": [
+            "Roast and peel poblanos",
+            "Make picadillo with pork and fruits",
+            "Stuff chilies and batter-fry",
+            "Prepare walnut cream sauce",
+            "Garnish with pomegranate and parsley"
+        ]
+    },
+    {
+        "name": "Pozole",
+        "image": "mexico-pozole.jpg",
+        "description": "Pre-Hispanic hominy stew with meat, served with toppings.",
+        "ingredients": [
+            "White or red hominy",
+            "Pork shoulder",
+            "Guajillo chilies",
+            "Oregano",
+            "Radishes",
+            "Lettuce",
+            "Lime",
+            "Tostadas"
+        ],
+        "instructions": [
+            "Cook hominy until kernels bloom",
+            "Simmer pork with garlic and onion",
+            "Blend chilies for red version",
+            "Combine and simmer 1 hour",
+            "Serve with array of toppings"
+        ]
+    },
+    {
+        "name": "Tamales",
+        "image": "mexico-tamales.jpg",
+        "description": "Masa steamed in corn husks with various fillings.",
+        "ingredients": [
+            "Masa harina",
+            "Lard",
+            "Corn husks",
+            "Fillings (chicken, pork, rajas)",
+            "Baking powder"
+        ],
+        "instructions": [
+            "Soak corn husks",
+            "Whip masa with lard until fluffy",
+            "Spread masa on husks",
+            "Add fillings and fold",
+            "Steam 1-1.5 hours"
+        ]
+    },
+    {
+        "name": "Cochinita Pibil",
+        "image": "mexico-pibil.jpg",
+        "description": "Yucatán-style pit-roasted pork with achiote.",
+        "ingredients": [
+            "Pork shoulder",
+            "Achiote paste",
+            "Orange juice",
+            "Banana leaves",
+            "Habanero",
+            "Pickled red onions"
+        ],
+        "instructions": [
+            "Make marinade with achiote and citrus",
+            "Marinate pork overnight",
+            "Wrap in banana leaves",
+            "Bake at low temp for 4+ hours",
+            "Serve with pickled onions"
+        ]
+    },
+    {
+        "name": "Barbacoa",
+        "image": "mexico-barbacoa.jpg",
+        "description": "Traditionally pit-cooked lamb or goat.",
+        "ingredients": [
+            "Lamb or goat",
+            "Avocado leaves",
+            "Garlic",
+            "Chilies",
+            "Maguey leaves"
+        ],
+        "instructions": [
+            "Line pit with maguey leaves",
+            "Season meat with spices",
+            "Wrap in leaves and slow-cook",
+            "Shred and serve with consommé"
+        ]
+    },
+    {
+        "name": "Enchiladas",
+        "image": "mexico-enchiladas.jpg",
+        "description": "Rolled tortillas with sauce, varying by region.",
+        "ingredients": [
+            "Corn tortillas",
+            "Chicken or cheese",
+            "Chili sauce (red, green, mole)",
+            "Crema",
+            "Queso fresco"
+        ],
+        "instructions": [
+            "Briefly fry tortillas",
+            "Dip in warm sauce",
+            "Fill and roll",
+            "Top with more sauce",
+            "Bake and garnish"
+        ]
+    },
+    {
+        "name": "Chilaquiles",
+        "image": "mexico-chilaquiles.jpg",
+        "description": "Fried tortilla chips simmered in sauce.",
+        "ingredients": [
+            "Day-old tortillas",
+            "Salsa roja or verde",
+            "Crema",
+            "Queso fresco",
+            "Eggs (optional)"
+        ],
+        "instructions": [
+            "Cut and fry tortillas",
+            "Simmer in sauce until softened",
+            "Top with crema and cheese",
+            "Add fried eggs if desired"
+        ]
+    },
+    {
+        "name": "Tlayudas",
+        "image": "mexico-tlayudas.jpg",
+        "description": "Oaxacan 'Mexican pizza' with giant crispy tortilla.",
+        "ingredients": [
+            "Large corn tortillas",
+            "Asiento (pork lard)",
+            "Black beans",
+            "Quesillo cheese",
+            "Tasajo (dried beef)"
+        ],
+        "instructions": [
+            "Spread lard on tortilla",
+            "Layer beans and meat",
+            "Top with cheese",
+            "Grill until crispy",
+            "Add avocado and salsa"
+        ]
+    },
+    {
+        "name": "Sopes",
+        "image": "mexico-sopes.jpg",
+        "description": "Thick corn bases with pinched edges for toppings.",
+        "ingredients": [
+            "Masa",
+            "Refried beans",
+            "Chorizo",
+            "Lettuce",
+            "Crema"
+        ],
+        "instructions": [
+            "Form thick masa disks",
+            "Pinch edges to create walls",
+            "Fry until golden",
+            "Layer beans and toppings"
+        ]
+    },
+    {
+        "name": "Quesadillas",
+        "image": "mexico-quesadillas.jpg",
+        "description": "Grilled masa with cheese and other fillings.",
+        "ingredients": [
+            "Masa or tortillas",
+            "Oaxaca cheese",
+            "Huitlacoche",
+            "Flor de calabaza",
+            "Salsa"
+        ],
+        "instructions": [
+            "Press masa into circles",
+            "Add fillings and fold",
+            "Cook on comal until crisp",
+            "Serve with salsa"
+        ]
+    },
+    {
+        "name": "Pambazos",
+        "image": "mexico-pambazos.jpg",
+        "description": "Chili-dipped bread rolls with potato filling.",
+        "ingredients": [
+            "Telera rolls",
+            "Guajillo chilies",
+            "Potatoes",
+            "Chorizo",
+            "Lettuce",
+            "Crema"
+        ],
+        "instructions": [
+            "Make potato-chorizo filling",
+            "Dip rolls in chili sauce",
+            "Lightly fry",
+            "Stuff and garnish"
+        ]
+    },
+    {
+        "name": "Carnitas",
+        "image": "mexico-carnitas.jpg",
+        "description": "Confit-style fried pork from Michoacán.",
+        "ingredients": [
+            "Pork shoulder",
+            "Lard",
+            "Orange",
+            "Bay leaves",
+            "Cumin"
+        ],
+        "instructions": [
+            "Cut pork into large chunks",
+            "Cook in lard with seasonings",
+            "Increase heat to crisp",
+            "Shred and serve with salsa"
+        ]
+    },
+    {
+        "name": "Birria",
+        "image": "mexico-birria.jpg",
+        "description": "Jalisco's spicy goat or beef stew.",
+        "ingredients": [
+            "Goat or beef",
+            "Dried chilies",
+            "Vinegar",
+            "Garlic",
+            "Cumin",
+            "Consommé for dipping"
+        ],
+        "instructions": [
+            "Marinate meat overnight",
+            "Slow-cook until tender",
+            "Shred for tacos",
+            "Serve consommé on side"
+        ]
+    },
+    {
+        "name": "Menudo",
+        "image": "mexico-menudo.jpg",
+        "description": "Hangover-curing tripe soup.",
+        "ingredients": [
+            "Beef tripe",
+            "Hominy",
+            "Chilies",
+            "Oregano",
+            "Lime",
+            "Onion"
+        ],
+        "instructions": [
+            "Clean tripe thoroughly",
+            "Simmer 4+ hours with spices",
+            "Add hominy",
+            "Serve with garnishes"
+        ]
+    },
+    {
+        "name": "Pescado a la Veracruzana",
+        "image": "mexico-veracruzana.jpg",
+        "description": "Fish in tomato-caper sauce from Veracruz.",
+        "ingredients": [
+            "Whole fish",
+            "Tomatoes",
+            "Olives",
+            "Capers",
+            "Bay leaves",
+            "White wine"
+        ],
+        "instructions": [
+            "Make sauce with tomatoes and olives",
+            "Poach fish in sauce",
+            "Add wine and herbs",
+            "Serve with rice"
+        ]
+    },
+    {
+        "name": "Aguachile",
+        "image": "mexico-aguachile.jpg",
+        "description": "Sinaloan ceviche-style shrimp in chili-lime.",
+        "ingredients": [
+            "Fresh shrimp",
+            "Lime juice",
+            "Cucumber",
+            "Red onion",
+            "Serrano chilies",
+            "Avocado"
+        ],
+        "instructions": [
+            "Butterfly shrimp",
+            "Marinate briefly in lime",
+            "Mix with chili water",
+            "Serve immediately"
+        ]
+    },
+    {
+        "name": "Ceviche",
+        "image": "mexico-ceviche.jpg",
+        "description": "Citrus-cured seafood with vegetables.",
+        "ingredients": [
+            "Fresh fish",
+            "Lime juice",
+            "Tomato",
+            "Cilantro",
+            "Avocado",
+            "Tostadas"
+        ],
+        "instructions": [
+            "Cube fish",
+            "Cure in lime juice",
+            "Mix with veggies",
+            "Serve on tostadas"
+        ]
+    },
+    {
+        "name": "Torta Ahogada",
+        "image": "mexico-torta.jpg",
+        "description": "Guadalajara's 'drowned' spicy pork sandwich.",
+        "ingredients": [
+            "Birote bread",
+            "Carnitas",
+            "Salsa roja",
+            "Pickled onions",
+            "Lime"
+        ],
+        "instructions": [
+            "Hollow out bread slightly",
+            "Stuff with carnitas",
+            "Drench in spicy salsa",
+            "Add garnishes"
+        ]
+    },
+    {
+        "name": "Gorditas",
+        "image": "mexico-gorditas.jpg",
+        "description": "Thick masa cakes split and stuffed.",
+        "ingredients": [
+            "Masa",
+            "Chicharrón",
+            "Nopales",
+            "Salsa",
+            "Queso fresco"
+        ],
+        "instructions": [
+            "Form thick masa patties",
+            "Cook on comal",
+            "Split and stuff",
+            "Serve hot"
+        ]
+    },
+    {
+        "name": "Huaraches",
+        "image": "mexico-huaraches.jpg",
+        "description": "Oval masa bases resembling sandals.",
+        "ingredients": [
+            "Masa",
+            "Black beans",
+            "Nopalitos",
+            "Salsa",
+            "Cotija cheese"
+        ],
+        "instructions": [
+            "Shape masa into ovals",
+            "Cook until crisp",
+            "Top with beans and nopales",
+            "Add salsa and cheese"
+        ]
+    },
+    {
+        "name": "Molletes",
+        "image": "mexico-molletes.jpg",
+        "description": "Open-faced bean and cheese sandwiches.",
+        "ingredients": [
+            "Bolillo rolls",
+            "Refried beans",
+            "Oaxaca cheese",
+            "Pico de gallo"
+        ],
+        "instructions": [
+            "Split and toast rolls",
+            "Spread warm beans",
+            "Top with cheese and broil",
+            "Add fresh salsa"
+        ]
+    },
+    {
+        "name": "Pan de Muerto",
+        "image": "mexico-pandemuerte.jpg",
+        "description": "Day of the Dead sweet bread with orange.",
+        "ingredients": [
+            "Flour",
+            "Yeast",
+            "Orange zest",
+            "Butter",
+            "Sugar"
+        ],
+        "instructions": [
+            "Make enriched dough",
+            "Shape with 'bones' decoration",
+            "Proof and bake",
+            "Brush with sugar glaze"
+        ]
+    },
+    {
+        "name": "Conchas",
+        "image": "mexico-conchas.jpg",
+        "description": "Sweet bread with shell-patterned topping.",
+        "ingredients": [
+            "Flour",
+            "Eggs",
+            "Sugar paste topping",
+            "Vanilla"
+        ],
+        "instructions": [
+            "Make brioche-like dough",
+            "Form topping with ridges",
+            "Proof and bake",
+            "Best with hot chocolate"
+        ]
+    },
+    {
+        "name": "Flan",
+        "image": "mexico-flan.jpg",
+        "description": "Caramel custard dessert.",
+        "ingredients": [
+            "Eggs",
+            "Condensed milk",
+            "Vanilla",
+            "Caramel sauce"
+        ],
+        "instructions": [
+            "Melt sugar for caramel",
+            "Blend custard ingredients",
+            "Bake in water bath",
+            "Chill before unmolding"
+        ]
+    },
+    {
+        "name": "Arroz con Leche",
+        "image": "mexico-arrozleche.jpg",
+        "description": "Creamy rice pudding with cinnamon.",
+        "ingredients": [
+            "Rice",
+            "Milk",
+            "Cinnamon",
+            "Raisins",
+            "Condensed milk"
+        ],
+        "instructions": [
+            "Cook rice with cinnamon",
+            "Add milk slowly",
+            "Sweeten to taste",
+            "Serve chilled"
+        ]
+    },
+    {
+        "name": "Atole",
+        "image": "mexico-atole.jpg",
+        "description": "Warm masa-based drink, often flavored.",
+        "ingredients": [
+            "Masa",
+            "Milk",
+            "Piloncillo",
+            "Cinnamon",
+            "Vanilla"
+        ],
+        "instructions": [
+            "Dissolve masa in water",
+            "Heat with milk and sugar",
+            "Whisk constantly",
+            "Flavor as desired"
+        ]
+    },
+    {
+        "name": "Horchata",
+        "image": "mexico-horchata.jpg",
+        "description": "Refreshing rice-cinnamon drink.",
+        "ingredients": [
+            "Rice",
+            "Cinnamon",
+            "Vanilla",
+            "Sugar",
+            "Milk"
+        ],
+        "instructions": [
+            "Soak rice and cinnamon",
+            "Blend and strain",
+            "Sweeten to taste",
+            "Serve over ice"
+        ]
+    },
+    {
+        "name": "Jamaica",
+        "image": "mexico-jamaica.jpg",
+        "description": "Vibrant hibiscus iced tea.",
+        "ingredients": [
+            "Dried hibiscus flowers",
+            "Sugar",
+            "Lime"
+        ],
+        "instructions": [
+            "Boil flowers briefly",
+            "Steep overnight",
+            "Strain and sweeten",
+            "Serve chilled"
+        ]
+    },
+    {
+        "name": "Michelada",
+        "image": "mexico-michelada.jpg",
+        "description": "Beer cocktail with chili and lime.",
+        "ingredients": [
+            "Mexican lager",
+            "Lime juice",
+            "Hot sauce",
+            "Tajín rim",
+            "Clamato (optional)"
+        ],
+        "instructions": [
+            "Rim glass with chili salt",
+            "Add lime and sauces",
+            "Top with beer",
+            "Adjust spice level"
+        ]
+    }
+]
 }
+
