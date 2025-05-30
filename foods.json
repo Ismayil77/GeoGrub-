@@ -1826,7 +1826,6 @@
 ],
    
   "India": [
-    // ===== 1. VEGETARIAN MAIN COURSES =====
     {
       "name": "Paneer Tikka Masala",
       "image": "paneer-tikka-masala.jpg",
@@ -1930,7 +1929,6 @@
       ]
     },
 
-    // ===== 2. NON-VEGETARIAN =====
     {
       "name": "Butter Chicken",
       "image": "butter-chicken.jpg",
@@ -2025,7 +2023,6 @@
       ]
     },
 
-    // ===== 3. STREET FOOD =====
     {
       "name": "Pani Puri",
       "image": "pani-puri.jpg",
@@ -2113,8 +2110,6 @@
         "Serve with mint chutney."
       ]
     },
-
-    // ===== 4. DESSERTS =====
     {
       "name": "Gulab Jamun",
       "image": "gulab-jamun.jpg",
@@ -2199,8 +2194,6 @@
         "Garnish with cashews."
       ]
     },
-
-    // ===== 5. BREADS =====
     {
       "name": "Naan",
       "image": "naan.jpg",
@@ -2282,7 +2275,6 @@
       ]
     },
 
-    // ===== 6. REGIONAL SPECIALTIES =====
     {
       "name": "Rogan Josh (Kashmir)",
       "image": "rogan-josh.jpg",
@@ -2368,7 +2360,6 @@
       ]
     },
 
-    // ===== 7. BREAKFAST DISHES =====
     {
       "name": "Poha",
       "image": "poha.jpg",
@@ -2452,7 +2443,6 @@
       ]
     },
 
-    // ===== 8. RICE DISHES =====
     {
       "name": "Jeera Rice",
       "image": "jeera-rice.jpg",
@@ -2531,8 +2521,6 @@
         "Mix with rice and coconut. Serve warm."
       ]
     },
-
-    // ===== 9. BEVERAGES =====
     {
       "name": "Masala Chai",
       "image": "masala-chai.jpg",
@@ -2613,7 +2601,6 @@
       ]
     },
 
-    // ===== 10. SNACKS =====
     {
       "name": "Samosa",
       "image": "samosa.jpg",
