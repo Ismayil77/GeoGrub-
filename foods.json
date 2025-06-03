@@ -4656,6 +4656,867 @@
             "Serve with crusty baguette"
         ]
     }
+],
+   "Brazil": [
+    {
+        "name": "Feijoada",
+        "image": "brazil-feijoada.jpg",
+        "description": "Hearty black bean stew with pork.",
+        "ingredients": [
+            "Black beans",
+            "Pork ribs",
+            "Smoked sausage",
+            "Bacon",
+            "Dried beef",
+            "Bay leaves",
+            "Garlic",
+            "Onions",
+            "Orange slices",
+            "Farofa"
+        ],
+        "instructions": [
+            "Soak beans overnight",
+            "Brown all meats separately",
+            "Sauté onions and garlic",
+            "Combine everything in pot with bay leaves",
+            "Simmer for 3-4 hours",
+            "Serve with rice, farofa, and orange slices"
+        ]
+    },
+    {
+        "name": "Pão de Queijo",
+        "image": "brazil-pao-de-queijo.jpg",
+        "description": "Chewy cheese bread balls.",
+        "ingredients": [
+            "Tapioca flour",
+            "Grated Parmesan",
+            "Milk",
+            "Vegetable oil",
+            "Eggs",
+            "Salt"
+        ],
+        "instructions": [
+            "Heat milk and oil until boiling",
+            "Pour over tapioca flour and mix",
+            "Add eggs one at a time",
+            "Mix in cheese",
+            "Roll into small balls",
+            "Bake at 375°F until puffed and golden"
+        ]
+    },
+],
+   "Peru": [
+    {
+        "name": "Ceviche",
+        "image": "peru-ceviche.jpg",
+        "description": "Fresh raw fish cured in citrus.",
+        "ingredients": [
+            "Fresh white fish",
+            "Limes",
+            "Red onion",
+            "Aji amarillo",
+            "Corn",
+            "Sweet potato",
+            "Cilantro",
+            "Salt",
+            "Ice cubes"
+        ],
+        "instructions": [
+            "Cut fish into cubes",
+            "Marinate in lime juice with salt",
+            "Add sliced onions and chili",
+            "Let sit for 10 minutes",
+            "Serve with boiled corn and sweet potato",
+            "Garnish with cilantro"
+        ]
+    },
+],
+   "Portugal": [
+    {
+        "name": "Bacalhau à Brás",
+        "image": "portugal-bacalhau.jpg",
+        "description": "Shredded cod with potatoes and eggs.",
+        "ingredients": [
+            "Salted cod",
+            "Potatoes",
+            "Onions",
+            "Eggs",
+            "Black olives",
+            "Parsley",
+            "Olive oil",
+            "Garlic"
+        ],
+        "instructions": [
+            "Soak cod for 24 hours",
+            "Shred cooked cod",
+            "Cut potatoes into matchsticks and fry",
+            "Sauté onions and garlic",
+            "Mix all ingredients with beaten eggs",
+            "Garnish with olives and parsley"
+        ]
+    },
+],
+   "Malaysia": [
+    {
+        "name": "Nasi Lemak",
+        "image": "malaysia-nasi-lemak.jpg",
+        "description": "Fragrant coconut rice platter.",
+        "ingredients": [
+            "Rice",
+            "Coconut milk",
+            "Pandan leaves",
+            "Anchovies",
+            "Peanuts",
+            "Cucumber",
+            "Sambal",
+            "Hard-boiled egg"
+        ],
+        "instructions": [
+            "Cook rice with coconut milk and pandan",
+            "Fry anchovies and peanuts",
+            "Prepare spicy sambal sauce",
+            "Slice cucumber",
+            "Arrange all components on banana leaf",
+            "Serve with fried chicken or rendang"
+        ]
+    },
+],
+   "Indonesia": [
+    {
+        "name": "Rendang",
+        "image": "indonesia-rendang.jpg",
+        "description": "Slow-cooked caramelized beef curry.",
+        "ingredients": [
+            "Beef chuck",
+            "Coconut milk",
+            "Galangal",
+            "Lemongrass",
+            "Turmeric leaves",
+            "Kaffir lime leaves",
+            "Toasted coconut",
+            "Chilies",
+            "Shallots",
+            "Garlic"
+        ],
+        "instructions": [
+            "Blend spice paste",
+            "Simmer beef in coconut milk and spices",
+            "Cook until liquid evaporates",
+            "Continue cooking until oil separates",
+            "Stir constantly until meat caramelizes",
+            "Serve with steamed rice"
+        ]
+    },
+],
+   "Egypt": [
+    {
+        "name": "Koshari",
+        "image": "egypt-koshari.jpg",
+        "description": "National dish with lentils, rice and pasta.",
+        "ingredients": [
+            "Rice",
+            "Lentils",
+            "Macaroni",
+            "Chickpeas",
+            "Tomato sauce",
+            "Fried onions",
+            "Garlic vinegar",
+            "Cumin",
+            "Chili powder"
+        ],
+        "instructions": [
+            "Cook each component separately",
+            "Layer rice, lentils, then pasta",
+            "Top with chickpeas",
+            "Add spicy tomato sauce",
+            "Generously add crispy onions",
+            "Serve with garlic vinegar sauce"
+        ]
+    },
+],
+   "Philippines": [
+    {
+        "name": "Adobo",
+        "image": "philippines-adobo.jpg",
+        "description": "Vinegar-braised meat dish.",
+        "ingredients": [
+            "Chicken/pork",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Sugar",
+            "Oil"
+        ],
+        "instructions": [
+            "Marinate meat in sauce ingredients",
+            "Brown meat in oil",
+            "Add marinade and simmer",
+            "Reduce sauce until thick",
+            "Fry garlic separately as garnish",
+            "Serve with steamed rice"
+        ]
+    },
+],
+   "Colombia": [
+    {
+        "name": "Bandeja Paisa",
+        "image": "colombia-bandeja-paisa.jpg",
+        "description": "Hearty platter with varied meats.",
+        "ingredients": [
+            "Red beans",
+            "Rice",
+            "Ground beef",
+            "Chicharrón",
+            "Sausage",
+            "Avocado",
+            "Fried egg",
+            "Arepa",
+            "Plantain"
+        ],
+        "instructions": [
+            "Cook beans with pork",
+            "Prepare hogao sauce for rice",
+            "Fry all meat components",
+            "Slice avocado",
+            "Fry plantains",
+            "Arrange all items on large platter"
+        ]
+    },
+],
+   "Argentina": [
+    {
+        "name": "Asado",
+        "image": "argentina-asado.jpg",
+        "description": "Traditional barbecue feast.",
+        "ingredients": [
+            "Various beef cuts",
+            "Chorizo",
+            "Morcilla",
+            "Salt",
+            "Chimichurri",
+            "Provolone cheese",
+            "Bell peppers",
+            "Eggplant"
+        ],
+        "instructions": [
+            "Prepare parrilla grill",
+            "Season meat with only salt",
+            "Cook slowly over wood coals",
+            "Grill sausages and vegetables",
+            "Make fresh chimichurri",
+            "Serve with crusty bread"
+        ]
+    },
+],
+   "Ethiopia": [
+    {
+        "name": "Doro Wat",
+        "image": "ethiopia-doro-wat.jpg",
+        "description": "Spicy chicken stew with boiled eggs.",
+        "ingredients": [
+            "Chicken drumsticks",
+            "Berbere spice",
+            "Onions",
+            "Garlic",
+            "Ginger",
+            "Niter kibbeh (spiced butter)",
+            "Hard-boiled eggs",
+            "Injera bread"
+        ],
+        "instructions": [
+            "Caramelize onions for 30 mins",
+            "Add berbere spice and niter kibbeh",
+            "Brown chicken in the sauce",
+            "Simmer with water for 1 hour",
+            "Add boiled eggs before serving",
+            "Serve with injera"
+        ]
+    },
+],
+   "Jamaica": [
+    {
+        "name": "Jerk Chicken",
+        "image": "jamaica-jerk-chicken.jpg",
+        "description": "Spicy, smoky grilled chicken with Scotch bonnet peppers.",
+        "ingredients": [
+            "Chicken thighs",
+            "Scotch bonnet peppers",
+            "Allspice berries",
+            "Thyme",
+            "Garlic",
+            "Brown sugar",
+            "Soy sauce",
+            "Pimento wood (for smoking)"
+        ],
+        "instructions": [
+            "Blend marinade ingredients",
+            "Coat chicken and marinate overnight",
+            "Grill over pimento wood",
+            "Baste with reserved marinade",
+            "Serve with festival (fried dough)"
+        ]
+    },
+],
+   "Germany": [
+    {
+        "name": "Sauerbraten",
+        "image": "germany-sauerbraten.jpg",
+        "description": "Pot roast marinated in vinegar and spices.",
+        "ingredients": [
+            "Beef rump",
+            "Red wine vinegar",
+            "Gingerbread",
+            "Raisins",
+            "Cloves",
+            "Bay leaves",
+            "Potatoes",
+            "Gravy"
+        ],
+        "instructions": [
+            "Marinate beef for 3-5 days",
+            "Brown meat and simmer in marinade",
+            "Add crushed gingerbread to thicken",
+            "Strain and reduce sauce",
+            "Serve with potato dumplings"
+        ]
+    },
+],
+   "Russia": [
+    {
+        "name": "Beef Stroganoff",
+        "image": "russia-stroganoff.jpg",
+        "description": "Creamy mushroom and beef dish.",
+        "ingredients": [
+            "Beef tenderloin",
+            "Sour cream",
+            "Mushrooms",
+            "Dijon mustard",
+            "Brandy",
+            "Egg noodles",
+            "Paprika"
+        ],
+        "instructions": [
+            "Sear beef strips",
+            "Deglaze pan with brandy",
+            "Add mushrooms and onions",
+            "Stir in sour cream",
+            "Serve over buttered noodles"
+        ]
+    },
+],
+   "South Africa": [
+    {
+        "name": "Bobotie",
+        "image": "south-africa-bobotie.jpg",
+        "description": "Spiced minced meat with egg topping.",
+        "ingredients": [
+            "Ground lamb/beef",
+            "Curry powder",
+            "Dried apricots",
+            "Almonds",
+            "Turmeric",
+            "Egg custard",
+            "Bay leaves"
+        ],
+        "instructions": [
+            "Brown meat with onions",
+            "Add fruit and spices",
+            "Transfer to baking dish",
+            "Pour over egg mixture",
+            "Bake until golden"
+        ]
+    },
+],
+   "Cuba": [
+    {
+        "name": "Ropa Vieja",
+        "image": "cuba-ropa-vieja.jpg",
+        "description": "Shredded beef stew with peppers.",
+        "ingredients": [
+            "Flank steak",
+            "Bell peppers",
+            "Tomato sauce",
+            "Cumin",
+            "Green olives",
+            "White rice"
+        ],
+        "instructions": [
+            "Pressure cook beef until tender",
+            "Shred meat",
+            "Sofrito with peppers and onions",
+            "Combine and simmer",
+            "Serve with black beans"
+        ]
+    },
+],
+   "Poland": [
+    {
+        "name": "Pierogi",
+        "image": "poland-pierogi.jpg",
+        "description": "Stuffed dumplings with various fillings.",
+        "ingredients": [
+            "Flour",
+            "Potatoes",
+            "Farmer's cheese",
+            "Onions",
+            "Butter",
+            "Sour cream"
+        ],
+        "instructions": [
+            "Make dough and roll thin",
+            "Fill with potato-cheese mix",
+            "Boil until floating",
+            "Pan-fry with onions",
+            "Serve with sour cream"
+        ]
+    },
+],
+   "Iran": [
+    {
+        "name": "Chelow Kabab",
+        "image": "iran-chelow-kabab.jpg",
+        "description": "Persian saffron rice with grilled meat.",
+        "ingredients": [
+            "Basmati rice",
+            "Saffron",
+            "Lamb/chicken",
+            "Yogurt",
+            "Sumac",
+            "Butter"
+        ],
+        "instructions": [
+            "Soak rice for 2 hours",
+            "Parboil and steam with saffron",
+            "Marinate meat in yogurt",
+            "Grill on skewers",
+            "Serve with tahdig (crispy rice)"
+        ]
+    },
+],
+   "Nigeria": [
+    {
+        "name": "Jollof Rice",
+        "image": "nigeria-jollof.jpg",
+        "description": "One-pot tomato rice dish.",
+        "ingredients": [
+            "Rice",
+            "Tomato paste",
+            "Scotch bonnet",
+            "Thyme",
+            "Chicken stock",
+            "Bay leaves"
+        ],
+        "instructions": [
+            "Fry tomato paste with spices",
+            "Add rice and stock",
+            "Cook covered until fluffy",
+            "Serve with fried plantains"
+        ]
+    },
+],
+   "Sweden": [
+    {
+        "name": "Swedish Meatballs",
+        "image": "sweden-meatballs.jpg",
+        "description": "Creamy meatballs with lingonberry.",
+        "ingredients": [
+            "Ground beef/pork",
+            "Breadcrumbs",
+            "Cream",
+            "Allspice",
+            "Lingonberry jam",
+            "Gravy"
+        ],
+        "instructions": [
+            "Mix meat with spices",
+            "Form small balls",
+            "Pan-fry until browned",
+            "Make cream gravy",
+            "Serve with potatoes"
+        ]
+    },
+],
+   "Belgium": [
+    {
+        "name": "Moules-Frites",
+        "image": "belgium-moules-frites.jpg",
+        "description": "Steamed mussels with crispy fries.",
+        "ingredients": [
+            "Fresh mussels",
+            "White wine",
+            "Shallots",
+            "Celery",
+            "Garlic",
+            "Butter",
+            "Parsley",
+            "Double-fried potatoes"
+        ],
+        "instructions": [
+            "Scrub and debeard mussels",
+            "Sauté shallots, celery, and garlic",
+            "Add wine and bring to boil",
+            "Steam mussels for 5-7 minutes",
+            "Finish with butter and parsley",
+            "Serve with fries and mayo"
+        ]
+    },
+    {
+        "name": "Waterzooi",
+        "image": "belgium-waterzooi.jpg",
+        "description": "Creamy chicken or fish stew.",
+        "ingredients": [
+            "Chicken or cod",
+            "Leeks",
+            "Carrots",
+            "Potatoes",
+            "Egg yolks",
+            "Cream",
+            "Thyme",
+            "Bay leaf"
+        ],
+        "instructions": [
+            "Poach protein in stock",
+            "Sauté vegetables",
+            "Combine and simmer",
+            "Temper egg yolks with cream",
+            "Stir into stew to thicken",
+            "Garnish with parsley"
+        ]
+    }
+],
+   "Austria": [
+    {
+        "name": "Wiener Schnitzel",
+        "image": "austria-schnitzel.jpg",
+        "description": "Breaded veal cutlet fried to golden perfection.",
+        "ingredients": [
+            "Veal escalopes",
+            "Flour",
+            "Eggs",
+            "Breadcrumbs",
+            "Clarified butter",
+            "Lemon wedges"
+        ],
+        "instructions": [
+            "Pound meat thin",
+            "Dredge in flour, egg, then breadcrumbs",
+            "Fry in butter until golden",
+            "Drain on paper towels",
+            "Serve with lemon and potato salad"
+        ]
+    },
+    {
+        "name": "Sachertorte",
+        "image": "austria-sachertorte.jpg",
+        "description": "Chocolate cake with apricot jam.",
+        "ingredients": [
+            "Dark chocolate",
+            "Butter",
+            "Apricot jam",
+            "Eggs",
+            "Sugar",
+            "Flour",
+            "Whipped cream"
+        ],
+        "instructions": [
+            "Melt chocolate and butter",
+            "Fold in whipped egg whites",
+            "Bake in springform pan",
+            "Glaze with apricot jam",
+            "Cover with chocolate glaze",
+            "Serve with schlagobers (whipped cream)"
+        ]
+    }
+],
+   "Kenya": [
+    {
+        "name": "Ugali",
+        "image": "kenya-ugali.jpg",
+        "description": "Staple cornmeal porridge.",
+        "ingredients": [
+            "Cornmeal",
+            "Water",
+            "Salt"
+        ],
+        "instructions": [
+            "Boil water",
+            "Slowly add cornmeal while stirring",
+            "Cook until thick and dough-like",
+            "Shape into balls",
+            "Serve with sukuma wiki or stew"
+        ]
+    },
+    {
+        "name": "Nyama Choma",
+        "image": "kenya-nyama-choma.jpg",
+        "description": "Grilled goat meat.",
+        "ingredients": [
+            "Goat ribs",
+            "Lemon juice",
+            "Garlic",
+            "Ginger",
+            "Cumin",
+            "Chili powder"
+        ],
+        "instructions": [
+            "Marinate meat overnight",
+            "Grill over charcoal",
+            "Baste with marinade",
+            "Serve with kachumbari salad",
+            "Pair with Tusker beer"
+        ]
+    }
+],
+   "Singapore": [
+    {
+        "name": "Hainanese Chicken Rice",
+        "image": "singapore-chicken-rice.jpg",
+        "description": "Poached chicken with fragrant rice.",
+        "ingredients": [
+            "Whole chicken",
+            "Chicken fat",
+            "Ginger",
+            "Garlic",
+            "Pandan leaves",
+            "Soy sauce",
+            "Chili dip"
+        ],
+        "instructions": [
+            "Poach chicken in broth",
+            "Fry rice in chicken fat with aromatics",
+            "Steam rice in chicken broth",
+            "Serve with sliced cucumber",
+            "Accompany with dark soy and chili"
+        ]
+    },
+    {
+        "name": "Chilli Crab",
+        "image": "singapore-chilli-crab.jpg",
+        "description": "Mud crab in sweet-spicy sauce.",
+        "ingredients": [
+            "Mud crab",
+            "Tomato sauce",
+            "Chili paste",
+            "Egg",
+            "Vinegar",
+            "Sugar",
+            "Mantis shrimp paste"
+        ],
+        "instructions": [
+            "Clean and crack crab",
+            "Stir-fry with sauce ingredients",
+            "Thicken with beaten egg",
+            "Garnish with cilantro",
+            "Serve with mantou buns"
+        ]
+    }
+],
+   "Norway": [
+    {
+        "name": "Rakfisk",
+        "image": "norway-rakfisk.jpg",
+        "description": "Fermented trout.",
+        "ingredients": [
+            "Trout",
+            "Salt",
+            "Sugar",
+            "Dill"
+        ],
+        "instructions": [
+            "Gut and salt fish",
+            "Layer in sterile container",
+            "Ferment for 2-3 months",
+            "Serve with flatbread",
+            "Pair with aquavit"
+        ]
+    },
+    {
+        "name": "Kjøttkaker",
+        "image": "norway-kjottkaker.jpg",
+        "description": "Norwegian meatballs.",
+        "ingredients": [
+            "Ground beef/pork",
+            "Nutmeg",
+            "Allspice",
+            "Flour",
+            "Cream sauce",
+            "Lingonberry jam"
+        ],
+        "instructions": [
+            "Mix meat with spices",
+            "Form oval patties",
+            "Pan-fry until browned",
+            "Make cream gravy",
+            "Serve with boiled potatoes"
+        ]
+    }
+],
+   "Ukraine": [
+    {
+        "name": "Borscht",
+        "image": "ukraine-borscht.jpg",
+        "description": "Beetroot soup with sour cream.",
+        "ingredients": [
+            "Beets",
+            "Cabbage",
+            "Potatoes",
+            "Beef broth",
+            "Dill",
+            "Sour cream"
+        ],
+        "instructions": [
+            "Shred and sauté beets",
+            "Add broth and vegetables",
+            "Simmer for 1 hour",
+            "Finish with vinegar",
+            "Garnish with dill and cream"
+        ]
+    },
+    {
+        "name": "Varenyky",
+        "image": "ukraine-varenyky.jpg",
+        "description": "Stuffed dumplings.",
+        "ingredients": [
+            "Flour",
+            "Potatoes",
+            "Farmer's cheese",
+            "Onions",
+            "Butter"
+        ],
+        "instructions": [
+            "Make dough and roll thin",
+            "Fill with potato-cheese mix",
+            "Boil until floating",
+            "Fry onions in butter",
+            "Drizzle over dumplings"
+        ]
+    }
+],
+   "Hungary": [
+    {
+        "name": "Goulash",
+        "image": "hungary-goulash.jpg",
+        "description": "Paprika-spiced beef stew.",
+        "ingredients": [
+            "Beef chuck",
+            "Paprika",
+            "Carrots",
+            "Potatoes",
+            "Tomato paste",
+            "Cumin"
+        ],
+        "instructions": [
+            "Brown beef with onions",
+            "Add paprika off-heat",
+            "Simmer with vegetables",
+            "Cook until tender",
+            "Serve with bread"
+        ]
+    },
+    {
+        "name": "Lángos",
+        "image": "hungary-langos.jpg",
+        "description": "Fried flatbread with toppings.",
+        "ingredients": [
+            "Flour",
+            "Yeast",
+            "Garlic",
+            "Sour cream",
+            "Cheese"
+        ],
+        "instructions": [
+            "Let dough rise",
+            "Shape into rounds",
+            "Deep-fry until golden",
+            "Rub with garlic",
+            "Top with sour cream"
+        ]
+    }
+],
+   "Chile": [
+    {
+        "name": "Empanadas de Pino",
+        "image": "chile-empanadas.jpg",
+        "description": "Baked beef-filled pastries.",
+        "ingredients": [
+            "Ground beef",
+            "Onions",
+            "Raisins",
+            "Olives",
+            "Hard-boiled eggs",
+            "Dough"
+        ],
+        "instructions": [
+            "Sauté beef with spices",
+            "Add raisins and olives",
+            "Fill dough circles",
+            "Seal with fork",
+            "Bake until golden"
+        ]
+    },
+    {
+        "name": "Pastel de Choclo",
+        "image": "chile-pastel-choclo.jpg",
+        "description": "Corn and meat casserole.",
+        "ingredients": [
+            "Corn kernels",
+            "Ground beef",
+            "Chicken",
+            "Basil",
+            "Sugar"
+        ],
+        "instructions": [
+            "Layer meat filling",
+            "Blend corn for topping",
+            "Bake until golden crust",
+            "Dust with sugar",
+            "Serve in clay pots"
+        ]
+    }
+],
+  "Pakistan": [
+    {
+        "name": "Biryani",
+        "image": "pakistan-biryani.jpg",
+        "description": "Layered spiced rice with meat.",
+        "ingredients": [
+            "Basmati rice",
+            "Chicken/mutton",
+            "Yogurt",
+            "Saffron",
+            "Fried onions",
+            "Biryani masala"
+        ],
+        "instructions": [
+            "Marinate meat overnight",
+            "Parboil rice",
+            "Layer in heavy pot",
+            "Seal with dough",
+            "Dum cook on low heat"
+        ]
+    },
+    {
+        "name": "Nihari",
+        "image": "pakistan-nihari.jpg",
+        "description": "Slow-cooked beef stew.",
+        "ingredients": [
+            "Beef shank",
+            "Nihari masala",
+            "Wheat flour",
+            "Ginger",
+            "Ghee",
+            "Lemon"
+        ],
+        "instructions": [
+            "Slow-cook meat for 6+ hours",
+            "Thicken with flour slurry",
+            "Temper with ginger",
+            "Garnish with cilantro",
+            "Serve with naan"
+        ]
+    }
 ]
 
 }
