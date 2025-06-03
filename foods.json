@@ -4405,6 +4405,257 @@
         "Garnish with paprika and pine nuts"
       ]
     }
+],
+   "Vietnam": [
+    {
+        "name": "Pho",
+        "image": "vietnam-pho.jpg",
+        "description": "Aromatic noodle soup with flavorful broth.",
+        "ingredients": [
+            "Rice noodles",
+            "Beef or chicken",
+            "Star anise",
+            "Cinnamon",
+            "Ginger",
+            "Fish sauce",
+            "Onions",
+            "Bean sprouts",
+            "Thai basil",
+            "Lime"
+        ],
+        "instructions": [
+            "Simmer bones with spices for 6+ hours",
+            "Strain broth and skim fat",
+            "Cook rice noodles separately",
+            "Slice raw meat thinly",
+            "Assemble bowl with noodles, meat, then pour hot broth",
+            "Garnish with herbs and lime"
+        ]
+    },
+    {
+        "name": "Banh Mi",
+        "image": "vietnam-banh-mi.jpg",
+        "description": "French-influenced Vietnamese sandwich.",
+        "ingredients": [
+            "Baguette",
+            "Pork pâté",
+            "Grilled pork",
+            "Pickled carrots",
+            "Pickled daikon",
+            "Cucumber",
+            "Cilantro",
+            "Mayonnaise",
+            "Chili sauce",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Slice baguette and lightly toast",
+            "Spread pâté and mayonnaise",
+            "Layer grilled pork",
+            "Add pickled vegetables",
+            "Top with cucumber and cilantro",
+            "Drizzle with chili sauce"
+        ]
+    },
+    {
+        "name": "Bun Cha",
+        "image": "vietnam-bun-cha.jpg",
+        "description": "Grilled pork with rice noodles and herbs.",
+        "ingredients": [
+            "Ground pork",
+            "Pork belly",
+            "Rice vermicelli",
+            "Fish sauce",
+            "Sugar",
+            "Lime juice",
+            "Garlic",
+            "Shallots",
+            "Vietnamese coriander",
+            "Lettuce"
+        ],
+        "instructions": [
+            "Marinate pork in fish sauce, sugar, garlic",
+            "Grill pork patties and slices",
+            "Prepare dipping sauce with fish sauce, lime, sugar",
+            "Cook rice noodles",
+            "Serve with fresh herbs and dipping sauce"
+        ]
+    },
+    {
+        "name": "Goi Cuon",
+        "image": "vietnam-goi-cuon.jpg",
+        "description": "Fresh spring rolls with shrimp and herbs.",
+        "ingredients": [
+            "Rice paper",
+            "Shrimp",
+            "Pork belly",
+            "Rice vermicelli",
+            "Lettuce",
+            "Mint",
+            "Thai basil",
+            "Coriander",
+            "Hoisin sauce",
+            "Peanuts"
+        ],
+        "instructions": [
+            "Boil shrimp and slice lengthwise",
+            "Cook pork belly and slice thinly",
+            "Soften rice paper in warm water",
+            "Layer ingredients on rice paper",
+            "Roll tightly, tucking in sides",
+            "Serve with hoisin-peanut dipping sauce"
+        ]
+    },
+    {
+        "name": "Cao Lau",
+        "image": "vietnam-cao-lau.jpg",
+        "description": "Hoi An specialty noodle dish.",
+        "ingredients": [
+            "Thick rice noodles",
+            "Pork slices",
+            "Crispy rice crackers",
+            "Bean sprouts",
+            "Lettuce",
+            "Mint",
+            "Soy sauce",
+            "Star anise",
+            "Char siu sauce",
+            "Fried shallots"
+        ],
+        "instructions": [
+            "Marinate pork in char siu sauce",
+            "Grill pork until caramelized",
+            "Blanch noodles briefly",
+            "Assemble bowl with noodles, greens, pork",
+            "Top with crispy rice crackers",
+            "Add broth and fried shallots"
+        ]
+    },
+    {
+        "name": "Banh Xeo",
+        "image": "vietnam-banh-xeo.jpg",
+        "description": "Crispy Vietnamese crepes.",
+        "ingredients": [
+            "Rice flour",
+            "Turmeric",
+            "Coconut milk",
+            "Pork belly",
+            "Shrimp",
+            "Bean sprouts",
+            "Mung beans",
+            "Shallots",
+            "Fish sauce",
+            "Vegetable oil"
+        ],
+        "instructions": [
+            "Mix batter with rice flour, turmeric, coconut milk",
+            "Saute pork, shrimp, and shallots",
+            "Pour batter into hot skillet",
+            "Add bean sprouts and mung beans",
+            "Fold crepe in half when crispy",
+            "Serve with lettuce and fish sauce"
+        ]
+    },
+    {
+        "name": "Mi Quang",
+        "image": "vietnam-mi-quang.jpg",
+        "description": "Turmeric noodles from Central Vietnam.",
+        "ingredients": [
+            "Turmeric-infused rice noodles",
+            "Chicken or shrimp",
+            "Hard-boiled eggs",
+            "Roasted peanuts",
+            "Rice crackers",
+            "Green onions",
+            "Vietnamese coriander",
+            "Fish sauce",
+            "Anatto oil",
+            "Shallots"
+        ],
+        "instructions": [
+            "Cook protein in flavorful broth",
+            "Prepare turmeric noodles",
+            "Assemble bowl with minimal broth",
+            "Top with protein, herbs, peanuts",
+            "Add hard-boiled egg slices",
+            "Serve with lime and chili"
+        ]
+    },
+    {
+        "name": "Che",
+        "image": "vietnam-che.jpg",
+        "description": "Sweet dessert soup.",
+        "ingredients": [
+            "Mung beans",
+            "Tapioca pearls",
+            "Coconut milk",
+            "Pandan leaves",
+            "Sugar",
+            "Jackfruit",
+            "Glutinous rice",
+            "Sesame seeds",
+            "Ginger",
+            "Food coloring (optional)"
+        ],
+        "instructions": [
+            "Cook mung beans until soft",
+            "Prepare tapioca pearls separately",
+            "Make coconut sauce with pandan",
+            "Layer ingredients in glass",
+            "Top with coconut milk",
+            "Serve warm or chilled"
+        ]
+    },
+    {
+        "name": "Banh Cuon",
+        "image": "vietnam-banh-cuon.jpg",
+        "description": "Steamed rice rolls with filling.",
+        "ingredients": [
+            "Rice batter",
+            "Ground pork",
+            "Wood ear mushrooms",
+            "Shallots",
+            "Fish sauce",
+            "Vietnamese sausage (cha lua)",
+            "Fried shallots",
+            "Cucumber",
+            "Bean sprouts",
+            "Herbs"
+        ],
+        "instructions": [
+            "Soak and grind rice for batter",
+            "Saute filling with mushrooms and shallots",
+            "Steam thin rice sheets",
+            "Add filling and roll",
+            "Serve with nuoc cham dipping sauce",
+            "Garnish with herbs and fried shallots"
+        ]
+    },
+    {
+        "name": "Bo Kho",
+        "image": "vietnam-bo-kho.jpg",
+        "description": "Vietnamese beef stew.",
+        "ingredients": [
+            "Beef shank",
+            "Carrots",
+            "Star anise",
+            "Cinnamon",
+            "Lemongrass",
+            "Tomato paste",
+            "Fish sauce",
+            "Shallots",
+            "Ginger",
+            "Baguette"
+        ],
+        "instructions": [
+            "Brown beef with aromatics",
+            "Add spices and tomato paste",
+            "Simmer with water for 2+ hours",
+            "Add carrots in last 30 minutes",
+            "Season with fish sauce",
+            "Serve with crusty baguette"
+        ]
+    }
 ]
 
 }
