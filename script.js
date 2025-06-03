@@ -104,7 +104,7 @@ function showCountryFoods(countryName, layer) {
             <div class="food-list"></div>
             <div class="pagination">
                 <button class="prev-btn" disabled>◀</button>
-                <span class="page-info">Page 1 of ${Math.ceil(countryFoods.length/5)}</span>
+                <span class="page-info">Page 1 of ${Math.ceil(countryFoods.length/2)}</span>
                 <button class="next-btn">▶</button>
             </div>
         </div>
@@ -125,7 +125,7 @@ function showCountryFoods(countryName, layer) {
 
     // State
     let currentPage = 1;
-    const itemsPerPage = 5;
+    const itemsPerPage = 2;
     let filteredFoods = [...countryFoods];
 
     // Render functions
