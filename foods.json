@@ -2682,7 +2682,1742 @@
         "Top with yogurt, chutneys, sev, and spices."
       ]
     }
-  ]
-    
+  ],
+   "France": [
+    {
+      "name": "Coq au Vin",
+      "image": "france-coq-au-vin.jpg",
+      "description": "Classic French braised chicken in red wine with mushrooms and pearl onions.",
+      "ingredients": [
+        "1 whole chicken, cut into pieces",
+        "1 bottle red wine",
+        "200g bacon, diced",
+        "20 pearl onions",
+        "300g mushrooms",
+        "3 cloves garlic",
+        "2 bay leaves",
+        "Fresh thyme",
+        "2 tbsp flour",
+        "Butter for finishing"
+      ],
+      "instructions": [
+        "Brown bacon, remove and set aside",
+        "Brown chicken pieces in bacon fat",
+        "Add flour, cook 2 minutes",
+        "Add wine, herbs, and aromatics",
+        "Simmer covered for 45 minutes",
+        "Add mushrooms and onions, cook 15 more minutes",
+        "Finish with butter and bacon"
+      ]
+    },
+    {
+      "name": "Bouillabaisse",
+      "image": "france-bouillabaisse.jpg",
+      "description": "Traditional Provençal fish stew with saffron, fennel, and rouille sauce.",
+      "ingredients": [
+        "1kg mixed Mediterranean fish",
+        "500g shellfish",
+        "2 onions, sliced",
+        "4 tomatoes, chopped",
+        "1 fennel bulb",
+        "Pinch of saffron",
+        "1/4 cup olive oil",
+        "Orange zest",
+        "Bay leaves",
+        "For rouille: mayo, garlic, chili, saffron"
+      ],
+      "instructions": [
+        "Sauté onions, fennel, and tomatoes in olive oil",
+        "Add fish stock and saffron, boil rapidly",
+        "Add firm fish first, then delicate fish",
+        "Cook shellfish separately",
+        "Strain broth, serve with fish",
+        "Make rouille by mixing mayo with garlic and saffron",
+        "Serve with crusty bread and rouille"
+      ]
+    },
+        {
+    "name": "Boeuf Bourguignon",
+    "image": "france-boeuf-bourguignon.jpg",
+    "description": "A classic French stew of beef braised in red wine with mushrooms, onions, and bacon.",
+    "ingredients": [
+      "1kg beef chuck, cut into cubes",
+      "150g bacon, diced",
+      "2 carrots, sliced",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "500ml red wine (preferably Burgundy)",
+      "2 cups beef stock",
+      "2 tbsp tomato paste",
+      "1 bay leaf",
+      "1 tsp thyme",
+      "200g mushrooms, sliced",
+      "Salt and pepper to taste",
+      "2 tbsp flour",
+      "2 tbsp olive oil"
+    ],
+    "instructions": [
+      "Preheat oven to 160°C (320°F).",
+      "In a large Dutch oven, heat olive oil and cook bacon until crisp. Remove and set aside.",
+      "In the same pot, sear beef cubes until browned on all sides. Remove and set aside.",
+      "Add carrots and onions to the pot, cooking until softened. Add garlic and cook for 1 minute.",
+      "Return beef and bacon to the pot. Sprinkle flour over the meat and stir to coat.",
+      "Add tomato paste, red wine, and beef stock. Stir in bay leaf and thyme.",
+      "Bring to a simmer, cover, and transfer to the oven. Cook for 2.5 to 3 hours.",
+      "In the last 30 minutes, sauté mushrooms in a separate pan and add to the stew.",
+      "Season with salt and pepper to taste before serving."
+    ]
+  },
+    {
+      "name": "Beef Bourguignon",
+      "image": "france-beef-bourguignon.jpg",
+      "description": "Slow-braised beef in Burgundy wine with vegetables and herbs.",
+      "ingredients": [
+        "1.5kg beef chuck, cubed",
+        "1 bottle red Burgundy wine",
+        "200g bacon, diced",
+        "300g pearl onions",
+        "500g mushrooms",
+        "3 carrots, sliced",
+        "4 cloves garlic",
+        "Bouquet garni",
+        "2 tbsp tomato paste",
+        "Flour for dusting"
+      ],
+      "instructions": [
+        "Marinate beef in wine overnight",
+        "Brown bacon, then beef (reserve wine)",
+        "Sauté vegetables until golden",
+        "Return beef, add wine and herbs",
+        "Braise in oven at 325°F for 2-3 hours",
+        "Add mushrooms in last 30 minutes",
+        "Serve with mashed potatoes or egg noodles"
+      ]
+    },
+        {
+    "name": "Quiche Lorraine",
+    "image": "france-quiche-lorraine.jpg",
+    "description": "A savory tart with bacon, cheese, and custard filling in a pastry crust.",
+    "ingredients": [
+      "1 pie crust (store-bought or homemade)",
+      "200g bacon, diced",
+      "1 onion, finely chopped",
+      "3 eggs",
+      "200ml heavy cream",
+      "200ml milk",
+      "100g Gruyère cheese, grated",
+      "1/2 tsp nutmeg",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 190°C (375°F).",
+      "Roll out pie crust and line a tart pan. Prick with a fork and blind bake for 10 minutes.",
+      "Cook bacon until crisp. Remove and sauté onions in the bacon fat until soft.",
+      "Whisk together eggs, cream, milk, nutmeg, salt, and pepper.",
+      "Sprinkle bacon, onions, and cheese over the pre-baked crust.",
+      "Pour egg mixture over the filling.",
+      "Bake for 30-35 minutes until set and golden brown.",
+      "Let cool slightly before serving."
+    ]
+  },
+    {
+      "name": "Ratatouille",
+      "image": "france-ratatouille.jpg",
+      "description": "Provençal vegetable stew with eggplant, zucchini, peppers, and tomatoes.",
+      "ingredients": [
+        "1 large eggplant, diced",
+        "2 zucchini, sliced",
+        "2 bell peppers",
+        "4 tomatoes, chopped",
+        "1 large onion",
+        "4 cloves garlic",
+        "1/4 cup olive oil",
+        "Fresh basil and thyme",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Salt eggplant, let drain 30 minutes",
+        "Sauté onions and garlic until soft",
+        "Add peppers, cook 5 minutes",
+        "Add eggplant, cook until tender",
+        "Add zucchini and tomatoes",
+        "Season with herbs, simmer 20 minutes",
+        "Serve hot or at room temperature"
+      ]
+    },
+    {
+      "name": "French Onion Soup",
+      "image": "france-onion-soup.jpg",
+      "description": "Caramelized onion soup topped with Gruyère cheese and baked until golden.",
+      "ingredients": [
+        "6 large onions, thinly sliced",
+        "4 tbsp butter",
+        "6 cups beef stock",
+        "1/2 cup dry white wine",
+        "2 bay leaves",
+        "Fresh thyme",
+        "Gruyère cheese, grated",
+        "French bread, sliced",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Caramelize onions in butter for 45 minutes",
+        "Add wine, scrape up browned bits",
+        "Add stock and herbs, simmer 30 minutes",
+        "Toast bread slices until golden",
+        "Ladle soup into bowls",
+        "Top with bread and cheese",
+        "Broil until cheese is bubbly and golden"
+      ]
+    },
+    {
+      "name": "Croque Monsieur",
+      "image": "france-croque-monsieur.jpg",
+      "description": "Grilled ham and cheese sandwich topped with béchamel sauce and more cheese.",
+      "ingredients": [
+        "8 slices white bread",
+        "8 slices ham",
+        "200g Gruyère cheese, grated",
+        "3 tbsp butter",
+        "3 tbsp flour",
+        "2 cups milk",
+        "Nutmeg",
+        "Dijon mustard",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Make béchamel: melt butter, add flour, whisk in milk",
+        "Season with nutmeg, salt, and pepper",
+        "Spread mustard on bread",
+        "Layer ham and half the cheese",
+        "Top with second bread slice",
+        "Cover with béchamel and remaining cheese",
+        "Broil until golden and bubbly"
+      ]
+    },
+        {
+    "name": "Soupe à l'Oignon",
+    "image": "france-onion-soup.jpg",
+    "description": "Classic French onion soup with caramelized onions and cheesy croutons.",
+    "ingredients": [
+      "1kg onions, thinly sliced",
+      "2 tbsp butter",
+      "1 tbsp olive oil",
+      "1 tsp sugar",
+      "2 tbsp flour",
+      "1.5L beef stock",
+      "250ml white wine",
+      "1 bay leaf",
+      "1 tsp thyme",
+      "Salt and pepper to taste",
+      "Baguette slices",
+      "200g Gruyère cheese, grated"
+    ],
+    "instructions": [
+      "Melt butter with oil in a large pot. Add onions and sugar. Cook slowly for 40 minutes until deeply caramelized.",
+      "Sprinkle flour over onions and stir for 1 minute.",
+      "Add wine and scrape up any browned bits. Add stock, bay leaf, and thyme.",
+      "Simmer for 30 minutes. Season with salt and pepper.",
+      "Preheat broiler. Ladle soup into ovenproof bowls. Top with baguette slices and cheese.",
+      "Broil until cheese is bubbly and golden. Serve immediately."
+    ]
+  },
+        {
+    "name": "Confit de Canard",
+    "image": "france-duck-confit.jpg",
+    "description": "Duck legs slow-cooked in their own fat until tender, then crisped.",
+    "ingredients": [
+      "4 duck legs",
+      "500g duck fat",
+      "4 cloves garlic, smashed",
+      "4 sprigs thyme",
+      "2 bay leaves",
+      "1 tbsp sea salt",
+      "1 tsp black peppercorns"
+    ],
+    "instructions": [
+      "Rub duck legs with salt. Refrigerate overnight.",
+      "Preheat oven to 150°C (300°F). Rinse and dry duck legs.",
+      "Melt duck fat in an ovenproof dish. Add duck legs, garlic, thyme, bay leaves, and peppercorns.",
+      "Cook in oven for 2-3 hours until very tender.",
+      "Remove duck from fat (reserve fat for other uses).",
+      "To serve, crisp duck skin in a hot pan for 2-3 minutes per side.",
+      "Serve with potatoes sautéed in duck fat."
+    ]
+  },
+    {
+      "name": "Tarte Tatin",
+      "image": "france-tarte-tatin.jpg",
+      "description": "Upside-down apple tart with caramelized apples and buttery pastry.",
+      "ingredients": [
+        "1 sheet puff pastry",
+        "8 Granny Smith apples",
+        "1 cup sugar",
+        "6 tbsp butter",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "Crème fraîche for serving"
+      ],
+      "instructions": [
+        "Peel and quarter apples",
+        "Make caramel with sugar in oven-safe pan",
+        "Add butter and vanilla to caramel",
+        "Arrange apples in caramel, cut side down",
+        "Cover with pastry, tuck edges down",
+        "Bake at 375°F for 25-30 minutes",
+        "Cool 5 minutes, then invert onto plate"
+      ]
+    },
+    {
+      "name": "Escargots",
+      "image": "france-escargots.jpg",
+      "description": "Burgundy snails baked in garlic-parsley butter, a classic French appetizer.",
+      "ingredients": [
+        "36 canned snails",
+        "36 snail shells",
+        "200g butter, softened",
+        "4 cloves garlic, minced",
+        "1/4 cup fresh parsley",
+        "2 shallots, minced",
+        "2 tbsp white wine",
+        "Salt and pepper",
+        "French bread for serving"
+      ],
+      "instructions": [
+        "Mix butter with garlic, parsley, and shallots",
+        "Season with wine, salt, and pepper",
+        "Place snail in each shell",
+        "Top with herb butter",
+        "Arrange in escargot dishes",
+        "Bake at 400°F for 10 minutes",
+        "Serve immediately with bread"
+      ]
+    },
+    {
+      "name": "Cassoulet",
+      "image": "france-cassoulet.jpg",
+      "description": "Hearty white bean casserole with duck confit, sausage, and lamb.",
+      "ingredients": [
+        "500g white beans, soaked overnight",
+        "4 duck legs",
+        "300g Toulouse sausage",
+        "300g lamb shoulder",
+        "1 onion, diced",
+        "4 cloves garlic",
+        "400g canned tomatoes",
+        "Bay leaves and thyme",
+        "Duck fat",
+        "Breadcrumbs"
+      ],
+      "instructions": [
+        "Cook beans with aromatics until tender",
+        "Brown all meats separately",
+        "Layer beans and meats in casserole",
+        "Add cooking liquid to barely cover",
+        "Top with breadcrumbs",
+        "Bake at 325°F for 2 hours",
+        "Break crust several times during cooking"
+      ]
+    },
+        {
+    "name": "Salade Niçoise",
+    "image": "france-salade-nicoise.jpg",
+    "description": "A composed salad from Nice with tuna, eggs, and vegetables.",
+    "ingredients": [
+      "200g tuna (canned or fresh grilled)",
+      "4 eggs, hard-boiled",
+      "200g green beans, blanched",
+      "4 small potatoes, boiled and sliced",
+      "1 head lettuce (butter or romaine)",
+      "10 cherry tomatoes, halved",
+      "1/2 cucumber, sliced",
+      "50g Niçoise olives",
+      "2 anchovy fillets (optional)",
+      "For dressing:",
+      "3 tbsp olive oil",
+      "1 tbsp red wine vinegar",
+      "1 tsp Dijon mustard",
+      "1 small shallot, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Make dressing by whisking all ingredients together.",
+      "Arrange lettuce leaves on a platter.",
+      "Compose salad by arranging tuna, eggs, green beans, potatoes, tomatoes, cucumber, and olives in sections.",
+      "Drizzle with dressing. Garnish with anchovies if using.",
+      "Serve immediately."
+    ]
+  },
+    {
+      "name": "Crème Brûlée",
+      "image": "france-creme-brulee.jpg",
+      "description": "Rich vanilla custard topped with caramelized sugar crust.",
+      "ingredients": [
+        "2 cups heavy cream",
+        "1 vanilla bean",
+        "5 egg yolks",
+        "1/3 cup sugar",
+        "Extra sugar for topping",
+        "Pinch of salt"
+      ],
+      "instructions": [
+        "Heat cream with vanilla bean",
+        "Whisk egg yolks with sugar",
+        "Temper hot cream into yolks",
+        "Strain mixture into ramekins",
+        "Bake in water bath at 300°F for 35 minutes",
+        "Chill for 4 hours",
+        "Sprinkle with sugar and torch until caramelized"
+      ]
+    }
+  ],
+  "China": [
+    {
+      "name": "Kung Pao Chicken",
+      "image": "china-kung-pao.jpg",
+      "description": "Spicy Sichuan stir-fry with chicken, peanuts, and dried chilies.",
+      "ingredients": [
+        "500g chicken breast, diced",
+        "1/2 cup roasted peanuts",
+        "8-10 dried red chilies",
+        "3 green onions, chopped",
+        "2 tbsp Shaoxing wine",
+        "2 tbsp soy sauce",
+        "1 tbsp dark soy sauce",
+        "1 tsp sugar",
+        "1 tsp cornstarch",
+        "Sichuan peppercorns"
+      ],
+      "instructions": [
+        "Marinate chicken with wine, soy sauce, cornstarch",
+        "Heat wok until smoking, add oil",
+        "Stir-fry chicken until just cooked",
+        "Add chilies and peppercorns, fry until fragrant",
+        "Return chicken, add sauce ingredients",
+        "Toss with peanuts and green onions",
+        "Serve immediately over rice"
+      ]
+    },
+    {
+      "name": "Peking Duck",
+      "image": "china-peking-duck.jpg",
+      "description": "Crispy roasted duck served with pancakes, scallions, and hoisin sauce.",
+      "ingredients": [
+        "1 whole duck (2-3kg)",
+        "2 tbsp five-spice powder",
+        "2 tbsp salt",
+        "3 tbsp honey",
+        "2 tbsp soy sauce",
+        "1 tbsp rice wine",
+        "Thin pancakes",
+        "Hoisin sauce",
+        "Cucumber julienne",
+        "Green onions"
+      ],
+      "instructions": [
+        "Clean duck, prick skin all over",
+        "Rub with five-spice and salt, marinate overnight",
+        "Hang duck to air-dry for 4-6 hours",
+        "Brush with honey glaze mixture",
+        "Roast at 350°F for 1.5-2 hours",
+        "Let rest, then carve skin and meat separately",
+        "Serve with pancakes, sauce, and vegetables"
+      ]
+    },
+    {
+      "name": "Mapo Tofu",
+      "image": "china-mapo-tofu.jpg",
+      "description": "Spicy Sichuan tofu in chili bean sauce with ground pork.",
+      "ingredients": [
+        "400g silken tofu, cubed",
+        "100g ground pork",
+        "2 tbsp doubanjiang (chili bean paste)",
+        "2 cloves garlic, minced",
+        "1 tsp fermented black beans",
+        "1 cup chicken stock",
+        "1 tbsp soy sauce",
+        "1 tsp sugar",
+        "2 tsp cornstarch slurry",
+        "Sichuan peppercorns and green onions"
+      ],
+      "instructions": [
+        "Brown ground pork in hot oil",
+        "Add garlic and chili bean paste",
+        "Stir-fry until fragrant and oil turns red",
+        "Add stock, soy sauce, and sugar",
+        "Gently add tofu, simmer 5 minutes",
+        "Thicken with cornstarch slurry",
+        "Garnish with peppercorns and green onions"
+      ]
+    },
+    {
+      "name": "Sweet and Sour Pork",
+      "image": "china-sweet-sour-pork.jpg",
+      "description": "Crispy pork pieces in tangy sweet and sour sauce with vegetables.",
+      "ingredients": [
+        "600g pork shoulder, cubed",
+        "1 bell pepper, chunked",
+        "1 onion, chunked",
+        "1 cup pineapple chunks",
+        "3 tbsp ketchup",
+        "3 tbsp rice vinegar",
+        "3 tbsp sugar",
+        "2 tbsp soy sauce",
+        "Cornstarch for coating",
+        "Oil for deep frying"
+      ],
+      "instructions": [
+        "Coat pork in cornstarch, deep fry until golden",
+        "Drain pork on paper towels",
+        "Stir-fry vegetables until crisp-tender",
+        "Mix sauce ingredients in small bowl",
+        "Add pineapple and sauce to vegetables",
+        "Return pork to wok, toss to coat",
+        "Serve immediately over steamed rice"
+      ]
+    },
+    {
+      "name": "Dim Sum Dumplings",
+      "image": "china-dim-sum.jpg",
+      "description": "Steamed pork and shrimp dumplings in translucent wrapper.",
+      "ingredients": [
+        "300g ground pork",
+        "200g shrimp, chopped",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tsp sugar",
+        "1 tsp cornstarch",
+        "2 green onions, minced",
+        "1 package round dumpling wrappers",
+        "Soy sauce and chili oil for serving"
+      ],
+      "instructions": [
+        "Mix pork, shrimp, and seasonings",
+        "Place filling in center of wrapper",
+        "Gather wrapper edges, twist to seal",
+        "Steam dumplings for 12-15 minutes",
+        "Serve hot with dipping sauce",
+        "Garnish with green onions",
+        "Accompany with jasmine tea"
+      ]
+    },
+    {
+      "name": "Fried Rice",
+      "image": "china-fried-rice.jpg",
+      "description": "Wok-fried rice with eggs, vegetables, and choice of protein.",
+      "ingredients": [
+        "4 cups day-old cooked rice",
+        "3 eggs, beaten",
+        "100g char siu or ham, diced",
+        "1/2 cup frozen peas and carrots",
+        "3 green onions, chopped",
+        "2 cloves garlic, minced",
+        "3 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "White pepper to taste"
+      ],
+      "instructions": [
+        "Heat wok until smoking hot",
+        "Scramble eggs, remove and set aside",
+        "Add more oil, stir-fry garlic briefly",
+        "Add cold rice, break up lumps",
+        "Add vegetables and meat, stir-fry",
+        "Return eggs, season with soy sauce",
+        "Finish with sesame oil and green onions"
+      ]
+    },
+    {
+      "name": "Hot Pot",
+      "image": "china-hot-pot.jpg",
+      "description": "Interactive meal of raw ingredients cooked in simmering broth at the table.",
+      "ingredients": [
+        "Chicken stock base",
+        "Spicy Sichuan broth base",
+        "Thinly sliced beef and lamb",
+        "Fresh tofu and fish balls",
+        "Napa cabbage and spinach",
+        "Mushrooms (enoki, shiitake)",
+        "Rice noodles",
+        "Dipping sauces: sesame paste, soy sauce, chili oil"
+      ],
+      "instructions": [
+        "Set up hot pot burner and divided pot",
+        "Bring both broths to simmer",
+        "Arrange raw ingredients on platters",
+        "Prepare individual dipping sauces",
+        "Cook ingredients in broth using chopsticks",
+        "Start with vegetables, then proteins",
+        "Dip cooked food in personal sauce bowls"
+      ]
+    },
+    {
+      "name": "Wonton Soup",
+      "image": "china-wonton-soup.jpg",
+      "description": "Delicate pork and shrimp wontons in clear chicken broth.",
+      "ingredients": [
+        "200g ground pork",
+        "100g shrimp, minced",
+        "1 tsp ginger, minced",
+        "1 green onion, minced",
+        "1 tsp soy sauce",
+        "1/2 tsp sesame oil",
+        "1 package wonton wrappers",
+        "6 cups chicken broth",
+        "Bok choy leaves",
+        "Green onions for garnish"
+      ],
+      "instructions": [
+        "Mix pork, shrimp, ginger, and seasonings",
+        "Place small amount of filling on wonton wrapper",
+        "Wet edges, fold and seal into triangle",
+        "Bring large pot of water to boil",
+        "Cook wontons until they float, about 4 minutes",
+        "Heat broth, add bok choy",
+        "Serve wontons in hot broth"
+      ]
+    },
+    {
+      "name": "General Tso's Chicken",
+      "image": "china-general-tso.jpg",
+      "description": "Crispy chicken pieces in sweet and spicy sauce with dried chilies.",
+      "ingredients": [
+        "600g chicken thighs, cubed",
+        "1 cup cornstarch",
+        "2 eggs, beaten",
+        "6-8 dried red chilies",
+        "3 cloves garlic, minced",
+        "1 tbsp ginger, minced",
+        "1/4 cup soy sauce",
+        "1/4 cup rice vinegar",
+        "1/4 cup sugar",
+        "2 tsp cornstarch for sauce"
+      ],
+      "instructions": [
+        "Coat chicken in egg, then cornstarch",
+        "Deep fry until golden and crispy",
+        "Heat oil in wok, fry chilies until fragrant",
+        "Add garlic and ginger, stir briefly",
+        "Mix sauce ingredients, add to wok",
+        "Return chicken, toss to coat in sauce",
+        "Garnish with green onions and sesame seeds"
+      ]
+    },
+    {
+      "name": "Spring Rolls",
+      "image": "china-spring-rolls.jpg",
+      "description": "Crispy fried rolls filled with vegetables and sometimes meat.",
+      "ingredients": [
+        "1 package spring roll wrappers",
+        "2 cups cabbage, shredded",
+        "1 carrot, julienned",
+        "100g bean sprouts",
+        "2 shiitake mushrooms, sliced",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil",
+        "Oil for deep frying",
+        "Sweet and sour sauce for dipping"
+      ],
+      "instructions": [
+        "Stir-fry vegetables until just tender",
+        "Season with soy sauce and sesame oil",
+        "Cool filling completely",
+        "Place filling on wrapper corner",
+        "Roll tightly, sealing with water",
+        "Deep fry until golden and crispy",
+        "Serve hot with dipping sauce"
+      ]
+    }
+  ],
+  "Thailand": [
+    {
+      "name": "Pad Thai",
+      "image": "thailand-pad-thai.jpg",
+      "description": "Classic Thai stir-fried rice noodles with shrimp, tofu, and vegetables in sweet-tangy sauce.",
+      "ingredients": [
+        "200g rice noodles",
+        "200g shrimp, peeled",
+        "100g firm tofu, cubed",
+        "2 eggs",
+        "2 tbsp tamarind paste",
+        "2 tbsp fish sauce",
+        "2 tbsp palm sugar",
+        "Bean sprouts",
+        "Green onions",
+        "Crushed peanuts",
+        "Lime wedges"
+      ],
+      "instructions": [
+        "Soak rice noodles in warm water until soft",
+        "Heat oil in wok, scramble eggs and set aside",
+        "Stir-fry shrimp and tofu until cooked",
+        "Add drained noodles and sauce ingredients",
+        "Toss with bean sprouts, eggs, and green onions",
+        "Garnish with peanuts and serve with lime"
+      ]
+    },
+    {
+      "name": "Tom Yum Goong",
+      "image": "thailand-tom-yum.jpg",
+      "description": "Spicy and sour Thai soup with shrimp, mushrooms, and aromatic herbs.",
+      "ingredients": [
+        "500g large shrimp",
+        "4 cups chicken stock",
+        "3 lemongrass stalks",
+        "4 kaffir lime leaves",
+        "3 Thai chilies",
+        "200g mushrooms",
+        "3 tbsp fish sauce",
+        "2 tbsp lime juice",
+        "1 tbsp tom yum paste",
+        "Cilantro for garnish"
+      ],
+      "instructions": [
+        "Bring stock to boil with lemongrass and lime leaves",
+        "Add tom yum paste and chilies",
+        "Add mushrooms and cook 3 minutes",
+        "Add shrimp and cook until pink",
+        "Season with fish sauce and lime juice",
+        "Garnish with cilantro and serve hot"
+      ]
+    },
+    {
+      "name": "Green Curry",
+      "image": "thailand-green-curry.jpg",
+      "description": "Creamy coconut curry with green chilies, Thai basil, and choice of meat.",
+      "ingredients": [
+        "400ml coconut milk",
+        "3 tbsp green curry paste",
+        "500g chicken, sliced",
+        "2 Thai eggplants",
+        "1 bell pepper",
+        "2 tbsp fish sauce",
+        "1 tbsp palm sugar",
+        "Thai basil leaves",
+        "Red chilies for garnish"
+      ],
+      "instructions": [
+        "Heat thick coconut milk in pan until oil separates",
+        "Fry curry paste until fragrant",
+        "Add chicken and cook through",
+        "Pour remaining coconut milk and bring to boil",
+        "Add vegetables and seasonings",
+        "Simmer until tender, garnish with basil"
+      ]
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "image": "thailand-mango-sticky-rice.jpg",
+      "description": "Sweet dessert of coconut sticky rice served with fresh mango slices.",
+      "ingredients": [
+        "2 cups glutinous rice",
+        "400ml coconut milk",
+        "1/2 cup sugar",
+        "1/2 tsp salt",
+        "2 ripe mangoes",
+        "2 tbsp cornstarch",
+        "Toasted sesame seeds"
+      ],
+      "instructions": [
+        "Steam glutinous rice for 20-25 minutes",
+        "Heat coconut milk with sugar and salt",
+        "Mix hot rice with half the coconut sauce",
+        "Let rice absorb liquid for 30 minutes",
+        "Thicken remaining sauce with cornstarch",
+        "Serve rice with mango and coconut sauce"
+      ]
+    },
+    {
+      "name": "Som Tam",
+      "image": "thailand-som-tam.jpg",
+      "description": "Fresh and spicy green papaya salad with lime, chilies, and peanuts.",
+      "ingredients": [
+        "1 green papaya, julienned",
+        "2 carrots, julienned",
+        "4 Thai chilies",
+        "3 cloves garlic",
+        "3 tbsp lime juice",
+        "2 tbsp fish sauce",
+        "2 tbsp palm sugar",
+        "2 tomatoes, wedged",
+        "1/4 cup roasted peanuts",
+        "Green beans"
+      ],
+      "instructions": [
+        "Pound chilies and garlic in mortar",
+        "Add lime juice, fish sauce, and sugar",
+        "Add papaya and carrots, pound gently",
+        "Mix in tomatoes and green beans",
+        "Add peanuts and toss well",
+        "Serve immediately with cabbage leaves"
+      ]
+    },
+    {
+      "name": "Massaman Curry",
+      "image": "thailand-massaman.jpg",
+      "description": "Rich, Persian-influenced curry with beef, potatoes, and warm spices.",
+      "ingredients": [
+        "600g beef chuck, cubed",
+        "400ml coconut milk",
+        "3 tbsp massaman curry paste",
+        "3 potatoes, cubed",
+        "1 onion, quartered",
+        "3 tbsp tamarind paste",
+        "3 tbsp palm sugar",
+        "3 tbsp fish sauce",
+        "1/2 cup roasted peanuts",
+        "Cinnamon stick"
+      ],
+      "instructions": [
+        "Brown beef in coconut cream with curry paste",
+        "Add remaining coconut milk and simmer 1 hour",
+        "Add potatoes and onion, cook 20 minutes",
+        "Season with tamarind, sugar, and fish sauce",
+        "Add peanuts and cinnamon",
+        "Simmer until beef is tender"
+      ]
+    },
+    {
+      "name": "Thai Basil Stir Fry",
+      "image": "thailand-basil-stir-fry.jpg",
+      "description": "Spicy stir-fry with holy basil, chilies, and ground meat over rice.",
+      "ingredients": [
+        "400g ground pork or chicken",
+        "4 cloves garlic, minced",
+        "5 Thai chilies",
+        "2 tbsp vegetable oil",
+        "2 tbsp fish sauce",
+        "1 tbsp dark soy sauce",
+        "1 tsp sugar",
+        "Holy basil leaves",
+        "Fried eggs for topping"
+      ],
+      "instructions": [
+        "Heat oil in wok over high heat",
+        "Stir-fry garlic and chilies until fragrant",
+        "Add ground meat, break up and cook through",
+        "Season with sauces and sugar",
+        "Add basil leaves, stir until wilted",
+        "Serve over rice with fried egg"
+      ]
+    },
+    {
+      "name": "Tom Kha Gai",
+      "image": "thailand-tom-kha.jpg",
+      "description": "Creamy coconut chicken soup with galangal, lime leaves, and mushrooms.",
+      "ingredients": [
+        "400ml coconut milk",
+        "2 cups chicken stock",
+        "300g chicken breast, sliced",
+        "3 pieces galangal",
+        "4 kaffir lime leaves",
+        "2 lemongrass stalks",
+        "200g mushrooms",
+        "3 tbsp fish sauce",
+        "2 tbsp lime juice",
+        "Thai chilies to taste"
+      ],
+      "instructions": [
+        "Simmer coconut milk with galangal and lemongrass",
+        "Add chicken stock and lime leaves",
+        "Add chicken and mushrooms, cook 5 minutes",
+        "Season with fish sauce and chilies",
+        "Finish with lime juice",
+        "Serve hot garnished with cilantro"
+      ]
+    },
+    {
+      "name": "Pad See Ew",
+      "image": "thailand-pad-see-ew.jpg",
+      "description": "Wide rice noodles stir-fried with dark soy sauce, Chinese broccoli, and egg.",
+      "ingredients": [
+        "400g fresh wide rice noodles",
+        "300g pork or chicken, sliced",
+        "2 eggs",
+        "300g Chinese broccoli",
+        "3 tbsp dark soy sauce",
+        "1 tbsp light soy sauce",
+        "2 tbsp sugar",
+        "2 tbsp vegetable oil",
+        "White pepper to taste"
+      ],
+      "instructions": [
+        "Heat oil in wok over high heat",
+        "Scramble eggs and set aside",
+        "Stir-fry meat until cooked through",
+        "Add noodles and both soy sauces",
+        "Add Chinese broccoli and sugar",
+        "Return eggs to wok, toss everything together"
+      ]
+    },
+    {
+      "name": "Larb",
+      "image": "thailand-larb.jpg",
+      "description": "Spicy meat salad with herbs, lime juice, and toasted rice powder.",
+      "ingredients": [
+        "500g ground pork or beef",
+        "1/4 cup lime juice",
+        "2 tbsp fish sauce",
+        "1 tsp chili flakes",
+        "2 tbsp toasted rice powder",
+        "1/2 red onion, sliced",
+        "Mint leaves",
+        "Cilantro",
+        "Thai basil",
+        "Lettuce for serving"
+      ],
+      "instructions": [
+        "Cook ground meat in dry pan until done",
+        "Let cool slightly, mix with lime juice",
+        "Add fish sauce and chili flakes",
+        "Mix in rice powder and onions",
+        "Fold in fresh herbs",
+        "Serve with lettuce cups and sticky rice"
+      ]
+    }
+  ],
+    "instructions": [
+      "Soak rice noodles in warm water for 30 minutes. Drain and set aside.",
+      "In a small bowl, mix tamarind paste, fish sauce, and palm sugar. Stir until sugar dissolves.",
+      "Heat oil in a wok over medium heat. Add garlic and sauté until fragrant.",
+      "Add shrimp and cook until pink. Push to one side of the wok.",
+      "Pour beaten eggs into the wok and scramble until just set.",
+      "Add drained noodles and tamarind sauce. Toss to combine.",
+      "Stir in bean sprouts and green onions. Cook for 2 minutes.",
+      "Serve hot, garnished with crushed peanuts and lime wedges."
+    ]
+  }
+],
+  "Spain": [
+    {
+      "name": "Paella",
+      "image": "spain-paella.jpg",
+      "description": "Saffron rice dish with seafood, chicken, and vegetables from Valencia.",
+      "ingredients": [
+        "2 cups Spanish short-grain rice",
+        "4 cups chicken stock",
+        "Pinch of saffron threads",
+        "500g mixed seafood",
+        "300g chicken, cut up",
+        "1 red bell pepper",
+        "200g green beans",
+        "4 cloves garlic",
+        "1/4 cup olive oil",
+        "Smoked paprika",
+        "Lemon wedges"
+      ],
+      "instructions": [
+        "Heat olive oil in paella pan",
+        "Brown chicken pieces, remove",
+        "Sauté vegetables until tender",
+        "Add rice, stir to coat with oil",
+        "Add hot saffron stock and paprika",
+        "Return chicken, add seafood",
+        "Simmer without stirring 18-20 minutes",
+        "Let rest 5 minutes, garnish with lemon"
+      ]
+    },
+    {
+      "name": "Gazpacho",
+      "image": "spain-gazpacho.jpg",
+      "description": "Cold soup made from ripe tomatoes, peppers, and bread from Andalusia.",
+      "ingredients": [
+        "2kg ripe tomatoes",
+        "1 cucumber, peeled",
+        "1 red bell pepper",
+        "1 slice stale bread",
+        "2 cloves garlic",
+        "1/4 cup sherry vinegar",
+        "1/2 cup olive oil",
+        "Salt to taste",
+        "Ice cubes for serving"
+      ],
+      "instructions": [
+        "Soak bread in water, squeeze out excess",
+        "Roughly chop all vegetables",
+        "Blend everything until smooth",
+        "Strain through fine mesh if desired",
+        "Chill for at least 4 hours",
+        "Adjust seasoning with salt and vinegar",
+        "Serve cold with ice cubes and garnishes"
+      ]
+    },
+    {
+      "name": "Tortilla Española",
+      "image": "spain-tortilla.jpg",
+      "description": "Thick Spanish omelet with potatoes and onions.",
+      "ingredients": [
+        "6 large potatoes, thinly sliced",
+        "1 large onion, sliced",
+        "6 eggs",
+        "1 cup olive oil",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Slowly cook potatoes and onions in oil until tender",
+        "Drain, reserving oil",
+        "Beat eggs with salt in large bowl",
+        "Mix in potato mixture gently",
+        "Heat 2 tbsp reserved oil in non-stick pan",
+        "Add egg mixture, cook until set on bottom",
+        "Flip using plate, cook other side until golden"
+      ]
+    },
+    {
+      "name": "Jamón Ibérico",
+      "image": "spain-jamon-iberico.jpg",
+      "description": "Dry-cured ham from black Iberian pigs, served thinly sliced.",
+      "ingredients": [
+        "Jamón Ibérico, thinly sliced",
+        "Manchego cheese",
+        "Marcona almonds",
+        "Fresh figs or melon",
+        "Crusty bread",
+        "Olive oil",
+        "Sherry wine"
+      ],
+      "instructions": [
+        "Arrange ham slices on serving platter",
+        "Let come to room temperature 30 minutes",
+        "Slice cheese into thin wedges",
+        "Toast almonds lightly",
+        "Arrange with seasonal fruit",
+        "Drizzle bread with olive oil",
+        "Serve with chilled sherry"
+      ]
+    },
+    {
+      "name": "Churros con Chocolate",
+      "image": "spain-churros.jpg",
+      "description": "Fried dough pastries served with thick hot chocolate for dipping.",
+      "ingredients": [
+        "1 cup water",
+        "2 tbsp sugar",
+        "1/2 tsp salt",
+        "2 tbsp olive oil",
+        "1 cup flour",
+        "Oil for frying",
+        "Cinnamon sugar for coating",
+        "For chocolate: dark chocolate, milk, cornstarch"
+      ],
+      "instructions": [
+        "Boil water with sugar, salt, and oil",
+        "Remove from heat, add flour all at once",
+        "Mix until smooth dough forms",
+        "Pipe through star tip into hot oil",
+        "Fry until golden brown",
+        "Roll in cinnamon sugar while warm",
+        "Serve with thick hot chocolate"
+      ]
+    },
+    {
+      "name": "Patatas Bravas",
+      "image": "spain-patatas-bravas.jpg",
+      "description": "Crispy fried potatoes with spicy tomato sauce and garlic aioli.",
+      "ingredients": [
+        "1kg potatoes, cubed",
+        "Oil for frying",
+        "For sauce: tomato sauce, smoked paprika, cayenne",
+        "For aioli: mayonnaise, garlic, lemon juice",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Fry potato cubes until golden and crispy",
+        "Make spicy sauce with tomato and paprika",
+        "Mix aioli with minced garlic",
+        "Arrange potatoes on serving plate",
+        "Drizzle with both sauces",
+        "Sprinkle with additional paprika",
+        "Serve immediately as tapas"
+      ]
+    },
+    {
+      "name": "Sangria",
+      "image": "spain-sangria.jpg",
+      "description": "Spanish wine punch with fruit, brandy, and sparkling water.",
+      "ingredients": [
+        "1 bottle red wine",
+        "1/4 cup brandy",
+        "2 tbsp sugar",
+        "1 orange, sliced",
+        "1 lemon, sliced",
+        "1 apple, diced",
+        "1 cup sparkling water",
+        "Ice cubes",
+        "Fresh mint for garnish"
+      ],
+      "instructions": [
+        "Combine wine, brandy, and sugar",
+        "Add all sliced fruit",
+        "Refrigerate for at least 4 hours",
+        "Add sparkling water just before serving",
+        "Serve over ice with fruit pieces",
+        "Garnish with mint leaves",
+        "Adjust sweetness to taste"
+      ]
+    },
+    {
+      "name": "Fabada Asturiana",
+      "image": "spain-fabada.jpg",
+      "description": "Hearty white bean stew with chorizo, morcilla, and pancetta from Asturias.",
+      "ingredients": [
+        "500g large white beans, soaked overnight",
+        "200g chorizo sausage",
+        "200g morcilla (blood sausage)",
+        "150g pancetta",
+        "1 onion, diced",
+        "4 cloves garlic",
+        "Pinch of saffron",
+        "Smoked paprika",
+        "Bay leaves"
+      ],
+      "instructions": [
+        "Cook beans in fresh water with bay leaves",
+        "In separate pan, brown all sausages",
+        "Add sausages to beans after 1 hour",
+        "Sauté onion and garlic until soft",
+        "Add to pot with saffron and paprika",
+        "Simmer gently 2-3 hours total",
+        "Serve hot with crusty bread"
+      ]
+    },
+    {
+      "name": "Pisto",
+      "image": "spain-pisto.jpg",
+      "description": "Spanish ratatouille with tomatoes, peppers, zucchini, and eggplant.",
+      "ingredients": [
+        "2 zucchini, diced",
+        "1 eggplant, diced",
+        "2 bell peppers, chunked",
+        "4 tomatoes, chopped",
+        "1 onion, diced",
+        "4 cloves garlic",
+        "1/4 cup olive oil",
+        "Fresh herbs",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Heat olive oil in large pan",
+        "Cook onion and garlic until soft",
+        "Add peppers, cook 10 minutes",
+        "Add eggplant and zucchini",
+        "Cook until vegetables are tender",
+        "Add tomatoes and herbs",
+        "Simmer until thick, season well"
+      ]
+    },
+    {
+      "name": "Crema Catalana",
+      "image": "spain-crema-catalana.jpg",
+      "description": "Catalan custard dessert with caramelized sugar top, similar to crème brûlée.",
+      "ingredients": [
+        "4 cups whole milk",
+        "6 egg yolks",
+        "1/2 cup sugar",
+        "3 tbsp cornstarch",
+        "Zest of 1 lemon",
+        "1 cinnamon stick",
+        "Extra sugar for caramelizing"
+      ],
+      "instructions": [
+        "Heat milk with lemon zest and cinnamon",
+        "Whisk egg yolks with sugar until pale",
+        "Add cornstarch to egg mixture",
+        "Temper hot milk into eggs",
+        "Return to heat, stir until thickened",
+        "Pour into ramekins, chill overnight",
+        "Sprinkle with sugar, caramelize with torch"
+      ]
+    }
+  ],
+ "Greece": [
+    {
+      "name": "Moussaka",
+      "image": "greece-moussaka.jpg",
+      "description": "Layered casserole with eggplant, meat sauce, and creamy béchamel topping.",
+      "ingredients": [
+        "3 large eggplants, sliced",
+        "500g ground lamb or beef",
+        "1 onion, diced",
+        "3 cloves garlic",
+        "400g canned tomatoes",
+        "1/2 cup red wine",
+        "4 tbsp olive oil",
+        "For béchamel: butter, flour, milk, cheese",
+        "Cinnamon and oregano",
+        "Parmesan cheese"
+      ],
+      "instructions": [
+        "Salt eggplant slices, drain 1 hour",
+        "Brush with oil, bake until golden",
+        "Brown meat with onions and garlic",
+        "Add tomatoes, wine, and spices",
+        "Make béchamel sauce with butter, flour, milk",
+        "Layer eggplant, meat, repeat",
+        "Top with béchamel, bake 45 minutes"
+      ]
+    },
+    {
+      "name": "Greek Salad",
+      "image": "greece-greek-salad.jpg",
+      "description": "Fresh salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "ingredients": [
+        "4 large tomatoes, wedged",
+        "2 cucumbers, sliced",
+        "1 red onion, sliced",
+        "200g feta cheese, cubed",
+        "1/2 cup Kalamata olives",
+        "1/4 cup olive oil",
+        "2 tbsp red wine vinegar",
+        "1 tsp dried oregano",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Combine tomatoes, cucumbers, and onion",
+        "Add olives and feta cheese",
+        "Whisk olive oil with vinegar",
+        "Season dressing with oregano",
+        "Pour dressing over salad",
+        "Toss gently and let stand 10 minutes",
+        "Serve at room temperature"
+      ]
+    },
+    {
+      "name": "Souvlaki",
+      "image": "greece-souvlaki.jpg",
+      "description": "Grilled meat skewers marinated in olive oil, lemon, and herbs.",
+      "ingredients": [
+        "1kg pork shoulder, cubed",
+        "1/4 cup olive oil",
+        "1/4 cup lemon juice",
+        "4 cloves garlic, minced",
+        "2 tsp dried oregano",
+        "1 tsp salt",
+        "Black pepper",
+        "Pita bread",
+        "Tzatziki sauce",
+        "Red onion and tomatoes"
+      ],
+      "instructions": [
+        "Marinate pork in oil, lemon, garlic, oregano 4+ hours",
+        "Thread meat onto skewers",
+        "Grill over high heat, turning frequently",
+        "Cook until charred outside, juicy inside",
+        "Warm pita bread on grill",
+        "Serve with tzatziki and vegetables",
+        "Wrap in pita or serve on plates"
+      ]
+    },
+    {
+      "name": "Spanakopita",
+      "image": "greece-spanakopita.jpg",
+      "description": "Spinach and feta pie wrapped in crispy phyllo pastry.",
+      "ingredients": [
+        "1kg fresh spinach",
+        "300g feta cheese, crumbled",
+        "4 eggs, beaten",
+        "1 large onion, diced",
+        "1/2 cup fresh dill",
+        "1/4 cup olive oil",
+        "1 package phyllo pastry",
+        "Melted butter for brushing",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Sauté onion until soft, add spinach",
+        "Cook until wilted, cool completely",
+        "Mix spinach with feta, eggs, and dill",
+        "Layer half phyllo sheets, brushing with butter",
+        "Add filling, top with remaining phyllo",
+        "Brush top with butter, score into squares",
+        "Bake at 350°F for 45 minutes until golden"
+      ]
+    },
+    {
+      "name": "Tzatziki",
+      "image": "greece-tzatziki.jpg",
+      "description": "Creamy yogurt dip with cucumber, garlic, and fresh herbs.",
+      "ingredients": [
+        "2 cups Greek yogurt",
+        "1 large cucumber",
+        "4 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "2 tbsp fresh dill",
+        "1 tsp salt",
+        "White pepper to taste"
+      ],
+      "instructions": [
+        "Grate cucumber, salt heavily, drain 1 hour",
+        "Squeeze out excess water from cucumber",
+        "Mix yogurt with garlic and lemon juice",
+        "Stir in drained cucumber",
+        "Add herbs, oil, and seasonings",
+        "Chill for 2 hours before serving",
+        "Serve with pita, vegetables, or grilled meats"
+      ]
+    },
+    {
+      "name": "Dolmades",
+      "image": "greece-dolmades.jpg",
+      "description": "Grape leaves stuffed with rice, herbs, and sometimes meat.",
+      "ingredients": [
+        "1 jar grape leaves in brine",
+        "1 cup long-grain rice",
+        "1 large onion, minced",
+        "1/4 cup pine nuts",
+        "1/4 cup currants",
+        "1/4 cup fresh dill",
+        "1/4 cup fresh mint",
+        "1/4 cup olive oil",
+        "2 tbsp lemon juice",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Rinse grape leaves, blanch briefly",
+        "Sauté onion until soft, add rice",
+        "Add nuts, currants, herbs, and seasonings",
+        "Cook rice mixture until just tender",
+        "Place filling on grape leaves, roll tightly",
+        "Layer in pot with lemon juice and oil",
+        "Simmer covered 45 minutes until tender"
+      ]
+    },
+    {
+      "name": "Avgolemono Soup",
+      "image": "greece-avgolemono.jpg",
+      "description": "Creamy lemon soup with chicken, rice, and egg-lemon sauce.",
+      "ingredients": [
+        "6 cups chicken broth",
+        "1/2 cup long-grain rice",
+        "2 cups cooked chicken, shredded",
+        "3 eggs",
+        "1/4 cup fresh lemon juice",
+        "2 tbsp butter",
+        "Salt and white pepper",
+        "Fresh dill for garnish"
+      ],
+      "instructions": [
+        "Bring broth to boil, add rice",
+        "Simmer until rice is tender",
+        "Add shredded chicken, heat through",
+        "Whisk eggs with lemon juice",
+        "Temper egg mixture with hot broth",
+        "Return to pot, stir until thickened",
+        "Season and garnish with dill"
+      ]
+    },
+    {
+      "name": "Pastitsio",
+      "image": "greece-pastitsio.jpg",
+      "description": "Greek pasta bake with meat sauce and creamy béchamel topping.",
+      "ingredients": [
+        "500g tubular pasta",
+        "500g ground beef",
+        "1 onion, diced",
+        "400g canned tomatoes",
+        "1/2 cup red wine",
+        "Cinnamon and allspice",
+        "For béchamel: butter, flour, milk",
+        "Parmesan cheese",
+        "3 eggs"
+      ],
+      "instructions": [
+        "Cook pasta until al dente",
+        "Brown meat with onions and spices",
+        "Add tomatoes and wine, simmer",
+        "Make béchamel sauce, cool slightly",
+        "Beat eggs into cooled béchamel",
+        "Layer pasta, meat, then béchamel",
+        "Bake at 350°F for 45 minutes until golden"
+      ]
+    },
+    {
+      "name": "Baklava",
+      "image": "greece-baklava.jpg",
+      "description": "Sweet pastry layers with nuts and honey syrup.",
+      "ingredients": [
+        "1 package phyllo pastry",
+        "2 cups mixed nuts, chopped",
+        "1 cup butter, melted",
+        "1 tsp cinnamon",
+        "For syrup: 1 cup honey, 1 cup sugar, 1 cup water",
+        "Lemon juice",
+        "Whole cloves"
+      ],
+      "instructions": [
+        "Mix nuts with cinnamon",
+        "Layer half phyllo, brushing each with butter",
+        "Spread nut mixture evenly",
+        "Top with remaining phyllo and butter",
+        "Cut into diamond shapes",
+        "Bake at 325°F for 45 minutes",
+        "Make syrup, pour over hot baklava"
+      ]
+    },
+    {
+      "name": "Greek Lemon Potatoes",
+      "image": "greece-lemon-potatoes.jpg",
+      "description": "Roasted potatoes in olive oil, lemon juice, and oregano.",
+      "ingredients": [
+        "2kg potatoes, quartered",
+        "1/2 cup olive oil",
+        "1/4 cup lemon juice",
+        "1 cup chicken broth",
+        "4 cloves garlic, minced",
+        "2 tsp dried oregano",
+        "Salt and pepper",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "Arrange potatoes in roasting pan",
+        "Whisk oil, lemon juice, and broth",
+        "Add garlic, oregano, salt, and pepper",
+        "Pour over potatoes, toss to coat",
+        "Roast at 400°F for 1 hour",
+        "Turn potatoes, add more broth if needed",
+        "Continue until golden and tender"
+      ]
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "Tagine",
+      "image": "morocco-tagine.jpg",
+      "description": "Slow-cooked stew with lamb, apricots, and warm spices in conical clay pot.",
+      "ingredients": [
+        "1kg lamb shoulder, cubed",
+        "2 onions, sliced",
+        "1 cup dried apricots",
+        "2 tsp ground ginger",
+        "1 tsp cinnamon",
+        "1 tsp turmeric",
+        "1/2 tsp saffron",
+        "2 tbsp honey",
+        "1/4 cup almonds",
+        "Fresh cilantro and mint",
+        "Preserved lemons"
+      ],
+      "instructions": [
+        "Brown lamb pieces in tagine base",
+        "Add onions and spices, cook until fragrant",
+        "Add enough water to barely cover",
+        "Cover and simmer 1.5 hours",
+        "Add apricots, honey, and almonds",
+        "Cook 30 minutes more until tender",
+        "Garnish with herbs and preserved lemon"
+      ]
+    },
+    {
+      "name": "Couscous",
+      "image": "morocco-couscous.jpg",
+      "description": "Steamed semolina grains served with vegetable and meat stew.",
+      "ingredients": [
+        "2 cups couscous",
+        "500g lamb or chicken",
+        "2 zucchini, chunked",
+        "2 carrots, chunked",
+        "1 turnip, chunked",
+        "400g chickpeas",
+        "2 tomatoes, quartered",
+        "2 tsp ras el hanout spice",
+        "Saffron threads",
+        "Butter and salt"
+      ],
+      "instructions": [
+        "Steam couscous in couscoussier 20 minutes",
+        "Brown meat with onions and spices",
+        "Add water, simmer meat 45 minutes",
+        "Add vegetables in order of cooking time",
+        "Fluff couscous with butter and salt",
+        "Steam couscous again 15 minutes",
+        "Serve couscous with stew and broth"
+      ]
+    },
+    {
+      "name": "Pastilla",
+      "image": "morocco-pastilla.jpg",
+      "description": "Sweet and savory pie with pigeon or chicken, almonds, and phyllo pastry.",
+      "ingredients": [
+        "1 whole chicken",
+        "1 cup blanched almonds",
+        "6 eggs",
+        "1 large onion, grated",
+        "1 tsp cinnamon",
+        "1/2 tsp ginger",
+        "Saffron and parsley",
+        "1 package phyllo pastry",
+        "Butter for brushing",
+        "Powdered sugar for dusting"
+      ],
+      "instructions": [
+        "Cook chicken with onion and spices until tender",
+        "Shred chicken, reduce cooking liquid",
+        "Beat eggs into hot broth to make scramble",
+        "Toast almonds with cinnamon and sugar",
+        "Layer phyllo in pan, brushing with butter",
+        "Layer chicken, egg mixture, and almonds",
+        "Top with phyllo, bake until golden"
+      ]
+    },
+    {
+      "name": "Harira Soup",
+      "image": "morocco-harira.jpg",
+      "description": "Traditional soup with lentils, chickpeas, tomatoes, and aromatic spices.",
+      "ingredients": [
+        "1/2 cup red lentils",
+        "1 cup canned chickpeas",
+        "400g canned tomatoes",
+        "1 onion, diced",
+        "1/4 cup rice",
+        "1 tsp turmeric",
+        "1 tsp cinnamon",
+        "1/2 tsp ginger",
+        "Fresh cilantro and parsley",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Sauté onion until translucent",
+        "Add tomatoes, spices, and herbs",
+        "Add lentils and 6 cups water",
+        "Simmer 20 minutes until lentils are soft",
+        "Add chickpeas and rice",
+        "Cook 15 minutes more until rice is tender",
+        "Finish with lemon juice and fresh herbs"
+      ]
+    },
+    {
+      "name": "Kefta Tagine",
+      "image": "morocco-kefta-tagine.jpg",
+      "description": "Spiced meatballs in tomato sauce topped with baked eggs.",
+      "ingredients": [
+        "500g ground lamb or beef",
+        "1 onion, grated",
+        "1/4 cup parsley, chopped",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1/2 tsp cinnamon",
+        "4 eggs",
+        "400g canned tomatoes",
+        "2 cloves garlic",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Mix meat with onion, herbs, and spices",
+        "Form into walnut-sized meatballs",
+        "Brown meatballs in tagine or skillet",
+        "Add crushed tomatoes and garlic",
+        "Simmer covered 20 minutes",
+        "Make wells in sauce, crack in eggs",
+        "Cover and cook until eggs are set"
+      ]
+    },
+    {
+      "name": "Moroccan Mint Tea",
+      "image": "morocco-mint-tea.jpg",
+      "description": "Sweet green tea infused with fresh mint leaves, served ceremonially.",
+      "ingredients": [
+        "2 tbsp Chinese green tea",
+        "Large bunch fresh mint",
+        "4-6 tbsp sugar",
+        "6 cups boiling water",
+        "Pine nuts for garnish (optional)"
+      ],
+      "instructions": [
+        "Rinse teapot with boiling water",
+        "Add tea leaves and small amount of water",
+        "Swirl and discard first pour",
+        "Add sugar and mint to pot",
+        "Pour boiling water, steep 5 minutes",
+        "Pour from height to create foam",
+        "Serve in small glasses, pour from high"
+      ]
+    },
+    {
+      "name": "Mechoui",
+      "image": "morocco-mechoui.jpg",
+      "description": "Slow-roasted lamb shoulder with traditional spice rub.",
+      "ingredients": [
+        "2kg lamb shoulder",
+        "4 cloves garlic, sliced",
+        "2 tbsp ground cumin",
+        "2 tbsp ground coriander",
+        "1 tbsp salt",
+        "1 tsp black pepper",
+        "2 tbsp olive oil",
+        "1 bunch fresh herbs",
+        "Preserved lemons"
+      ],
+      "instructions": [
+        "Make slits in lamb, insert garlic slivers",
+        "Mix spices with oil to make paste",
+        "Rub spice paste all over lamb",
+        "Marinate in refrigerator overnight",
+        "Roast at 325°F for 2-3 hours",
+        "Baste occasionally with pan juices",
+        "Rest 15 minutes before carving"
+      ]
+    },
+    {
+      "name": "Chebakia",
+      "image": "morocco-chebakia.jpg",
+      "description": "Sesame cookies shaped like flowers, fried and dipped in honey.",
+      "ingredients": [
+        "2 cups flour",
+        "2 tbsp sesame seeds",
+        "1 tsp ground anise",
+        "1/2 tsp turmeric",
+        "1/4 cup olive oil",
+        "2 tbsp orange blossom water",
+        "1/2 cup honey",
+        "Oil for frying",
+        "Sesame seeds for sprinkling"
+      ],
+      "instructions": [
+        "Mix flour, seeds, and spices",
+        "Add oil and orange blossom water",
+        "Knead into smooth dough",
+        "Roll thin, cut into flower shapes",
+        "Deep fry until golden brown",
+        "Warm honey, dip hot cookies",
+        "Sprinkle with sesame seeds"
+      ]
+    },
+    {
+      "name": "Zaalouk",
+      "image": "morocco-zaalouk.jpg",
+      "description": "Smoky eggplant and tomato salad with garlic and spices.",
+      "ingredients": [
+        "2 large eggplants",
+        "4 tomatoes, grated",
+        "4 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp paprika",
+        "1/4 cup olive oil",
+        "Fresh cilantro and parsley",
+        "Salt and pepper",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Char eggplants over open flame until soft",
+        "Peel and chop eggplant flesh",
+        "Cook tomatoes until reduced",
+        "Add eggplant, garlic, and spices",
+        "Cook until mixture is thick",
+        "Stir in herbs and olive oil",
+        "Serve at room temperature with bread"
+      ]
+    },
+    {
+      "name": "Rfissa",
+      "image": "morocco-rfissa.jpg",
+      "description": "Comfort dish of chicken and lentils served over torn flatbread.",
+      "ingredients": [
+        "1 whole chicken, cut up",
+        "1 cup green lentils",
+        "2 onions, sliced",
+        "1 tsp turmeric",
+        "1 tsp ginger",
+        "1/2 tsp saffron",
+        "1 bunch cilantro",
+        "1 bunch parsley",
+        "4 thin flatbreads (msemen)",
+        "Preserved lemons"
+      ],
+      "instructions": [
+        "Cook chicken with onions and spices",
+        "Add lentils and herbs, simmer until tender",
+        "Tear flatbreads into bite-sized pieces",
+        "Layer bread in serving dish",
+        "Pour hot broth over bread to soften",
+        "Top with chicken and lentils",
+        "Garnish with preserved lemon"
+      ]
+    }
+  ],
+   "Turkey": [
+  {
+    "name": "Doner Kebab",
+    "image": "turkey-doner-kebab.jpg",
+    "description": "Seasoned meat cooked on a vertical rotisserie, commonly served in pita bread with vegetables.",
+    "ingredients": [
+      "1kg lamb or beef, thinly sliced",
+      "1 onion, grated",
+      "2 cloves garlic, minced",
+      "1 tsp ground cumin",
+      "1 tsp paprika",
+      "1/2 tsp cayenne pepper",
+      "Salt and pepper to taste",
+      "Pita bread",
+      "Sliced tomatoes, onions, lettuce",
+      "Yogurt sauce or tahini"
+    ],
+    "instructions": [
+      "In a bowl, mix meat with onion, garlic, spices, salt, and pepper. Marinate for at least 2 hours.",
+      "Thread meat onto skewers or stack in a loaf pan to mimic rotisserie.",
+      "Roast in the oven at 200°C (390°F) for 45 minutes, basting occasionally.",
+      "Slice meat thinly.",
+      "Serve in pita bread with vegetables and sauce of choice."
+    ]
+  }
+],
+   "South Korea": [
+  {
+    "name": "Bibimbap",
+    "image": "korea-bibimbap.jpg",
+    "description": "A mixed rice dish topped with assorted vegetables, meat, and a spicy gochujang sauce.",
+    "ingredients": [
+      "2 cups cooked rice",
+      "100g beef, sliced thinly",
+      "1 carrot, julienned",
+      "1 zucchini, julienned",
+      "Spinach, blanched",
+      "Bean sprouts, blanched",
+      "Shiitake mushrooms, sliced",
+      "1 egg",
+      "2 tbsp gochujang (Korean chili paste)",
+      "1 tbsp sesame oil",
+      "1 tsp sesame seeds",
+      "Salt and pepper to taste",
+      "Garlic, minced"
+    ],
+    "instructions": [
+      "Sauté each vegetable separately with a bit of oil, salt, and garlic. Set aside.",
+      "Cook beef slices with soy sauce, garlic, and pepper until done.",
+      "Fry the egg sunny-side up.",
+      "In a bowl, place rice at the bottom. Arrange vegetables and beef on top.",
+      "Place the fried egg in the center.",
+      "Drizzle with sesame oil and sprinkle sesame seeds.",
+      "Serve with gochujang on the side. Mix thoroughly before eating."
+    ]
+  }
+],
+
+"Lebanon": [
+    {
+      "name": "Hummus",
+      "image": "lebanon-hummus.jpg",
+      "description": "Creamy chickpea dip with tahini, lemon juice, and garlic.",
+      "ingredients": [
+        "2 cups cooked chickpeas",
+        "1/4 cup tahini",
+        "2 cloves garlic",
+        "1/4 cup lemon juice",
+        "2-3 tbsp olive oil",
+        "1/2 tsp salt",
+        "Paprika for garnish",
+        "Pine nuts for garnish"
+      ],
+      "instructions": [
+        "Reserve some chickpeas for garnish",
+        "Blend remaining chickpeas until smooth",
+        "Add tahini, garlic, and lemon juice",
+        "Blend while adding water for consistency",
+        "Season with salt and adjust flavors",
+        "Serve drizzled with olive oil",
+        "Garnish with paprika and pine nuts"
+      ]
+    }
+]
+
 }
 
