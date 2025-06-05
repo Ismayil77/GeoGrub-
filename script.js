@@ -16,7 +16,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', 
 let countriesGeoJson;
 let foodsData = {};
 let currentPopup = null;
-
+let flagColorsData = {};
 // Load both data files
 Promise.all([
     fetch('countries.geojson').then(r => r.json()),
@@ -28,7 +28,11 @@ Promise.all([
     renderCountries();
 })
 .catch(error => console.error('Error loading data:', error));
-
+fetch('flag-colors.json')
+  .then(response => response.json())
+  .then(data => {
+    flagColorsData = data;
+  });
 function renderCountries() {
     // Style for countries
     const countryStyle = {
@@ -70,20 +74,30 @@ function renderCountries() {
         // Mouseover events
         layer.on({
             mouseover: function(e) {
-                 const flagColor = feature.properties.flagColor || 'black'; 
-                 this.setStyle({
-                fillColor: flagColor, // Use the country's flag color
-                weight: 2,
-                color: '#fff',
-                fillOpacity: 0.8,
-                dashArray: '0'
-            });
+        const countryName = feature.properties.name;
+      const flagData = flagColorsData[countryName];
+
+      if (flagData) {
+        // Apply multi-color flag pattern
+        createFlagPattern(this, flagData.colors, flagData.percentages);
+      } else {
+        // Fallback: Single color
+        this.setStyle({
+          fillColor: '#e55039',
+          weight: 2,
+          color: '#fff',
+          fillOpacity: 0.8
+        });
+      }
                // this.setStyle(highlightStyle);
                 this.bringToFront();
                 this.openTooltip(); 
             },
             mouseout: function(e) {
                 countriesLayer.resetStyle(this);
+                 if (this._flagPattern) {
+        this._flagPattern.remove();
+      }
                  this.closeTooltip()
             },
             click: function(e) {
@@ -92,7 +106,28 @@ function renderCountries() {
         });
     }
 }
+function createFlagPattern(layer, colors, percentages) {
+  // Clear any existing patterns
+  if (layer._flagPattern) {
+    layer._flagPattern.remove();
+  }
 
+  // Create stripes based on colors and percentages
+  const patterns = colors.map((color, i) => {
+    return L.pattern.stripes({
+      color: color,
+      weight: percentages[i],  // Adjust stripe width
+      spaceWeight: 0,          // No gap between stripes
+      angle: 0                 // Horizontal stripes (use 90 for vertical)
+    });
+  });
+
+  // Apply the pattern to the layer
+  layer._flagPattern = L.pattern(patterns);
+  layer.setStyle({
+    fillPattern: layer._flagPattern
+  });
+}
 function showCountryFoods(countryName, layer) {
     if (currentPopup) map.closePopup(currentPopup);
     
