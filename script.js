@@ -77,15 +77,12 @@ function renderCountries() {
         const countryName = feature.properties.name;
       const flagData = flagColorsData[countryName];
 
+ 
       if (flagData) {
-        // Apply multi-color flag pattern
-        createFlagPattern(this, flagData.colors, flagData.percentages);
+        applyFlagGradient(this, flagData.colors, flagData.direction);
       } else {
-        // Fallback: Single color
         this.setStyle({
           fillColor: '#e55039',
-          weight: 2,
-          color: '#fff',
           fillOpacity: 0.8
         });
       }
@@ -94,10 +91,8 @@ function renderCountries() {
                 this.openTooltip(); 
             },
             mouseout: function(e) {
-                countriesLayer.resetStyle(this);
-                 if (this._flagPattern) {
-        this._flagPattern.remove();
-      }
+               countriesLayer.resetStyle(this);
+      this.setStyle({ className: '' });
                  this.closeTooltip()
             },
             click: function(e) {
@@ -106,32 +101,29 @@ function renderCountries() {
         });
     }
 }
-function createFlagPattern(layer, colors, percentages) {
-  if (!L.pattern) {
-    console.error("Leaflet.pattern not available. Using fallback color.");
-    layer.setStyle({ fillColor: colors[0] }); // Fallback to first color
-    return;
+function applyFlagGradient(layer, colors, direction) {
+  // Create unique class name for each flag
+  const gradientClass = `flag-gradient-${colors.join('-').replace(/#/g, '')}`;
+  
+  // Dynamic CSS injection
+  if (!document.getElementById(gradientClass)) {
+    const style = document.createElement('style');
+    style.id = gradientClass;
+    style.textContent = `
+      .${gradientClass} {
+        background: ${direction.includes('gradient') 
+          ? direction 
+          : `linear-gradient(${direction}, ${colors.join(', ')})`};
+      }
+    `;
+    document.head.appendChild(style);
   }
-
-  // Clear previous pattern
-  if (layer._flagPattern) {
-    layer._flagPattern.remove();
-  }
-
-  // Create stripes
-  const patterns = colors.map((color, i) => {
-    return L.pattern.stripes({
-      color: color,
-      weight: percentages[i],
-      spaceWeight: 0,
-      angle: 0 // Horizontal stripes
-    });
-  });
 
   // Apply to layer
-  layer._flagPattern = L.pattern(patterns);
   layer.setStyle({
-    fillPattern: layer._flagPattern
+    className: gradientClass,
+    fillOpacity: 0.8,
+    weight: 2
   });
 }
 function showCountryFoods(countryName, layer) {
