@@ -70,7 +70,7 @@ function renderCountries() {
         // Mouseover events
         layer.on({
             mouseover: function(e) {
-                 const flagColor = feature.properties.flagColor || '#e55039'; 
+                 const flagColor = feature.properties.flagColor || 'black'; 
                  this.setStyle({
                 fillColor: flagColor, // Use the country's flag color
                 weight: 2,
