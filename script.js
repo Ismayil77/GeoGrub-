@@ -61,15 +61,22 @@ function renderCountries() {
     function onEachCountryFeature(feature, layer) {
         // Store country name in layer for reference
         layer.feature = feature;
+  layer.bindTooltip(feature.properties.name, {
+        permanent: false,  // Only show on hover
+        direction: 'auto', // Automatic placement
+        className: 'country-tooltip' // Optional CSS class
+    });
 
         // Mouseover events
         layer.on({
             mouseover: function(e) {
                 this.setStyle(highlightStyle);
                 this.bringToFront();
+                this.openTooltip(); 
             },
             mouseout: function(e) {
                 countriesLayer.resetStyle(this);
+                 this.closeTooltip()
             },
             click: function(e) {
                 showCountryFoods(feature.properties.name, layer);
