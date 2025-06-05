@@ -70,7 +70,15 @@ function renderCountries() {
         // Mouseover events
         layer.on({
             mouseover: function(e) {
-                this.setStyle(highlightStyle);
+                 const flagColor = feature.properties.flagColor || '#e55039'; 
+                 this.setStyle({
+                fillColor: flagColor, // Use the country's flag color
+                weight: 2,
+                color: '#fff',
+                fillOpacity: 0.8,
+                dashArray: '0'
+            });
+               // this.setStyle(highlightStyle);
                 this.bringToFront();
                 this.openTooltip(); 
             },
