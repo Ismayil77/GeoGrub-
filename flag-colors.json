@@ -1,18 +1,14 @@
 {
   "India": {
-    "colors": ["#FF9933", "#FFFFFF", "#138808"], 
-    "percentages": [33, 33, 34] 
+    "colors": ["#FF9933", "#FFFFFF", "#138808"],
+    "direction": "to bottom"
   },
   "France": {
-    "colors": ["#0055A4", "#FFFFFF", "#EF4135"], 
-    "percentages": [33, 33, 34]
-  },
-  "USA": {
-    "colors": ["#3C3B6E", "#B22234", "#FFFFFF"], 
-    "percentages": [40, 30, 30]
+    "colors": ["#0055A4", "#FFFFFF", "#EF4135"],
+    "direction": "to right"
   },
   "Japan": {
-    "colors": ["#FFFFFF", "#BC002D"], 
-    "percentages": [70, 30]
+    "colors": ["#FFFFFF", "#BC002D"],
+    "direction": "radial-gradient(circle, #BC002D 30%, #FFFFFF 30%)"
   }
 }
