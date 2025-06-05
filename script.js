@@ -107,22 +107,28 @@ function renderCountries() {
     }
 }
 function createFlagPattern(layer, colors, percentages) {
-  // Clear any existing patterns
+  if (!L.pattern) {
+    console.error("Leaflet.pattern not available. Using fallback color.");
+    layer.setStyle({ fillColor: colors[0] }); // Fallback to first color
+    return;
+  }
+
+  // Clear previous pattern
   if (layer._flagPattern) {
     layer._flagPattern.remove();
   }
 
-  // Create stripes based on colors and percentages
+  // Create stripes
   const patterns = colors.map((color, i) => {
     return L.pattern.stripes({
       color: color,
-      weight: percentages[i],  // Adjust stripe width
-      spaceWeight: 0,          // No gap between stripes
-      angle: 0                 // Horizontal stripes (use 90 for vertical)
+      weight: percentages[i],
+      spaceWeight: 0,
+      angle: 0 // Horizontal stripes
     });
   });
 
-  // Apply the pattern to the layer
+  // Apply to layer
   layer._flagPattern = L.pattern(patterns);
   layer.setStyle({
     fillPattern: layer._flagPattern
